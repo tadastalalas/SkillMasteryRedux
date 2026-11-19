@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk;Bannerlord.BuildResourcesLite.Sdk/1.2.3.41">
+
+	<PropertyGroup>
+		<Version>1.5.7.0</Version>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<ModuleId>$(MSBuildProjectName)</ModuleId>
+		<ModuleName>Skill Mastery Redux</ModuleName>
+		<ModuleUrl>https://www.nexusmods.com/mountandblade2bannerlord/mods/14129</ModuleUrl>
+		<AssemblyName>$(ModuleId).v$(GameVersion)</AssemblyName>
+		<BuildForWindowsStore>true</BuildForWindowsStore>
+		<DefineConstants>$(DefineConstants);v$(GameVersion.Replace('.',''))</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Bannerlord.ModuleLoader.Injector" Version="1.0.1.50" PrivateAssets="all" />
+		<PackageReference Include="Lib.Harmony" Version="2.4.2" IncludeAssets="compile" />
+		<PackageReference Include="Harmony.Extensions" Version="3.2.0.77" PrivateAssets="all" />
+		<PackageReference Include="BUTR.Harmony.Analyzer" Version="1.0.1.50" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" />
+		<PackageReference Include="Bannerlord.MCM" Version="5.13.1" IncludeAssets="compile" />
+		<PackageReference Include="Bannerlord.UIExtenderEx" Version="3.0.3" IncludeAssets="compile" />
+	</ItemGroup>
+
+</Project>

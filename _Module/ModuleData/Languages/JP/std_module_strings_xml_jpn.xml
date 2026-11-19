@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="日本語" />
+	</tags>
+	<strings>
+		<string id="SMR_Kq7vXe2" text="スキルマスタリー Redux" />
+		<string id="SMR_3wLpR9t" text="全般設定" />
+		<string id="SMR_hNc8Bz4" text="プレイヤー設定" />
+		<string id="SMR_YtQ5md1" text="仲間の設定" />
+		<string id="SMR_r2FjVk6" text="AI領主の設定" />
+		<string id="SMR_pDsW4n7" text="マスタリーメッセージを表示" />
+		<string id="SMR_Gxa9Le3" text="キャラクター画面でマスタリーパークを解除したとき、およびスキルを完全に極めたときに画面上にメッセージを表示します。[デフォルト: 有効]" />
+		<string id="SMR_zBtH6q8" text="パークのセーフガードを無効化" />
+		<string id="SMR_eMkP1y5" text="すべてのマスタリーパークをスキルレベル330以下で取得可能に保つ上限を取り除きます。スキルは330を超えても最低学習速度で成長し続けるため、上位の段階も取得可能なままです。ただし時期は遅くなります。[デフォルト: 無効]" />
+		<string id="SMR_Hq4vTz8" text="スキルバーにスキル上限を表示" />
+		<string id="SMR_pLw7Rn2" text="スキルが最低学習速度でしか成長しなくなるレベル（バニラではそこで成長が止まります）をキャラクター画面のスキルバー上に示し、学習限界のツールチップにも追加します。[デフォルト: 有効]" />
+		<string id="SMR_vRk2Pq7" text="学習設定" />
+		<string id="SMR_tNb6Xw3" text="最低学習速度" />
+		<string id="SMR_cQd9Hs4" text="すべての英雄は、学習限界を超えても常に少なくともこの速度でスキルを学習します。スキルは330で頭打ちにならなくなるため、すべてのマスタリーパークが取得可能なままです。[デフォルト: 0.30]" />
+		<string id="SMR_VcrJ7u0" text="マスタリーパークのコスト加算" />
+		<string id="SMR_oSn3Zf9" text="プレイヤーのマスタリーパークについて、パーク段階ごとに追加で必要となるスキルレベル。セーフガードが有効な場合、最終段階が330以下に収まるよう値が引き下げられます（デフォルトの開始オフセットでは250/275/300のスキルに対して8/5/2）。[デフォルト: 20]" />
+		<string id="SMR_LwdK8a2" text="マスタリー開始レベルのオフセット" />
+		<string id="SMR_jTgE4b6" text="プレイヤーのマスタリーパークが始まるスキルレベルをずらします。下げる場合は、段階が330まで伸び続けるようコスト加算を20のままにしてください。[デフォルト: 0]" />
+		<string id="SMR_QhyN2v1" text="マスタリーパークを自動割り当て" />
+		<string id="SMR_bRxC9m4" text="プレイヤーが取得可能なマスタリーパークは、キャラクター画面の更新時に自動的に取得されます。[デフォルト: 無効]" />
+		<string id="SMR_fKuD5s7" text="仲間のスキル習熟を許可" />
+		<string id="SMR_XnpG1w3" text="自分の氏族の英雄がマスタリーパークを解除できるようになります。無効の場合はプレイヤーのみ可能です。[デフォルト: 有効]" />
+		<string id="SMR_mZeT6k8" text="マスタリーパークのコスト加算" />
+		<string id="SMR_cJvR3q5" text="仲間とAI領主のマスタリーパークについて、パーク段階ごとに追加で必要となるスキルレベル。プレイヤーの値と同じセーフガードが適用されます。[デフォルト: 20]" />
+		<string id="SMR_DybL7h0" text="マスタリー開始レベルのオフセット" />
+		<string id="SMR_sPwF2n9" text="仲間とAI領主のマスタリーパークが始まるスキルレベルをずらします。[デフォルト: 0]" />
+		<string id="SMR_UakM8z4" text="マスタリーパークを自動割り当て" />
+		<string id="SMR_gEqX4t1" text="仲間は取得可能なマスタリーパークを、毎日およびキャラクター画面の更新時に自動的に取得します。無効の場合はキャラクター画面で手動で解除します。[デフォルト: 有効]" />
+		<string id="SMR_NvcB9r6" text="AI領主のスキル習熟を許可" />
+		<string id="SMR_kHjY3d2" text="自分の氏族外の領主は、仲間のオフセットを用いて1日に1回マスタリーパークを自動的に取得します。[デフォルト: 有効]" />
+		<string id="SMR_TbmS5w7" text="あなたは{SKILL}の達人です！" />
+		<string id="SMR_xQfK1e8" text="あなたのスキルマスタリーが高まっていく…" />
+		<string id="SMR_RdnP6a3" text="{HERO}は{SKILL}の達人です！" />
+		<string id="SMR_WgzJ2c5" text="{HERO}のスキルマスタリーが高まっていく…" />
+		<string id="SMR_Zk3cMe9" text="最低学習速度の開始レベル" />
+		<string id="SMR_bWq4Jn8" text="マスタリースキルレベル" />
+		<string id="SMR_Ua6nWc3" text="ヒーローリストに未使用ポイントを表示" />
+		<string id="SMR_Jf8rLm5" text="キャラクター画面のヒーローリストでヒーローに印を付けます。オレンジの丸は未使用の能力値またはフォーカスポイント、盾は選択可能なパークの数を示します。次にキャラクター画面を開いたときに反映されます。[デフォルト: 有効]" />
+		<string id="SMR_q4Tn8Yb" text="技術設定" />
+		<string id="SMR_Lx2dWf6" text="デバッグ用ログ" />
+		<string id="SMR_Pz9kRc3" text="デバッグ用ログ（英語のみ）。[デフォルト: 無効]" />
+	</strings>
+</base>

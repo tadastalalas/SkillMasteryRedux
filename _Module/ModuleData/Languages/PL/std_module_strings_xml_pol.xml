@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Polski" />
+	</tags>
+	<strings>
+		<string id="SMR_Kq7vXe2" text="Mistrzostwo umiejętności Redux" />
+		<string id="SMR_3wLpR9t" text="Ustawienia ogólne" />
+		<string id="SMR_hNc8Bz4" text="Ustawienia gracza" />
+		<string id="SMR_YtQ5md1" text="Ustawienia towarzyszy" />
+		<string id="SMR_r2FjVk6" text="Ustawienia lordów SI" />
+		<string id="SMR_pDsW4n7" text="Pokazuj komunikaty o mistrzostwie" />
+		<string id="SMR_Gxa9Le3" text="Wyświetla komunikat na ekranie, gdy atut mistrzostwa zostanie odblokowany na ekranie postaci oraz gdy umiejętność zostanie w pełni opanowana. [Domyślnie: włączone]" />
+		<string id="SMR_zBtH6q8" text="Wyłącz zabezpieczenia atutów" />
+		<string id="SMR_eMkP1y5" text="Usuwa ograniczenie, które utrzymuje każdy atut mistrzostwa osiągalnym najpóźniej na poziomie umiejętności 330. Powyżej 330 umiejętności rozwijają się dalej w minimalnym tempie nauki, więc wyższe progi pozostają osiągalne, tylko później. [Domyślnie: wyłączone]" />
+		<string id="SMR_Hq4vTz8" text="Pokazuj limit umiejętności na pasku umiejętności" />
+		<string id="SMR_pLw7Rn2" text="Oznacza na pasku umiejętności na ekranie postaci poziom, od którego umiejętność rozwija się już tylko w minimalnym tempie nauki (w podstawowej grze rozwój tam się kończy), i dodaje go do podpowiedzi limitu nauki. [Domyślnie: włączone]" />
+		<string id="SMR_vRk2Pq7" text="Ustawienia nauki" />
+		<string id="SMR_tNb6Xw3" text="Minimalne tempo nauki" />
+		<string id="SMR_cQd9Hs4" text="Każdy bohater zawsze uczy się umiejętności co najmniej w tym tempie, nawet powyżej jej limitu nauki. Umiejętności nie są już ograniczone do 330, więc każdy atut mistrzostwa pozostaje osiągalny. [Domyślnie: 0.30]" />
+		<string id="SMR_VcrJ7u0" text="Dodatkowy koszt atutów mistrzostwa" />
+		<string id="SMR_oSn3Zf9" text="Dodatkowe poziomy umiejętności wymagane na każdy próg atutu dla atutów mistrzostwa gracza. Przy włączonych zabezpieczeniach wartość jest obniżana tak, aby ostatni próg nie przekraczał 330 (8/5/2 dla umiejętności 250/275/300 przy domyślnym przesunięciu początkowym). [Domyślnie: 20]" />
+		<string id="SMR_LwdK8a2" text="Przesunięcie poziomu początkowego mistrzostwa" />
+		<string id="SMR_jTgE4b6" text="Przesuwa poziom umiejętności, od którego zaczynają się atuty mistrzostwa gracza. Obniżając go, zostaw dodatkowy koszt na 20, aby progi nadal rosły aż do 330. [Domyślnie: 0]" />
+		<string id="SMR_QhyN2v1" text="Automatycznie przydzielaj atuty mistrzostwa" />
+		<string id="SMR_bRxC9m4" text="Dostępne atuty mistrzostwa gracza są zdobywane automatycznie przy odświeżeniu ekranu postaci. [Domyślnie: wyłączone]" />
+		<string id="SMR_fKuD5s7" text="Pozwól towarzyszom opanowywać umiejętności" />
+		<string id="SMR_XnpG1w3" text="Bohaterowie twojego klanu mogą odblokowywać atuty mistrzostwa. Gdy wyłączone, może to robić tylko gracz. [Domyślnie: włączone]" />
+		<string id="SMR_mZeT6k8" text="Dodatkowy koszt atutów mistrzostwa" />
+		<string id="SMR_cJvR3q5" text="Dodatkowe poziomy umiejętności wymagane na każdy próg atutu dla atutów mistrzostwa towarzyszy i lordów SI. To samo zabezpieczenie co dla wartości gracza. [Domyślnie: 20]" />
+		<string id="SMR_DybL7h0" text="Przesunięcie poziomu początkowego mistrzostwa" />
+		<string id="SMR_sPwF2n9" text="Przesuwa poziom umiejętności, od którego zaczynają się atuty mistrzostwa towarzyszy i lordów SI. [Domyślnie: 0]" />
+		<string id="SMR_UakM8z4" text="Automatycznie przydzielaj atuty mistrzostwa" />
+		<string id="SMR_gEqX4t1" text="Towarzysze zdobywają dostępne atuty mistrzostwa automatycznie – codziennie i przy każdym odświeżeniu ekranu postaci. Gdy wyłączone, odblokowujesz je sam na ekranie postaci. [Domyślnie: włączone]" />
+		<string id="SMR_NvcB9r6" text="Pozwól lordom SI opanowywać umiejętności" />
+		<string id="SMR_kHjY3d2" text="Lordowie spoza twojego klanu zdobywają atuty mistrzostwa automatycznie raz dziennie, korzystając z przesunięć towarzyszy. [Domyślnie: włączone]" />
+		<string id="SMR_TbmS5w7" text="Jesteś mistrzem w dziedzinie: {SKILL}!" />
+		<string id="SMR_xQfK1e8" text="Twoje mistrzostwo rośnie..." />
+		<string id="SMR_RdnP6a3" text="{HERO} osiąga mistrzostwo w dziedzinie: {SKILL}!" />
+		<string id="SMR_WgzJ2c5" text="Mistrzostwo postaci {HERO} rośnie..." />
+		<string id="SMR_Zk3cMe9" text="Minimalne tempo nauki od poziomu" />
+		<string id="SMR_bWq4Jn8" text="Poziom umiejętności mistrzostwa" />
+		<string id="SMR_Ua6nWc3" text="Pokazuj niewydane punkty na liście bohaterów" />
+		<string id="SMR_Jf8rLm5" text="Oznacza bohaterów na liście bohaterów ekranu postaci: pomarańczowe kółko przy niewydanych punktach atrybutów lub skupienia oraz tarcza z liczbą atutów do wyboru. Działa od następnego otwarcia ekranu postaci. [Domyślnie: włączone]" />
+		<string id="SMR_q4Tn8Yb" text="Ustawienia techniczne" />
+		<string id="SMR_Lx2dWf6" text="Rejestrowanie do debugowania" />
+		<string id="SMR_Pz9kRc3" text="Rejestrowanie do debugowania (tylko w języku angielskim). [Domyślnie: wyłączone]" />
+	</strings>
+</base>

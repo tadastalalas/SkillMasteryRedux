@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Türkçe" />
+	</tags>
+	<strings>
+		<string id="SMR_Kq7vXe2" text="Beceri Ustalığı Redux" />
+		<string id="SMR_3wLpR9t" text="Genel Ayarlar" />
+		<string id="SMR_hNc8Bz4" text="Oyuncu Ayarları" />
+		<string id="SMR_YtQ5md1" text="Yoldaş Ayarları" />
+		<string id="SMR_r2FjVk6" text="Yapay Zekâ Lord Ayarları" />
+		<string id="SMR_pDsW4n7" text="Ustalık Mesajlarını Göster" />
+		<string id="SMR_Gxa9Le3" text="Karakter ekranında bir ustalık yeteneği açıldığında ve bir beceride tam ustalığa erişildiğinde ekranda bir mesaj gösterir. [Varsayılan: açık]" />
+		<string id="SMR_zBtH6q8" text="Yetenek Güvencelerini Devre Dışı Bırak" />
+		<string id="SMR_eMkP1y5" text="Her ustalık yeteneğinin en geç 330 beceri seviyesinde ulaşılabilir kalmasını sağlayan sınırı kaldırır. Beceriler 330'un ötesinde asgari öğrenme hızıyla öğrenmeye devam eder; böylece üst kademeler ulaşılabilir kalır, yalnızca daha geç. [Varsayılan: kapalı]" />
+		<string id="SMR_Hq4vTz8" text="Beceri Çubuğunda Beceri Sınırını Göster" />
+		<string id="SMR_pLw7Rn2" text="Bir becerinin yalnızca asgari öğrenme hızıyla öğrenmeye başladığı seviyeyi (orijinal oyun orada durur) karakter ekranındaki beceri çubuğunda işaretler ve öğrenme sınırı ipucuna ekler. [Varsayılan: açık]" />
+		<string id="SMR_vRk2Pq7" text="Öğrenme Ayarları" />
+		<string id="SMR_tNb6Xw3" text="Asgari Öğrenme Hızı" />
+		<string id="SMR_cQd9Hs4" text="Her kahraman bir beceriyi, öğrenme sınırını aşsa bile her zaman en az bu hızda öğrenir. Beceriler artık 330'da sınırlanmadığından her ustalık yeteneği ulaşılabilir kalır. [Varsayılan: 0.30]" />
+		<string id="SMR_VcrJ7u0" text="Ustalık Yeteneği Maliyet Artışı" />
+		<string id="SMR_oSn3Zf9" text="Oyuncunun ustalık yetenekleri için her yetenek kademesinde gereken ek beceri seviyesi. Güvenceler açıkken son kademe 330'u aşmayacak şekilde düşürülür (varsayılan başlangıç kaydırmasında 250/275/300 beceriler için 8/5/2). [Varsayılan: 20]" />
+		<string id="SMR_LwdK8a2" text="Ustalık Başlangıç Seviyesi Kaydırması" />
+		<string id="SMR_jTgE4b6" text="Oyuncunun ustalık yeteneklerinin başladığı beceri seviyesini kaydırır. Bunu düşürürken kademelerin 330'a kadar ölçeklenmeye devam etmesi için maliyet artışını 20'de tutun. [Varsayılan: 0]" />
+		<string id="SMR_QhyN2v1" text="Ustalık Yeteneklerini Otomatik Ata" />
+		<string id="SMR_bRxC9m4" text="Oyuncunun kullanılabilir ustalık yetenekleri, karakter ekranı yenilendiğinde otomatik olarak edinilir. [Varsayılan: kapalı]" />
+		<string id="SMR_fKuD5s7" text="Yoldaşların Becerilerde Ustalaşmasına İzin Ver" />
+		<string id="SMR_XnpG1w3" text="Klanınızın kahramanları ustalık yetenekleri açabilir. Kapalıysa yalnızca oyuncu açabilir. [Varsayılan: açık]" />
+		<string id="SMR_mZeT6k8" text="Ustalık Yeteneği Maliyet Artışı" />
+		<string id="SMR_cJvR3q5" text="Yoldaşların ve yapay zekâ lordlarının ustalık yetenekleri için her yetenek kademesinde gereken ek beceri seviyesi. Oyuncu değeriyle aynı güvence uygulanır. [Varsayılan: 20]" />
+		<string id="SMR_DybL7h0" text="Ustalık Başlangıç Seviyesi Kaydırması" />
+		<string id="SMR_sPwF2n9" text="Yoldaşların ve yapay zekâ lordlarının ustalık yeteneklerinin başladığı beceri seviyesini kaydırır. [Varsayılan: 0]" />
+		<string id="SMR_UakM8z4" text="Ustalık Yeteneklerini Otomatik Ata" />
+		<string id="SMR_gEqX4t1" text="Yoldaşlar kullanılabilir ustalık yeteneklerini otomatik olarak edinir; her gün ve karakter ekranı her yenilendiğinde. Kapalıysa bunları karakter ekranında siz açarsınız. [Varsayılan: açık]" />
+		<string id="SMR_NvcB9r6" text="Yapay Zekâ Lordlarının Becerilerde Ustalaşmasına İzin Ver" />
+		<string id="SMR_kHjY3d2" text="Klanınız dışındaki lordlar, yoldaş kaydırmalarını kullanarak günde bir kez ustalık yeteneklerini otomatik olarak edinir. [Varsayılan: açık]" />
+		<string id="SMR_TbmS5w7" text="{SKILL} becerisinde bir ustasınız!" />
+		<string id="SMR_xQfK1e8" text="Beceri ustalığınız artıyor..." />
+		<string id="SMR_RdnP6a3" text="{HERO}, {SKILL} becerisinde bir usta!" />
+		<string id="SMR_WgzJ2c5" text="{HERO} adlı kahramanın beceri ustalığı artıyor..." />
+		<string id="SMR_Zk3cMe9" text="Asgari öğrenme hızı başlangıç seviyesi" />
+		<string id="SMR_bWq4Jn8" text="Ustalık Beceri Seviyesi" />
+		<string id="SMR_Ua6nWc3" text="Kahraman Listesinde Harcanmamış Puanları Göster" />
+		<string id="SMR_Jf8rLm5" text="Karakter ekranındaki kahraman listesinde kahramanları işaretler: harcanmamış nitelik veya odak puanları için turuncu bir daire ve seçilebilecek yetenek sayısını gösteren bir kalkan. Karakter ekranı bir sonraki açılışında uygulanır. [Varsayılan: açık]" />
+		<string id="SMR_q4Tn8Yb" text="Teknik ayarlar" />
+		<string id="SMR_Lx2dWf6" text="Hata ayıklama için günlük kaydı" />
+		<string id="SMR_Pz9kRc3" text="Hata ayıklama için günlük kaydı (yalnızca İngilizce). [Varsayılan: devre dışı]" />
+	</strings>
+</base>

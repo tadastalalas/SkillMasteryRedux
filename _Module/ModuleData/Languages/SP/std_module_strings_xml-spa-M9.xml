@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Español (LA)" />
+	</tags>
+	<strings>
+		<string id="SMR_Kq7vXe2" text="Maestría de habilidades Redux" />
+		<string id="SMR_3wLpR9t" text="Ajustes globales" />
+		<string id="SMR_hNc8Bz4" text="Ajustes del jugador" />
+		<string id="SMR_YtQ5md1" text="Ajustes de compañeros" />
+		<string id="SMR_r2FjVk6" text="Ajustes de señores IA" />
+		<string id="SMR_pDsW4n7" text="Mostrar mensajes de maestría" />
+		<string id="SMR_Gxa9Le3" text="Muestra un mensaje en pantalla cuando se desbloquea una ventaja de maestría en la pantalla de personaje y cuando una habilidad se domina por completo. [Predeterminado: activado]" />
+		<string id="SMR_zBtH6q8" text="Desactivar salvaguardas de ventajas" />
+		<string id="SMR_eMkP1y5" text="Elimina el límite que mantiene cada ventaja de maestría alcanzable como máximo en el nivel de habilidad 330. Las habilidades siguen aprendiendo a la velocidad mínima de aprendizaje más allá de 330, por lo que los niveles superiores siguen siendo alcanzables, solo que más tarde. [Predeterminado: desactivado]" />
+		<string id="SMR_Hq4vTz8" text="Mostrar límite de habilidad en la barra de habilidad" />
+		<string id="SMR_pLw7Rn2" text="Marca en la barra de habilidad de la pantalla de personaje el nivel a partir del cual una habilidad solo aprende a la velocidad mínima de aprendizaje (el juego base se detiene ahí) y lo añade a la descripción emergente del límite de aprendizaje. [Predeterminado: activado]" />
+		<string id="SMR_vRk2Pq7" text="Ajustes de aprendizaje" />
+		<string id="SMR_tNb6Xw3" text="Velocidad mínima de aprendizaje" />
+		<string id="SMR_cQd9Hs4" text="Todo héroe aprende siempre una habilidad al menos a esta velocidad, incluso más allá de su límite de aprendizaje. Las habilidades ya no están limitadas a 330, así que cada ventaja de maestría sigue siendo alcanzable. [Predeterminado: 0.30]" />
+		<string id="SMR_VcrJ7u0" text="Costo adicional de ventajas de maestría" />
+		<string id="SMR_oSn3Zf9" text="Niveles de habilidad adicionales requeridos por cada nivel de ventaja para las ventajas de maestría del jugador. Con las salvaguardas activadas se reduce para que el último nivel quede en 330 o menos (8/5/2 para habilidades de 250/275/300 con el desplazamiento inicial predeterminado). [Predeterminado: 20]" />
+		<string id="SMR_LwdK8a2" text="Desplazamiento del nivel inicial de maestría" />
+		<string id="SMR_jTgE4b6" text="Desplaza el nivel de habilidad en el que comienzan las ventajas de maestría del jugador. Si lo bajas, mantén el costo adicional en 20 para que los niveles sigan escalando hasta 330. [Predeterminado: 0]" />
+		<string id="SMR_QhyN2v1" text="Asignar ventajas de maestría automáticamente" />
+		<string id="SMR_bRxC9m4" text="Las ventajas de maestría disponibles para el jugador se adquieren automáticamente cuando se actualiza la pantalla de personaje. [Predeterminado: desactivado]" />
+		<string id="SMR_fKuD5s7" text="Permitir que los compañeros dominen habilidades" />
+		<string id="SMR_XnpG1w3" text="Los héroes de tu clan pueden desbloquear ventajas de maestría. Si está desactivado, solo el jugador puede. [Predeterminado: activado]" />
+		<string id="SMR_mZeT6k8" text="Costo adicional de ventajas de maestría" />
+		<string id="SMR_cJvR3q5" text="Niveles de habilidad adicionales requeridos por cada nivel de ventaja para las ventajas de maestría de compañeros y señores IA. Misma salvaguarda que el valor del jugador. [Predeterminado: 20]" />
+		<string id="SMR_DybL7h0" text="Desplazamiento del nivel inicial de maestría" />
+		<string id="SMR_sPwF2n9" text="Desplaza el nivel de habilidad en el que comienzan las ventajas de maestría de compañeros y señores IA. [Predeterminado: 0]" />
+		<string id="SMR_UakM8z4" text="Asignar ventajas de maestría automáticamente" />
+		<string id="SMR_gEqX4t1" text="Los compañeros adquieren automáticamente las ventajas de maestría disponibles, a diario y cada vez que se actualiza la pantalla de personaje. Si está desactivado, las desbloqueas tú en la pantalla de personaje. [Predeterminado: activado]" />
+		<string id="SMR_NvcB9r6" text="Permitir que los señores IA dominen habilidades" />
+		<string id="SMR_kHjY3d2" text="Los señores ajenos a tu clan adquieren ventajas de maestría automáticamente una vez al día, usando los desplazamientos de compañeros. [Predeterminado: activado]" />
+		<string id="SMR_TbmS5w7" text="¡Eres un maestro de {SKILL}!" />
+		<string id="SMR_xQfK1e8" text="Tu maestría crece..." />
+		<string id="SMR_RdnP6a3" text="¡{HERO} es un maestro de {SKILL}!" />
+		<string id="SMR_WgzJ2c5" text="La maestría de {HERO} crece..." />
+		<string id="SMR_Zk3cMe9" text="Velocidad mínima de aprendizaje desde" />
+		<string id="SMR_bWq4Jn8" text="Nivel de habilidad de maestría" />
+		<string id="SMR_Ua6nWc3" text="Mostrar puntos sin gastar en la lista de héroes" />
+		<string id="SMR_Jf8rLm5" text="Marca a los héroes en la lista de héroes de la pantalla de personaje: un círculo naranja para puntos de atributo o de enfoque sin gastar y un escudo con el número de ventajas por elegir. Se aplica la próxima vez que se abra la pantalla de personaje. [Predeterminado: activado]" />
+		<string id="SMR_q4Tn8Yb" text="Configuraciones técnicas" />
+		<string id="SMR_Lx2dWf6" text="Registro para depuración" />
+		<string id="SMR_Pz9kRc3" text="Registro para depuración (solo en inglés). [Predeterminado: desactivado]" />
+	</strings>
+</base>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Deutsch" />
+	</tags>
+	<strings>
+		<string id="SMR_Kq7vXe2" text="Fertigkeitsmeisterschaft Redux" />
+		<string id="SMR_3wLpR9t" text="Globale Einstellungen" />
+		<string id="SMR_hNc8Bz4" text="Spielereinstellungen" />
+		<string id="SMR_YtQ5md1" text="Gefährteneinstellungen" />
+		<string id="SMR_r2FjVk6" text="KI-Lord-Einstellungen" />
+		<string id="SMR_pDsW4n7" text="Meisterschaftsmeldungen anzeigen" />
+		<string id="SMR_Gxa9Le3" text="Zeigt eine Bildschirmmeldung an, wenn ein Meisterschafts-Perk im Charakterbildschirm freigeschaltet wird und wenn eine Fertigkeit vollständig gemeistert ist. [Standard: aktiviert]" />
+		<string id="SMR_zBtH6q8" text="Perk-Schutzgrenzen deaktivieren" />
+		<string id="SMR_eMkP1y5" text="Entfernt die Begrenzung, die jeden Meisterschafts-Perk bis höchstens Fertigkeitsstufe 330 erreichbar hält. Fertigkeiten lernen über 330 hinaus mit der Mindest-Lernrate weiter, sodass höhere Stufen erreichbar bleiben – nur später. [Standard: deaktiviert]" />
+		<string id="SMR_Hq4vTz8" text="Fertigkeitslimit auf der Fertigkeitsleiste anzeigen" />
+		<string id="SMR_pLw7Rn2" text="Markiert auf der Fertigkeitsleiste im Charakterbildschirm die Stufe, ab der eine Fertigkeit nur noch mit der Mindest-Lernrate lernt (Vanilla hört dort auf), und ergänzt sie im Tooltip der Lerngrenze. [Standard: aktiviert]" />
+		<string id="SMR_vRk2Pq7" text="Lerneinstellungen" />
+		<string id="SMR_tNb6Xw3" text="Mindest-Lernrate" />
+		<string id="SMR_cQd9Hs4" text="Jeder Held lernt eine Fertigkeit immer mindestens so schnell, auch jenseits ihrer Lerngrenze. Fertigkeiten sind nicht mehr bei 330 gedeckelt, sodass jeder Meisterschafts-Perk erreichbar bleibt. [Standard: 0.30]" />
+		<string id="SMR_VcrJ7u0" text="Kostenaufschlag für Meisterschafts-Perks" />
+		<string id="SMR_oSn3Zf9" text="Zusätzliche Fertigkeitsstufen pro Perk-Stufe für die Meisterschafts-Perks des Spielers. Bei aktivierten Schutzgrenzen wird der Wert so verringert, dass die letzte Stufe bei höchstens 330 liegt (8/5/2 für Fertigkeiten mit 250/275/300 beim Standard-Startaufschlag). [Standard: 20]" />
+		<string id="SMR_LwdK8a2" text="Startstufenverschiebung der Meisterschaft" />
+		<string id="SMR_jTgE4b6" text="Verschiebt die Fertigkeitsstufe, ab der die Meisterschafts-Perks des Spielers beginnen. Beim Absenken den Kostenaufschlag auf 20 lassen, damit die Stufen weiterhin bis 330 skalieren. [Standard: 0]" />
+		<string id="SMR_QhyN2v1" text="Meisterschafts-Perks automatisch zuweisen" />
+		<string id="SMR_bRxC9m4" text="Verfügbare Meisterschafts-Perks des Spielers werden automatisch erworben, sobald der Charakterbildschirm aktualisiert wird. [Standard: deaktiviert]" />
+		<string id="SMR_fKuD5s7" text="Gefährten dürfen Fertigkeiten meistern" />
+		<string id="SMR_XnpG1w3" text="Helden deines Clans können Meisterschafts-Perks freischalten. Wenn deaktiviert, kann es nur der Spieler. [Standard: aktiviert]" />
+		<string id="SMR_mZeT6k8" text="Kostenaufschlag für Meisterschafts-Perks" />
+		<string id="SMR_cJvR3q5" text="Zusätzliche Fertigkeitsstufen pro Perk-Stufe für die Meisterschafts-Perks von Gefährten und KI-Lords. Gleiche Schutzgrenze wie beim Spielerwert. [Standard: 20]" />
+		<string id="SMR_DybL7h0" text="Startstufenverschiebung der Meisterschaft" />
+		<string id="SMR_sPwF2n9" text="Verschiebt die Fertigkeitsstufe, ab der die Meisterschafts-Perks von Gefährten und KI-Lords beginnen. [Standard: 0]" />
+		<string id="SMR_UakM8z4" text="Meisterschafts-Perks automatisch zuweisen" />
+		<string id="SMR_gEqX4t1" text="Gefährten erwerben verfügbare Meisterschafts-Perks automatisch – täglich und bei jeder Aktualisierung des Charakterbildschirms. Wenn deaktiviert, schaltest du sie im Charakterbildschirm frei. [Standard: aktiviert]" />
+		<string id="SMR_NvcB9r6" text="KI-Lords dürfen Fertigkeiten meistern" />
+		<string id="SMR_kHjY3d2" text="Lords außerhalb deines Clans erwerben Meisterschafts-Perks automatisch einmal täglich und verwenden dabei die Gefährten-Aufschläge. [Standard: aktiviert]" />
+		<string id="SMR_TbmS5w7" text="Du bist ein Meister in {SKILL}!" />
+		<string id="SMR_xQfK1e8" text="Deine Meisterschaft wächst..." />
+		<string id="SMR_RdnP6a3" text="{HERO} ist ein Meister in {SKILL}!" />
+		<string id="SMR_WgzJ2c5" text="Die Meisterschaft von {HERO} wächst..." />
+		<string id="SMR_Zk3cMe9" text="Mindest-Lernrate ab" />
+		<string id="SMR_bWq4Jn8" text="Fertigkeitsstufe für Meisterschaft" />
+		<string id="SMR_Ua6nWc3" text="Unverteilte Punkte in der Heldenliste anzeigen" />
+		<string id="SMR_Jf8rLm5" text="Markiert Helden in der Heldenliste des Charakterbildschirms: ein oranger Kreis für unverteilte Attribut- oder Fokuspunkte und ein Schild mit der Anzahl wählbarer Perks. Wirkt ab dem nächsten Öffnen des Charakterbildschirms. [Standard: aktiviert]" />
+		<string id="SMR_q4Tn8Yb" text="Technische Einstellungen" />
+		<string id="SMR_Lx2dWf6" text="Protokollierung für Debugging" />
+		<string id="SMR_Pz9kRc3" text="Protokollierung für Debugging (nur Englisch). [Standard: deaktiviert]" />
+	</strings>
+</base>

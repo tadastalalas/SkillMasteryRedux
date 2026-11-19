@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="English" />
+	</tags>
+	<strings>
+		<string id="SMR_Kq7vXe2" text="Skill Mastery Redux" />
+		<string id="SMR_3wLpR9t" text="Global Settings" />
+		<string id="SMR_hNc8Bz4" text="Player Settings" />
+		<string id="SMR_YtQ5md1" text="Companion Settings" />
+		<string id="SMR_r2FjVk6" text="AI Lord Settings" />
+		<string id="SMR_pDsW4n7" text="Show Mastery Messages" />
+		<string id="SMR_Gxa9Le3" text="Show an on-screen message when a mastery perk is unlocked in the character screen and when a skill is fully mastered. [Default: enabled]" />
+		<string id="SMR_zBtH6q8" text="Disable Perk Safeguards" />
+		<string id="SMR_eMkP1y5" text="Removes the cap that keeps every mastery perk reachable at or below skill level 330. Skills keep learning at the minimum learning rate past 330, so higher tiers stay reachable, just later. [Default: disabled]" />
+		<string id="SMR_Hq4vTz8" text="Show Skill Limit on Skill Bar" />
+		<string id="SMR_pLw7Rn2" text="Marks the level from which a skill only learns at the minimum learning rate (vanilla stops there) on the character screen skill bar and adds it to the learning limit tooltip. [Default: enabled]" />
+		<string id="SMR_vRk2Pq7" text="Learning Settings" />
+		<string id="SMR_tNb6Xw3" text="Minimum Learning Rate" />
+		<string id="SMR_cQd9Hs4" text="Every hero always learns a skill at least this fast, even past its learning limit. Skills are no longer capped at 330, so every mastery perk stays reachable. [Default: 0.30]" />
+		<string id="SMR_VcrJ7u0" text="Mastery Perk Cost Offset" />
+		<string id="SMR_oSn3Zf9" text="Extra skill levels required per perk tier for the player's mastery perks. With safeguards enabled it is reduced so the last tier stays at or below 330 (8/5/2 for 250/275/300 skills at the default starting offset). [Default: 20]" />
+		<string id="SMR_LwdK8a2" text="Mastery Starting Level Offset" />
+		<string id="SMR_jTgE4b6" text="Shifts the skill level at which the player's mastery perks begin. Keep the cost offset at 20 when lowering this so the tiers still scale up to 330. [Default: 0]" />
+		<string id="SMR_QhyN2v1" text="Auto-assign Mastery Perks" />
+		<string id="SMR_bRxC9m4" text="Available mastery perks for the player are acquired automatically when the character screen refreshes. [Default: disabled]" />
+		<string id="SMR_fKuD5s7" text="Allow Companions to Master Skills" />
+		<string id="SMR_XnpG1w3" text="Heroes of your clan can unlock mastery perks. If disabled, only the player can. [Default: enabled]" />
+		<string id="SMR_mZeT6k8" text="Mastery Perk Cost Offset" />
+		<string id="SMR_cJvR3q5" text="Extra skill levels required per perk tier for companion and AI lord mastery perks. Same safeguard as the player value. [Default: 20]" />
+		<string id="SMR_DybL7h0" text="Mastery Starting Level Offset" />
+		<string id="SMR_sPwF2n9" text="Shifts the skill level at which companion and AI lord mastery perks begin. [Default: 0]" />
+		<string id="SMR_UakM8z4" text="Auto-assign Mastery Perks" />
+		<string id="SMR_gEqX4t1" text="Companions acquire available mastery perks automatically, daily and when the character screen refreshes. If disabled, you unlock them in the character screen. [Default: enabled]" />
+		<string id="SMR_NvcB9r6" text="Allow AI Lords to Master Skills" />
+		<string id="SMR_kHjY3d2" text="Lords outside your clan acquire mastery perks automatically on their daily tick, using the companion offsets. [Default: enabled]" />
+		<string id="SMR_TbmS5w7" text="You are a master of {SKILL}!" />
+		<string id="SMR_xQfK1e8" text="Your skill mastery grows..." />
+		<string id="SMR_RdnP6a3" text="{HERO} is a master of {SKILL}!" />
+		<string id="SMR_WgzJ2c5" text="{HERO}'s skill mastery grows..." />
+		<string id="SMR_Zk3cMe9" text="Minimum learning rate from" />
+		<string id="SMR_bWq4Jn8" text="Mastery Skill Level" />
+		<string id="SMR_Ua6nWc3" text="Show Unspent Points in Hero List" />
+		<string id="SMR_Jf8rLm5" text="Marks heroes in the character screen hero list: an orange circle for unspent attribute or focus points and a shield with the number of perks to choose. Applies the next time the character screen opens. [Default: enabled]" />
+		<string id="SMR_q4Tn8Yb" text="Technical settings" />
+		<string id="SMR_Lx2dWf6" text="Logging for debugging" />
+		<string id="SMR_Pz9kRc3" text="Logging for debugging (English only). [Default: disabled]" />
+	</strings>
+</base>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Italiano" />
+	</tags>
+	<strings>
+		<string id="SMR_Kq7vXe2" text="Maestria delle abilità Redux" />
+		<string id="SMR_3wLpR9t" text="Impostazioni globali" />
+		<string id="SMR_hNc8Bz4" text="Impostazioni del giocatore" />
+		<string id="SMR_YtQ5md1" text="Impostazioni dei compagni" />
+		<string id="SMR_r2FjVk6" text="Impostazioni dei signori IA" />
+		<string id="SMR_pDsW4n7" text="Mostra messaggi di maestria" />
+		<string id="SMR_Gxa9Le3" text="Mostra un messaggio a schermo quando un talento di maestria viene sbloccato nella schermata del personaggio e quando un'abilità è pienamente padroneggiata. [Predefinito: attivato]" />
+		<string id="SMR_zBtH6q8" text="Disattiva le protezioni dei talenti" />
+		<string id="SMR_eMkP1y5" text="Rimuove il limite che mantiene ogni talento di maestria raggiungibile entro il livello di abilità 330. Oltre 330 le abilità continuano a crescere alla velocità di apprendimento minima, così i gradi superiori restano raggiungibili, solo più tardi. [Predefinito: disattivato]" />
+		<string id="SMR_Hq4vTz8" text="Mostra il limite di abilità sulla barra dell'abilità" />
+		<string id="SMR_pLw7Rn2" text="Segna sulla barra dell'abilità nella schermata del personaggio il livello da cui un'abilità cresce solo alla velocità di apprendimento minima (il gioco base si ferma lì) e lo aggiunge al suggerimento del limite di apprendimento. [Predefinito: attivato]" />
+		<string id="SMR_vRk2Pq7" text="Impostazioni di apprendimento" />
+		<string id="SMR_tNb6Xw3" text="Velocità di apprendimento minima" />
+		<string id="SMR_cQd9Hs4" text="Ogni eroe apprende sempre un'abilità almeno a questa velocità, anche oltre il suo limite di apprendimento. Le abilità non sono più limitate a 330, quindi ogni talento di maestria resta raggiungibile. [Predefinito: 0.30]" />
+		<string id="SMR_VcrJ7u0" text="Costo aggiuntivo dei talenti di maestria" />
+		<string id="SMR_oSn3Zf9" text="Livelli di abilità aggiuntivi richiesti per ogni grado di talento per i talenti di maestria del giocatore. Con le protezioni attive il valore viene ridotto in modo che l'ultimo grado resti entro 330 (8/5/2 per abilità a 250/275/300 con lo scostamento iniziale predefinito). [Predefinito: 20]" />
+		<string id="SMR_LwdK8a2" text="Scostamento del livello iniziale di maestria" />
+		<string id="SMR_jTgE4b6" text="Sposta il livello di abilità da cui iniziano i talenti di maestria del giocatore. Se lo abbassi, mantieni il costo aggiuntivo a 20 così che i gradi continuino a crescere fino a 330. [Predefinito: 0]" />
+		<string id="SMR_QhyN2v1" text="Assegna automaticamente i talenti di maestria" />
+		<string id="SMR_bRxC9m4" text="I talenti di maestria disponibili per il giocatore vengono acquisiti automaticamente quando la schermata del personaggio si aggiorna. [Predefinito: disattivato]" />
+		<string id="SMR_fKuD5s7" text="Consenti ai compagni di padroneggiare le abilità" />
+		<string id="SMR_XnpG1w3" text="Gli eroi del tuo clan possono sbloccare talenti di maestria. Se disattivato, può farlo solo il giocatore. [Predefinito: attivato]" />
+		<string id="SMR_mZeT6k8" text="Costo aggiuntivo dei talenti di maestria" />
+		<string id="SMR_cJvR3q5" text="Livelli di abilità aggiuntivi richiesti per ogni grado di talento per i talenti di maestria di compagni e signori IA. Stessa protezione del valore del giocatore. [Predefinito: 20]" />
+		<string id="SMR_DybL7h0" text="Scostamento del livello iniziale di maestria" />
+		<string id="SMR_sPwF2n9" text="Sposta il livello di abilità da cui iniziano i talenti di maestria di compagni e signori IA. [Predefinito: 0]" />
+		<string id="SMR_UakM8z4" text="Assegna automaticamente i talenti di maestria" />
+		<string id="SMR_gEqX4t1" text="I compagni acquisiscono automaticamente i talenti di maestria disponibili, ogni giorno e a ogni aggiornamento della schermata del personaggio. Se disattivato, li sblocchi tu nella schermata del personaggio. [Predefinito: attivato]" />
+		<string id="SMR_NvcB9r6" text="Consenti ai signori IA di padroneggiare le abilità" />
+		<string id="SMR_kHjY3d2" text="I signori esterni al tuo clan acquisiscono automaticamente i talenti di maestria una volta al giorno, usando gli scostamenti dei compagni. [Predefinito: attivato]" />
+		<string id="SMR_TbmS5w7" text="Sei un maestro di {SKILL}!" />
+		<string id="SMR_xQfK1e8" text="La tua maestria cresce..." />
+		<string id="SMR_RdnP6a3" text="{HERO} è un maestro di {SKILL}!" />
+		<string id="SMR_WgzJ2c5" text="La maestria di {HERO} cresce..." />
+		<string id="SMR_Zk3cMe9" text="Velocità di apprendimento minima da" />
+		<string id="SMR_bWq4Jn8" text="Livello di abilità per la maestria" />
+		<string id="SMR_Ua6nWc3" text="Mostra i punti non spesi nell'elenco degli eroi" />
+		<string id="SMR_Jf8rLm5" text="Segnala gli eroi nell'elenco degli eroi della schermata del personaggio: un cerchio arancione per punti attributo o focus non spesi e uno scudo con il numero di talenti da scegliere. Si applica alla prossima apertura della schermata del personaggio. [Predefinito: attivato]" />
+		<string id="SMR_q4Tn8Yb" text="Impostazioni tecniche" />
+		<string id="SMR_Lx2dWf6" text="Registrazione per il debug" />
+		<string id="SMR_Pz9kRc3" text="Registrazione per il debug (solo in inglese). [Predefinito: disabilitato]" />
+	</strings>
+</base>

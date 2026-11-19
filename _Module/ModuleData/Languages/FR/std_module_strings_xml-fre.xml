@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Français" />
+	</tags>
+	<strings>
+		<string id="SMR_Kq7vXe2" text="Maîtrise des compétences Redux" />
+		<string id="SMR_3wLpR9t" text="Paramètres globaux" />
+		<string id="SMR_hNc8Bz4" text="Paramètres du joueur" />
+		<string id="SMR_YtQ5md1" text="Paramètres des compagnons" />
+		<string id="SMR_r2FjVk6" text="Paramètres des seigneurs IA" />
+		<string id="SMR_pDsW4n7" text="Afficher les messages de maîtrise" />
+		<string id="SMR_Gxa9Le3" text="Affiche un message à l'écran lorsqu'un atout de maîtrise est débloqué dans l'écran de personnage et lorsqu'une compétence est entièrement maîtrisée. [Par défaut : activé]" />
+		<string id="SMR_zBtH6q8" text="Désactiver les garde-fous des atouts" />
+		<string id="SMR_eMkP1y5" text="Supprime la limite qui garde chaque atout de maîtrise accessible au plus tard au niveau de compétence 330. Les compétences continuent de progresser à la vitesse d'apprentissage minimale au-delà de 330, de sorte que les paliers supérieurs restent accessibles, simplement plus tard. [Par défaut : désactivé]" />
+		<string id="SMR_Hq4vTz8" text="Afficher la limite de compétence sur la barre de compétence" />
+		<string id="SMR_pLw7Rn2" text="Marque, sur la barre de compétence de l'écran de personnage, le niveau à partir duquel une compétence ne progresse plus qu'à la vitesse d'apprentissage minimale (le jeu de base s'y arrête) et l'ajoute à l'infobulle de la limite d'apprentissage. [Par défaut : activé]" />
+		<string id="SMR_vRk2Pq7" text="Paramètres d'apprentissage" />
+		<string id="SMR_tNb6Xw3" text="Vitesse d'apprentissage minimale" />
+		<string id="SMR_cQd9Hs4" text="Chaque héros apprend toujours une compétence au moins à cette vitesse, même au-delà de sa limite d'apprentissage. Les compétences ne sont plus plafonnées à 330, chaque atout de maîtrise reste donc accessible. [Par défaut : 0.30]" />
+		<string id="SMR_VcrJ7u0" text="Surcoût des atouts de maîtrise" />
+		<string id="SMR_oSn3Zf9" text="Niveaux de compétence supplémentaires requis par palier d'atout pour les atouts de maîtrise du joueur. Avec les garde-fous activés, la valeur est réduite pour que le dernier palier reste au plus à 330 (8/5/2 pour les compétences à 250/275/300 avec le décalage de départ par défaut). [Par défaut : 20]" />
+		<string id="SMR_LwdK8a2" text="Décalage du niveau de départ de la maîtrise" />
+		<string id="SMR_jTgE4b6" text="Décale le niveau de compétence à partir duquel commencent les atouts de maîtrise du joueur. Gardez le surcoût à 20 en abaissant cette valeur pour que les paliers continuent de monter jusqu'à 330. [Par défaut : 0]" />
+		<string id="SMR_QhyN2v1" text="Attribuer automatiquement les atouts de maîtrise" />
+		<string id="SMR_bRxC9m4" text="Les atouts de maîtrise disponibles pour le joueur sont acquis automatiquement lorsque l'écran de personnage se rafraîchit. [Par défaut : désactivé]" />
+		<string id="SMR_fKuD5s7" text="Autoriser les compagnons à maîtriser les compétences" />
+		<string id="SMR_XnpG1w3" text="Les héros de votre clan peuvent débloquer des atouts de maîtrise. Si désactivé, seul le joueur le peut. [Par défaut : activé]" />
+		<string id="SMR_mZeT6k8" text="Surcoût des atouts de maîtrise" />
+		<string id="SMR_cJvR3q5" text="Niveaux de compétence supplémentaires requis par palier d'atout pour les atouts de maîtrise des compagnons et des seigneurs IA. Même garde-fou que la valeur du joueur. [Par défaut : 20]" />
+		<string id="SMR_DybL7h0" text="Décalage du niveau de départ de la maîtrise" />
+		<string id="SMR_sPwF2n9" text="Décale le niveau de compétence à partir duquel commencent les atouts de maîtrise des compagnons et des seigneurs IA. [Par défaut : 0]" />
+		<string id="SMR_UakM8z4" text="Attribuer automatiquement les atouts de maîtrise" />
+		<string id="SMR_gEqX4t1" text="Les compagnons acquièrent automatiquement les atouts de maîtrise disponibles, chaque jour et à chaque rafraîchissement de l'écran de personnage. Si désactivé, vous les débloquez dans l'écran de personnage. [Par défaut : activé]" />
+		<string id="SMR_NvcB9r6" text="Autoriser les seigneurs IA à maîtriser les compétences" />
+		<string id="SMR_kHjY3d2" text="Les seigneurs hors de votre clan acquièrent automatiquement les atouts de maîtrise une fois par jour, en utilisant les décalages des compagnons. [Par défaut : activé]" />
+		<string id="SMR_TbmS5w7" text="Vous êtes un maître en {SKILL} !" />
+		<string id="SMR_xQfK1e8" text="Votre maîtrise grandit..." />
+		<string id="SMR_RdnP6a3" text="{HERO} est un maître en {SKILL} !" />
+		<string id="SMR_WgzJ2c5" text="La maîtrise de {HERO} grandit..." />
+		<string id="SMR_Zk3cMe9" text="Vitesse d'apprentissage minimale à partir de" />
+		<string id="SMR_bWq4Jn8" text="Niveau de compétence de maîtrise" />
+		<string id="SMR_Ua6nWc3" text="Afficher les points non dépensés dans la liste des héros" />
+		<string id="SMR_Jf8rLm5" text="Signale les héros dans la liste des héros de l'écran de personnage : un cercle orange pour les points d'attribut ou de concentration non dépensés et un bouclier avec le nombre d'atouts à choisir. S'applique à la prochaine ouverture de l'écran de personnage. [Par défaut : activé]" />
+		<string id="SMR_q4Tn8Yb" text="Paramètres techniques" />
+		<string id="SMR_Lx2dWf6" text="Journalisation pour le débogage" />
+		<string id="SMR_Pz9kRc3" text="Journalisation pour le débogage (anglais uniquement). [Par défaut : désactivé]" />
+	</strings>
+</base>

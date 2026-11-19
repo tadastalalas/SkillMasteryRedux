@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModConfiguration>
+    <GlobalSettings>
+        <ShowMessages>true</ShowMessages>
+        <DisableSafeguards>false</DisableSafeguards>
+        <ShowSkillLimit>true</ShowSkillLimit>
+        <ShowHeroListMarkers>true</ShowHeroListMarkers>
+    </GlobalSettings>
+    <PlayerSettings>
+        <PlayerMasteryLevelOffset>20</PlayerMasteryLevelOffset>
+        <PlayerMasteryStartingLevelOffset>0</PlayerMasteryStartingLevelOffset>
+        <AutoAssignPlayer>false</AutoAssignPlayer>
+    </PlayerSettings>
+    <CompanionSettings>
+        <AllowCompanions>true</AllowCompanions>
+        <CompanionMasteryLevelOffset>20</CompanionMasteryLevelOffset>
+        <CompanionMasteryStartingLevelOffset>0</CompanionMasteryStartingLevelOffset>
+        <AutoAssignCompanions>true</AutoAssignCompanions>
+    </CompanionSettings>
+    <AILordSettings>
+        <AllowAILords>true</AllowAILords>
+    </AILordSettings>
+    <LearningSettings>
+        <MinimumLearningRate>0.3</MinimumLearningRate>
+    </LearningSettings>
+    <TechnicalSettings>
+        <LoggingEnabled>false</LoggingEnabled>
+    </TechnicalSettings>
+</ModConfiguration>

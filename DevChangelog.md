@@ -1,0 +1,27 @@
+## SMR v1.5.7.0
+
+- Migrated to the current standard. No gameplay change. Save compatibility: none (the mod saves nothing).
+- Build: `SkillMasteryRedux.csproj` -> `Bannerlord.BuildResourcesLite.Sdk/1.2.3.41`, `netstandard2.0`, one DLL per game version (`SkillMasteryRedux.v<GameVersion>.dll`) loaded by `Bannerlord.ModuleLoader.Injector`.
+  - Supported game versions: 1.5.7, 1.4.8, 1.4.7. ModuleName `Skill Mastery Redux`.
+  - Packages kept: `Bannerlord.MCM` 5.13.1, `Bannerlord.UIExtenderEx` 3.0.3, `Harmony.Extensions` 3.2.0.77, `BUTR.Harmony.Analyzer` 1.0.1.50.
+  - `Lib.Harmony` 2.4.3 -> 2.4.2: the SDK writes this version into `SubModule.xml`; 2.4.2 keeps the `Bannerlord.Harmony` requirement of v1.1.0.
+  - Removed: game `HintPath` references, `Bannerlord.BuildResources`, `Nullable`, `IsExternalInit` (the SDK adds them).
+- `_Module\SubModule.xml`: loader entry `Bannerlord.ModuleLoader.$moduleid$`, version tokens. MCM (`Bannerlord.MBOptionScreen`) is now optional; Harmony and UIExtenderEx stay required.
+- Settings: `Data\Settings.cs` split into `Data\MCMSettings.cs` (MCM only), `Data\ModConfiguration.cs` (defaults, ranges, xml shape), `Core\ModSettings.cs` (MCM when loaded, else `ModConfiguration.xml`) and `_Module\ModConfiguration.xml`.
+  - MCM Id `SkillMasteryRedux`, FolderName `SkillMasteryRedux`, FormatType `json` and all property names unchanged, so players keep their MCM settings.
+  - New setting `LoggingEnabled` (group "Technical settings", GroupOrder 5, default off).
+  - `ModSettings.Reload()` runs first in `SubModule.OnGameStart`.
+  - `MasteryRules` reads `ModSettings`. Old code returned "off" / `int.MaxValue` when `Settings.Instance` was null; that only happened without MCM, which was required.
+- Texts: every string moved to `Core\Texts.cs` (ids unchanged). Messages with `{SKILL}` / `{HERO}` are factories (`PlayerMastered`, `PlayerMasteryGrows`, `HeroMastered`, `HeroMasteryGrows`).
+  - New ids: `SMR_q4Tn8Yb` (Technical settings), `SMR_Lx2dWf6` (Logging for debugging), `SMR_Pz9kRc3` (its hint), added to English + 12 languages.
+  - `Languages\std_common_strings_xml.xml` renamed to `Languages\std_module_strings_xml.xml`, tab indented.
+- Logger: `Diagnostics\SmrLog.cs` -> `Debug` (only with `LoggingEnabled`) / `Warn` / `WarnOnce` / `Error`; path from `Core\ModInfo.ModuleRoot`. Old `Info` calls (`SubModule`, `MasteryGrant`) are now `Debug`.
+- `Core\ModInfo.cs`: ModuleId, file and folder names, Harmony id `com.skillmasteryredux`, UIExtender id `SkillMasteryRedux`, module root path.
+- Patch targets re-verified against BannerlordSource1.5.7: all match, no `#if` needed.
+  - `CharacterDeveloperVM.RefreshCharacterSelector`, `SelectorVM._onChange`, `DefaultCharacterDevelopmentModel.CalculateLearningRate` (param `skillValue`), `PerkSelectionBarWidget.OnLateUpdate` / `GetXPositionOfLevelOnBar(float)`, `PerkVM` ctor / `_currentState` / `_getIsPerkSelected`, `SkillVM.RefreshNumOfUnopenedPerks`, `BasicTooltipViewModel._tooltipProperties`, `GauntletCharacterDeveloperScreen._dataSource`.
+- `_Module\SMR_Changelog.txt` renamed to `_Module\Changelog.txt`. Added `.github\copilot-instructions.md`, this file; `FEATURES.md` and `NexusDescription.txt` updated.
+- Test on 1.5.7, 1.4.8 and 1.4.7, with and without MCM:
+  - Prefab inserts (not checked by the compiler): skill limit marker on the skill bar, learning limit tooltip row, hero dropdown markers.
+  - Mastery perks: click unlock, auto-assign, daily companion / AI lord grant, messages, perk tooltip "Mastery Skill Level".
+  - Minimum learning rate line in the learning rate tooltip.
+  - Without MCM: `ModConfiguration.xml` is created if missing and its values are used.

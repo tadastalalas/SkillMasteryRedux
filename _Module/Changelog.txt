@@ -1,0 +1,41 @@
+﻿SMR v1.5.7.0 :
+
+- Supports game versions 1.5.7, 1.4.8 and 1.4.7 in the same download.
+- Mod Configuration Menu is now optional. Without it, change the settings in Modules\SkillMasteryRedux\ModConfiguration.xml (read when a campaign is started or loaded).
+- New setting "Logging for debugging" (Technical settings, default off). The log file is in Modules\SkillMasteryRedux\logs.
+
+SMR v1.1.0 :
+
+- Character screen hero dropdown marks heroes again: an orange circle for unspent attribute or focus points (left) and a perk shield with the number of perks to choose (right).
+
+SMR v1.0.0 :
+
+- Merged Skill Mastery 1.4.5.1 and Skill Mastery Fix into one standalone module (Harmony id com.skillmasteryredux); logs a warning when either legacy module is still loaded.
+- Mastery formula moved to MasteryRules.RequiredLevel.
+	- Top tier read from PerkObject.All per skill instead of hardcoded 300/250/275 and 11/9/10.
+	- Safeguard divides by the top tier index (old mod divided by perk count and could exceed 330 with a negative starting offset).
+- Character screen: mastery state derived from vanilla's EarnedAndNotActive (Fix mod behaviour), written through the public PerkState setter; tooltip decided at show time and reverts to vanilla once the perk is owned.
+- Clicking an eligible mastery perk grants it directly and refreshes the perk and the skill's unopened-perk badge.
+- Unopened-perk badge counts one selectable mastery perk per tier and writes through the notifying setter.
+- MasteryBehavior: companions (auto-assign on) and AI lords acquire eligible mastery perks on the daily hero tick, not only while the character screen is open.
+- Settings: added Allow AI Lords to Master Skills (default on); AllowAICompanions renamed to AllowCompanions. New settings file, nothing migrated.
+- Diagnostics: SmrLog file logger in Modules\SkillMasteryRedux\logs; no InformationManager debug output.
+- Localization: vanilla layout under ModuleData\Languages (English + BR, CNs, CNt, DE, FR, IT, JP, KO, PL, RU, SP, TR); all MCM texts and messages use {=SMR_…} ids.
+- Save compatibility: nothing is saved by the mod; perks granted by Skill Mastery stay in existing saves.
+- Merged Show Skill Limit: the character screen skill bar marks the level where learning stops (segment + indicator past the full-learning-rate mark) and the learning limit tooltip ends with a Skill Limit row; logs a warning when the Show Skill Limit module is still loaded.
+	- Setting Show Skill Limit on Skill Bar (Global, default on); hides segment and tooltip row at runtime.
+	- Bar position method, screen data source and clip widget are resolved once instead of per frame; tooltip wrapped once per skill instead of re-created every frame.
+	- Hard cast of ScreenManager.TopScreen replaced by a type test; diagnostics go to SmrLog instead of on-screen messages.
+	- Skill limit derived from the vanilla model (rounded CalculateLearningLimit + 4 levels per attribute point + 10 per focus point, integer math) instead of the hardcoded 14/40/-10, which was only exact for attribute averages >= 1 and could show fractional values.
+	- New compile dependency Bannerlord.UIExtenderEx (module already required by MCM) for the prefab inserts.
+- Merged Minimum Learning Rate: every hero keeps learning a skill at a floor rate until it reaches 330, even past its learning limit; logs a warning when the Minimum Learning Rate module is still loaded.
+	- Setting Minimum Learning Rate (new group Learning Settings, 0.00–1.00, default 0.30; 0 = vanilla). Show Skill Limit on Skill Bar moved into that group.
+	- Postfix on DefaultCharacterDevelopmentModel.CalculateLearningRate instead of replacing the model, so other CharacterDevelopmentModel overrides that call base keep working.
+	- Learning rate tooltip shows a "Minimum learning rate" line for the applied difference.
+	- Floor applies at every skill level (no 330 guard): skills keep growing, so mastery perks above a hero's learning limit, including tiers past 330 with safeguards off, stay reachable. Slider 0.05–3.00. Bar tooltip row renamed "Minimum learning rate from".
+- Perk tooltip: mastery candidates show a dedicated Mastery Skill Level row in place of vanilla's required-level row (GetPerkEffectText layout verified, matched by label so rows added by other mods survive).
+- Localization: Show Skill Limit on Skill Bar, Learning Settings, Minimum Learning Rate, the "Minimum learning rate from" and "Mastery Skill Level" tooltip rows translated into all 12 languages; Disable Perk Safeguards hint retranslated to the minimum-learning-rate wording (no longer requires a skill-limit mod).
+- Fixed the first mastery perk unlocking below the last vanilla perk (258 on a 275 skill).
+	- Vanilla's top perk of every skill (275; 250 Two Handed; 300 Trade) is unpaired, so TopTier (paired perks only) returned 250 and the ladder started there.
+	- Ladder now starts at the skill's highest perk of any kind; the safeguard divides by the highest paired tier index (11/9/10 for Trade/Two Handed/others). Defaults: 280…325, 258…322, 302…322 as the hint text states.
+	- IsFinalTier compares tier indices against the highest paired tier, so the "master of" message still fires on the last mastery perk.

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="繁體中文" />
+	</tags>
+	<strings>
+		<string id="SMR_Kq7vXe2" text="技能精通 Redux" />
+		<string id="SMR_3wLpR9t" text="全域設定" />
+		<string id="SMR_hNc8Bz4" text="玩家設定" />
+		<string id="SMR_YtQ5md1" text="同伴設定" />
+		<string id="SMR_r2FjVk6" text="AI領主設定" />
+		<string id="SMR_pDsW4n7" text="顯示精通訊息" />
+		<string id="SMR_Gxa9Le3" text="在角色介面解鎖精通專長時，以及某項技能被完全精通時，在畫面上顯示訊息。[預設：啟用]" />
+		<string id="SMR_zBtH6q8" text="停用專長保護" />
+		<string id="SMR_eMkP1y5" text="移除確保每個精通專長都能在技能等級330及以下取得的上限。技能在330之後仍會以最低學習速度繼續成長，因此更高的階層依然可以取得，只是時間較晚。[預設：停用]" />
+		<string id="SMR_Hq4vTz8" text="在技能條上顯示技能上限" />
+		<string id="SMR_pLw7Rn2" text="在角色介面的技能條上標記技能開始僅以最低學習速度成長的等級（原版在此停止成長），並將其加入學習上限的提示中。[預設：啟用]" />
+		<string id="SMR_vRk2Pq7" text="學習設定" />
+		<string id="SMR_tNb6Xw3" text="最低學習速度" />
+		<string id="SMR_cQd9Hs4" text="每位英雄學習技能的速度始終至少為此值，即使超過其學習上限也一樣。技能不再受限於330，因此每個精通專長都能取得。[預設：0.30]" />
+		<string id="SMR_VcrJ7u0" text="精通專長成本增量" />
+		<string id="SMR_oSn3Zf9" text="玩家的精通專長每個專長階層額外需要的技能等級。啟用保護時該值會被降低，使最後一個階層不超過330（預設起始偏移下，250/275/300的技能分別為8/5/2）。[預設：20]" />
+		<string id="SMR_LwdK8a2" text="精通起始等級偏移" />
+		<string id="SMR_jTgE4b6" text="調整玩家精通專長開始出現的技能等級。降低此值時請將成本增量保持為20，以便各階層仍能一直提升至330。[預設：0]" />
+		<string id="SMR_QhyN2v1" text="自動分配精通專長" />
+		<string id="SMR_bRxC9m4" text="玩家可用的精通專長會在角色介面重新整理時自動取得。[預設：停用]" />
+		<string id="SMR_fKuD5s7" text="允許同伴精通技能" />
+		<string id="SMR_XnpG1w3" text="你的家族英雄可以解鎖精通專長。停用後僅玩家可以解鎖。[預設：啟用]" />
+		<string id="SMR_mZeT6k8" text="精通專長成本增量" />
+		<string id="SMR_cJvR3q5" text="同伴和AI領主的精通專長每個專長階層額外需要的技能等級。與玩家數值採用相同的保護。[預設：20]" />
+		<string id="SMR_DybL7h0" text="精通起始等級偏移" />
+		<string id="SMR_sPwF2n9" text="調整同伴和AI領主精通專長開始出現的技能等級。[預設：0]" />
+		<string id="SMR_UakM8z4" text="自動分配精通專長" />
+		<string id="SMR_gEqX4t1" text="同伴會自動取得可用的精通專長：每天一次，以及每次角色介面重新整理時。停用後需由你在角色介面中解鎖。[預設：啟用]" />
+		<string id="SMR_NvcB9r6" text="允許AI領主精通技能" />
+		<string id="SMR_kHjY3d2" text="你家族之外的領主每天自動取得一次精通專長，使用同伴的偏移設定。[預設：啟用]" />
+		<string id="SMR_TbmS5w7" text="你已成為{SKILL}大師！" />
+		<string id="SMR_xQfK1e8" text="你的技能精通正在增長……" />
+		<string id="SMR_RdnP6a3" text="{HERO}已成為{SKILL}大師！" />
+		<string id="SMR_WgzJ2c5" text="{HERO}的技能精通正在增長……" />
+		<string id="SMR_Zk3cMe9" text="最低學習速度起始等級" />
+		<string id="SMR_bWq4Jn8" text="精通技能等級" />
+		<string id="SMR_Ua6nWc3" text="在英雄列表中顯示未分配點數" />
+		<string id="SMR_Jf8rLm5" text="在角色介面的英雄列表中標記英雄：橙色圓點表示有未分配的屬性點或專精點，盾牌顯示可選擇的專長數量。下次開啟角色介面時生效。[預設：啟用]" />
+		<string id="SMR_q4Tn8Yb" text="技術設定" />
+		<string id="SMR_Lx2dWf6" text="除錯日誌" />
+		<string id="SMR_Pz9kRc3" text="除錯日誌（僅限英文）。[ 預設：停用 ]" />
+	</strings>
+</base>

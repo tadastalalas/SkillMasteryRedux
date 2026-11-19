@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Português (BR)" />
+	</tags>
+	<strings>
+		<string id="SMR_Kq7vXe2" text="Maestria de Habilidades Redux" />
+		<string id="SMR_3wLpR9t" text="Configurações globais" />
+		<string id="SMR_hNc8Bz4" text="Configurações do jogador" />
+		<string id="SMR_YtQ5md1" text="Configurações de companheiros" />
+		<string id="SMR_r2FjVk6" text="Configurações de lordes IA" />
+		<string id="SMR_pDsW4n7" text="Mostrar mensagens de maestria" />
+		<string id="SMR_Gxa9Le3" text="Mostra uma mensagem na tela quando uma vantagem de maestria é desbloqueada na tela de personagem e quando uma habilidade é totalmente dominada. [Padrão: ativado]" />
+		<string id="SMR_zBtH6q8" text="Desativar salvaguardas de vantagens" />
+		<string id="SMR_eMkP1y5" text="Remove o limite que mantém toda vantagem de maestria alcançável até o nível de habilidade 330. As habilidades continuam aprendendo na velocidade mínima de aprendizado além de 330, então os níveis superiores continuam alcançáveis, só que mais tarde. [Padrão: desativado]" />
+		<string id="SMR_Hq4vTz8" text="Mostrar limite de habilidade na barra de habilidade" />
+		<string id="SMR_pLw7Rn2" text="Marca na barra de habilidade da tela de personagem o nível a partir do qual uma habilidade só aprende na velocidade mínima de aprendizado (o jogo base para aí) e o adiciona à dica do limite de aprendizado. [Padrão: ativado]" />
+		<string id="SMR_vRk2Pq7" text="Configurações de aprendizado" />
+		<string id="SMR_tNb6Xw3" text="Velocidade mínima de aprendizado" />
+		<string id="SMR_cQd9Hs4" text="Todo herói sempre aprende uma habilidade pelo menos nesta velocidade, mesmo além do seu limite de aprendizado. As habilidades não são mais limitadas a 330, então toda vantagem de maestria continua alcançável. [Padrão: 0.30]" />
+		<string id="SMR_VcrJ7u0" text="Custo adicional de vantagens de maestria" />
+		<string id="SMR_oSn3Zf9" text="Níveis de habilidade adicionais exigidos por cada nível de vantagem para as vantagens de maestria do jogador. Com as salvaguardas ativadas, é reduzido para que o último nível fique em 330 ou menos (8/5/2 para habilidades de 250/275/300 com o deslocamento inicial padrão). [Padrão: 20]" />
+		<string id="SMR_LwdK8a2" text="Deslocamento do nível inicial de maestria" />
+		<string id="SMR_jTgE4b6" text="Desloca o nível de habilidade em que as vantagens de maestria do jogador começam. Ao reduzir, mantenha o custo adicional em 20 para que os níveis continuem escalando até 330. [Padrão: 0]" />
+		<string id="SMR_QhyN2v1" text="Atribuir vantagens de maestria automaticamente" />
+		<string id="SMR_bRxC9m4" text="As vantagens de maestria disponíveis para o jogador são adquiridas automaticamente quando a tela de personagem é atualizada. [Padrão: desativado]" />
+		<string id="SMR_fKuD5s7" text="Permitir que companheiros dominem habilidades" />
+		<string id="SMR_XnpG1w3" text="Heróis do seu clã podem desbloquear vantagens de maestria. Se desativado, apenas o jogador pode. [Padrão: ativado]" />
+		<string id="SMR_mZeT6k8" text="Custo adicional de vantagens de maestria" />
+		<string id="SMR_cJvR3q5" text="Níveis de habilidade adicionais exigidos por cada nível de vantagem para as vantagens de maestria de companheiros e lordes IA. Mesma salvaguarda do valor do jogador. [Padrão: 20]" />
+		<string id="SMR_DybL7h0" text="Deslocamento do nível inicial de maestria" />
+		<string id="SMR_sPwF2n9" text="Desloca o nível de habilidade em que as vantagens de maestria de companheiros e lordes IA começam. [Padrão: 0]" />
+		<string id="SMR_UakM8z4" text="Atribuir vantagens de maestria automaticamente" />
+		<string id="SMR_gEqX4t1" text="Companheiros adquirem automaticamente as vantagens de maestria disponíveis, diariamente e sempre que a tela de personagem é atualizada. Se desativado, você as desbloqueia na tela de personagem. [Padrão: ativado]" />
+		<string id="SMR_NvcB9r6" text="Permitir que lordes IA dominem habilidades" />
+		<string id="SMR_kHjY3d2" text="Lordes fora do seu clã adquirem vantagens de maestria automaticamente uma vez por dia, usando os deslocamentos de companheiros. [Padrão: ativado]" />
+		<string id="SMR_TbmS5w7" text="Você é um mestre de {SKILL}!" />
+		<string id="SMR_xQfK1e8" text="Sua maestria cresce..." />
+		<string id="SMR_RdnP6a3" text="{HERO} é um mestre de {SKILL}!" />
+		<string id="SMR_WgzJ2c5" text="A maestria de {HERO} cresce..." />
+		<string id="SMR_Zk3cMe9" text="Velocidade mínima de aprendizado a partir de" />
+		<string id="SMR_bWq4Jn8" text="Nível de habilidade de maestria" />
+		<string id="SMR_Ua6nWc3" text="Mostrar pontos não gastos na lista de heróis" />
+		<string id="SMR_Jf8rLm5" text="Marca os heróis na lista de heróis da tela de personagem: um círculo laranja para pontos de atributo ou de foco não gastos e um escudo com o número de vantagens a escolher. Aplica-se na próxima vez que a tela de personagem for aberta. [Padrão: ativado]" />
+		<string id="SMR_q4Tn8Yb" text="Configurações técnicas" />
+		<string id="SMR_Lx2dWf6" text="Registro para depuração" />
+		<string id="SMR_Pz9kRc3" text="Registro para depuração (somente em inglês). [Padrão: desabilitado]" />
+	</strings>
+</base>
