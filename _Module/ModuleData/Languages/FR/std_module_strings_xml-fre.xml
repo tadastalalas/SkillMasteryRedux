@@ -45,5 +45,108 @@
 		<string id="SMR_q4Tn8Yb" text="Paramètres techniques" />
 		<string id="SMR_Lx2dWf6" text="Journalisation pour le débogage" />
 		<string id="SMR_Pz9kRc3" text="Journalisation pour le débogage (anglais uniquement). [Par défaut : désactivé]" />
+		<string id="SMR_bv3zaGT" text="Bonus d'attribut" />
+		<string id="SMR_4LY8pjF" text="Activer les bonus d'attribut" />
+		<string id="SMR_NM3ahyQ" text="Chaque point d'attribut donne les bonus listés sous son attribut ci-dessous. Les bonus de combat et personnels utilisent l'attribut du héros lui-même, les bonus de groupe celui du chef du groupe et les bonus de clan celui du chef du clan. Seuls les héros ont des attributs, les troupes n'obtiennent donc rien. Fonctionne uniquement en campagne. Survolez un attribut dans l'écran de personnage pour voir ses bonus. [Par défaut : activé]" />
+		<string id="SMR_6DENV2C" text="Remplacer le mod Better Attributes" />
+		<string id="SMR_q69Z4sb" text="Si le mod Better Attributes est aussi chargé, le désactive pour que les bonus des deux mods ne se cumulent pas. Si désactivé, les deux mods donnent leurs bonus. S'applique après un redémarrage du jeu. [Par défaut : activé]" />
+		<string id="SMR_EbEhjZv" text="Vigueur" />
+		<string id="SMR_X37MKx6" text="Contrôle" />
+		<string id="SMR_QTdKXEf" text="Endurance" />
+		<string id="SMR_2wVnQpM" text="Ruse" />
+		<string id="SMR_PZgu2Ei" text="Social" />
+		<string id="SMR_Kw37Gtg" text="Intelligence" />
+		<string id="SMR_KGbkBGH" text="Activé" />
+		<string id="SMR_k5pfV5M" text="Active ou désactive tous les bonus de cet attribut. [Par défaut : activé]" />
+		<string id="SMR_MT4CKRh" text="Bonus par point d'attribut" />
+		<string id="SMR_cZrT3Ve" text="Points de Social par compagnon" />
+		<string id="SMR_wkMqm8p" text="Bénéficiaires" />
+		<string id="SMR_YTcoRdC" text="Joueur : vous seul. Clan du joueur : vous et les héros de votre clan. Tous les héros : chaque héros, seigneurs IA compris. Pour les bonus de groupe et de clan, cela est vérifié sur le chef du groupe ou du clan. [Par défaut : Tous les héros]" />
+		<string id="SMR_5ZpeJE8" text="Joueur" />
+		<string id="SMR_L8C7L9G" text="Clan du joueur" />
+		<string id="SMR_QSAHVDX" text="Tous les héros" />
+		<string id="SMR_TLYJ7wW" text="Écran de personnage" />
+		<string id="SMR_92o3MNh" text="Afficher uniquement les bonus dans l'infobulle d'attribut" />
+		<string id="SMR_acNspfT" text="L'infobulle d'attribut de l'écran de personnage liste les bonus de cet attribut pour le héros sélectionné. Si activé, la liste remplace le texte du jeu sur l'ajout de points, pour que les longues listes tiennent. Si désactivé, le texte du jeu suit la liste. [Par défaut : activé]" />
+		<string id="SMR_misH9Rh" text="{BONUS} : {VALUE}" />
+		<string id="SMR_bKP5HPk" text="{NUMBER} %" />
+		<string id="SMR_nzDLhjM" text="Dégâts en mêlée" />
+		<string id="SMR_g3fvJE6" text="Les attaques du héros avec une arme de mêlée infligent plus de dégâts, comptés avant l'armure. Les coups de pied, coups de bouclier et attaques à mains nues ne sont pas concernés. À la valeur par défaut de 1.5 % par point : +15 % pour 10 en Vigueur. [Par défaut : activé]" />
+		<string id="SMR_Wx3PPXz" text="Dégâts en mêlée par point de Vigueur. [Par défaut : 1.5 %]" />
+		<string id="SMR_god8tzQ" text="Vitesse d'armement" />
+		<string id="SMR_Pdczdep" text="Le héros bande les arcs et arme ses estocs et ses lancers plus vite. À la valeur par défaut de 1 % par point : +10 % pour 10 en Vigueur. [Par défaut : activé]" />
+		<string id="SMR_LZsrQDf" text="Vitesse d'armement par point de Vigueur. [Par défaut : 1.0 %]" />
+		<string id="SMR_PVpExdF" text="Puissance pour briser la garde" />
+		<string id="SMR_HGe7Ekq" text="Les coups portés par le haut du héros comptent comme plus puissants lorsque le jeu décide s'ils brisent une garde. Comme dans le jeu de base, seuls les coups portés par le haut peuvent briser la garde. À la valeur par défaut de 1 % par point : +10 % de puissance pour 10 en Vigueur. Incompatible avec Realistic Battle Mod, qui a ses propres règles pour cela. [Par défaut : désactivé]" />
+		<string id="SMR_QZ9pdQ3" text="Puissance pour briser la garde par point de Vigueur. [Par défaut : 1.0 %]" />
+		<string id="SMR_BEa7PP8" text="Chance de coup traversant" />
+		<string id="SMR_mJRSFJ9" text="Chance que le coup de mêlée du héros ne perde aucune puissance lorsqu'il traverse un ennemi, de sorte que l'ennemi suivant qu'il atteint est frappé à pleine force. À la valeur par défaut de 1 % par point : 10 % pour 10 en Vigueur. Incompatible avec Realistic Battle Mod, qui a ses propres règles pour cela. [Par défaut : désactivé]" />
+		<string id="SMR_gfHP4ug" text="Chance de coup traversant par point de Vigueur. [Par défaut : 1.0 %]" />
+		<string id="SMR_qH7e86V" text="Dégâts à distance" />
+		<string id="SMR_dzKLXtk" text="Les flèches, carreaux et armes de jet du héros infligent plus de dégâts, comptés avant l'armure. À la valeur par défaut de 1.5 % par point : +15 % pour 10 en Contrôle. [Par défaut : activé]" />
+		<string id="SMR_PRpft3m" text="Dégâts à distance par point de Contrôle. [Par défaut : 1.5 %]" />
+		<string id="SMR_LiPh5gf" text="Précision" />
+		<string id="SMR_VdNrbAQ" text="Les attaques à distance du héros sont moins dispersées. À la valeur par défaut de 2 % par point : +20 % pour 10 en Contrôle, la dispersion est donc divisée par 1.2. [Par défaut : activé]" />
+		<string id="SMR_Cw4qyJF" text="Précision par point de Contrôle. [Par défaut : 2.0 %]" />
+		<string id="SMR_4pKNqAu" text="Vitesse de rechargement" />
+		<string id="SMR_vEqefTk" text="Le héros recharge plus vite. À la valeur par défaut de 1.5 % par point : +15 % pour 10 en Contrôle. [Par défaut : activé]" />
+		<string id="SMR_NKCzcSR" text="Vitesse de rechargement par point de Contrôle. [Par défaut : 1.5 %]" />
+		<string id="SMR_XyyjKNT" text="Maniement des armes" />
+		<string id="SMR_RdfVnN4" text="Le héros manie ses armes avec plus d'agilité (la statistique de maniement de l'arme). À la valeur par défaut de 1 % par point : +10 % pour 10 en Contrôle. [Par défaut : activé]" />
+		<string id="SMR_PFv6xBP" text="Maniement des armes par point de Contrôle. [Par défaut : 1.0 %]" />
+		<string id="SMR_4DPBDPZ" text="Points de vie max" />
+		<string id="SMR_rxLc57K" text="Le héros a plus de points de vie. À la valeur par défaut de 2 % par point : +20 % pour 10 en Endurance, soit +20 points de vie sur une base de 100. [Par défaut : activé]" />
+		<string id="SMR_rt9UBs6" text="Points de vie par point d'Endurance. [Par défaut : 2.0 %]" />
+		<string id="SMR_Pf3vD4d" text="Résistance aux interruptions" />
+		<string id="SMR_MzWoUeV" text="Le héros peut encaisser des coups plus forts sans que son attaque en cours soit interrompue. À la valeur par défaut de 2 % par point : +20 % pour 10 en Endurance. [Par défaut : activé]" />
+		<string id="SMR_hdkwK4n" text="Résistance aux interruptions par point d'Endurance. [Par défaut : 2.0 %]" />
+		<string id="SMR_MJxB6AG" text="Stabilité de visée" />
+		<string id="SMR_CzPDSJY" text="Le héros peut garder un arc bandé stable plus longtemps avant que la visée commence à trembler. À la valeur par défaut de 2 % par point : +20 % pour 10 en Endurance. [Par défaut : activé]" />
+		<string id="SMR_Cf9NfvB" text="Stabilité de visée par point d'Endurance. [Par défaut : 2.0 %]" />
+		<string id="SMR_pysyoLA" text="Vitesse de déplacement" />
+		<string id="SMR_ezNAZWu" text="Le héros se déplace plus vite à pied. À la valeur par défaut de 0.5 % par point : +5 % pour 10 en Endurance. [Par défaut : activé]" />
+		<string id="SMR_Dfo2Lya" text="Vitesse de déplacement par point d'Endurance. [Par défaut : 0.5 %]" />
+		<string id="SMR_jG5wrbR" text="Énergie de forge" />
+		<string id="SMR_wEYKNqD" text="Le héros a plus d'énergie de forge maximale. À la valeur par défaut de 5 par point : +50 pour 10 en Endurance (le jeu de base donne 100 plus la moitié de la compétence Forge). [Par défaut : activé]" />
+		<string id="SMR_k4i6zEk" text="Énergie de forge par point d'Endurance. [Par défaut : 5]" />
+		<string id="SMR_NaPzAoo" text="Avantage en simulation" />
+		<string id="SMR_PbofDeR" text="Dans les batailles simulées (envoi des troupes et batailles livrées sans vous), chaque troupe du groupe inflige plus de dégâts. Utilise la Ruse du chef du groupe. À la valeur par défaut de 1 % par point : +10 % pour 10 en Ruse. [Par défaut : activé]" />
+		<string id="SMR_c5D6rJE" text="Dégâts simulés par point de Ruse du chef du groupe. [Par défaut : 1.0 %]" />
+		<string id="SMR_iRsVFqk" text="Renommée des victoires" />
+		<string id="SMR_eCYuPxn" text="Les batailles gagnées rapportent plus de renommée. Utilise la Ruse du chef du groupe. À la valeur par défaut de 2 % par point : +20 % pour 10 en Ruse. [Par défaut : activé]" />
+		<string id="SMR_FrdzYDm" text="Renommée par point de Ruse du chef du groupe. [Par défaut : 2.0 %]" />
+		<string id="SMR_YaQNmmN" text="Moral des victoires" />
+		<string id="SMR_MzqDeem" text="Les batailles gagnées augmentent davantage le moral du groupe. Utilise la Ruse du chef du groupe. À la valeur par défaut de 2 % par point : +20 % pour 10 en Ruse. [Par défaut : activé]" />
+		<string id="SMR_zwrrfnV" text="Moral par point de Ruse du chef du groupe. [Par défaut : 2.0 %]" />
+		<string id="SMR_evcqcxE" text="Chance de persuasion" />
+		<string id="SMR_78Kejpq" text="Vos tentatives de persuasion dans les conversations réussissent plus souvent et échouent moins souvent de façon critique, comme les bonus de persuasion du jeu lui-même. Joueur uniquement. À la valeur par défaut de 1.5 % par point : +15 % pour 10 en Social. [Par défaut : activé]" />
+		<string id="SMR_nT4Z467" text="Chance de persuasion par point de votre Social. [Par défaut : 1.5 %]" />
+		<string id="SMR_G88n3v8" text="Moral du groupe" />
+		<string id="SMR_57MfXrW" text="Le moral du groupe est plus élevé. Utilise le Social du chef du groupe. À la valeur par défaut de 1 % par point : +10 % pour 10 en Social. [Par défaut : activé]" />
+		<string id="SMR_ibAkwbz" text="Moral du groupe par point de Social du chef du groupe. [Par défaut : 1.0 %]" />
+		<string id="SMR_HScDmtg" text="Taille du groupe" />
+		<string id="SMR_xzyoDh9" text="Le groupe peut contenir plus de troupes. Utilise le Social du chef du groupe. À la valeur par défaut de 1 % par point : +10 % pour 10 en Social. [Par défaut : activé]" />
+		<string id="SMR_kCSXU67" text="Taille du groupe par point de Social du chef du groupe. [Par défaut : 1.0 %]" />
+		<string id="SMR_Q9LQuqt" text="Solde du groupe" />
+		<string id="SMR_6XfjxgS" text="Le groupe paie moins de solde à ses troupes. Utilise le Social du chef du groupe. À la valeur par défaut de 1 % par point : -10 % pour 10 en Social. [Par défaut : activé]" />
+		<string id="SMR_XkzW5WU" text="Réduction de la solde par point de Social du chef du groupe. [Par défaut : 1.0 %]" />
+		<string id="SMR_FnReYdH" text="Limite de compagnons" />
+		<string id="SMR_fGgHmrR" text="Le clan peut avoir plus de compagnons. Utilise le Social du chef du clan. À la valeur par défaut de 4 points par compagnon : +2 compagnons pour 10 en Social. [Par défaut : activé]" />
+		<string id="SMR_E2MtsxY" text="Points de Social du chef du clan nécessaires pour chaque compagnon supplémentaire. [Par défaut : 4]" />
+		<string id="SMR_MLjyZSK" text="Revenu du clan" />
+		<string id="SMR_cMauXAj" text="Le revenu quotidien du clan est plus élevé. Utilise l'Intelligence du chef du clan. À la valeur par défaut de 1 % par point : +10 % pour 10 en Intelligence. [Par défaut : activé]" />
+		<string id="SMR_jKfxNHw" text="Revenu du clan par point d'Intelligence du chef du clan. [Par défaut : 1.0 %]" />
+		<string id="SMR_TtHN5np" text="Influence des victoires" />
+		<string id="SMR_Emo2gzo" text="Les batailles gagnées rapportent plus d'influence (seuls les clans d'un royaume gagnent de l'influence). Utilise l'Intelligence du chef du groupe. À la valeur par défaut de 2 % par point : +20 % pour 10 en Intelligence. [Par défaut : activé]" />
+		<string id="SMR_pLoBBUp" text="Influence par point d'Intelligence du chef du groupe. [Par défaut : 2.0 %]" />
+		<string id="SMR_rNja3Fx" text="Gain d'expérience" />
+		<string id="SMR_92pJ6nb" text="Le héros gagne plus d'expérience. À la valeur par défaut de 1 % par point : +10 % pour 10 en Intelligence. [Par défaut : activé]" />
+		<string id="SMR_3HBuqYy" text="Expérience par point d'Intelligence. [Par défaut : 1.0 %]" />
+		<string id="SMR_vzHQhka" text="Expérience du chef via les rôles" />
+		<string id="SMR_iE4UhFX" text="Lorsque l'éclaireur, l'ingénieur, le chirurgien ou le quartier-maître du groupe gagne de l'expérience dans la compétence de son rôle, le chef du groupe en gagne aussi une part. Utilise l'Intelligence du chef du groupe. À la valeur par défaut de 2 % par point : 20 % de celle-ci pour 10 en Intelligence. [Par défaut : activé]" />
+		<string id="SMR_HBc8hmL" text="Part de l'expérience du rôle par point d'Intelligence du chef du groupe. [Par défaut : 2.0 %]" />
+		<string id="SMR_Uqhcsx6" text="Vitesse de guérison des héros" />
+		<string id="SMR_xEEKafv" text="Les héros du groupe guérissent plus vite. Utilise l'Intelligence du chef du groupe. À la valeur par défaut de 3 % par point : +30 % pour 10 en Intelligence. [Par défaut : désactivé]" />
+		<string id="SMR_jW2dMKa" text="Vitesse de guérison des héros par point d'Intelligence du chef du groupe. [Par défaut : 3.0 %]" />
 	</strings>
 </base>

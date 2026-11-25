@@ -16,6 +16,9 @@ internal static class ModSettings
 {
     private const string McmAssemblyName = "MCMv5";
 
+    // Default values for MCM reads while MCM has no settings instance.
+    private static readonly ModConfiguration Defaults = new();
+
     private static ModConfiguration _xml = new();
     private static XmlSerializer? _serializer;
     private static bool _useMcm;
@@ -45,6 +48,14 @@ internal static class ModSettings
     internal static bool AllowAILords => _useMcm ? McmAllowAILords() : _xml.AILordSettings.AllowAILords;
 
     internal static float MinimumLearningRate => _useMcm ? McmMinimumLearningRate() : _xml.LearningSettings.MinimumLearningRate;
+
+    internal static bool AttributeBonusesEnabled => _useMcm ? McmAttributeBonusesEnabled() : _xml.AttributeBonusSettings.EnableAttributeBonuses;
+
+    internal static bool OverwriteBetterAttributes => _useMcm ? McmOverwriteBetterAttributes() : _xml.AttributeBonusSettings.OverwriteBetterAttributes;
+
+    internal static bool ShowOnlyBonusesInAttributeTooltip => _useMcm ? McmShowOnlyBonusesInAttributeTooltip() : _xml.AttributeBonusSettings.CharacterScreen.ShowOnlyBonusesInAttributeTooltip;
+
+    internal static BonusSetting Bonus(AttributeBonus bonus) => _useMcm ? McmBonus(bonus) : _xml.AttributeBonusSettings.GetBonus(bonus);
 
     internal static bool LoggingEnabled => _useMcm ? McmLoggingEnabled() : _xml.TechnicalSettings.LoggingEnabled;
 
@@ -124,6 +135,18 @@ internal static class ModSettings
 
     [MethodImpl(MethodImplOptions.NoInlining)]
     private static float McmMinimumLearningRate() => MCMSettings.Instance?.MinimumLearningRate ?? ModConfiguration.MinimumLearningRateDefault;
+
+    [MethodImpl(MethodImplOptions.NoInlining)]
+    private static bool McmAttributeBonusesEnabled() => MCMSettings.Instance?.EnableAttributeBonuses ?? ModConfiguration.EnableAttributeBonusesDefault;
+
+    [MethodImpl(MethodImplOptions.NoInlining)]
+    private static bool McmOverwriteBetterAttributes() => MCMSettings.Instance?.OverwriteBetterAttributes ?? ModConfiguration.OverwriteBetterAttributesDefault;
+
+    [MethodImpl(MethodImplOptions.NoInlining)]
+    private static bool McmShowOnlyBonusesInAttributeTooltip() => MCMSettings.Instance?.ShowOnlyBonusesInAttributeTooltip ?? ModConfiguration.ShowOnlyBonusesInAttributeTooltipDefault;
+
+    [MethodImpl(MethodImplOptions.NoInlining)]
+    private static BonusSetting McmBonus(AttributeBonus bonus) => MCMSettings.Instance?.GetBonus(bonus) ?? Defaults.AttributeBonusSettings.GetBonus(bonus);
 
     [MethodImpl(MethodImplOptions.NoInlining)]
     private static bool McmLoggingEnabled() => MCMSettings.Instance?.LoggingEnabled ?? ModConfiguration.LoggingEnabledDefault;

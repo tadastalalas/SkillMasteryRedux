@@ -45,5 +45,108 @@
 		<string id="SMR_q4Tn8Yb" text="Technical settings" />
 		<string id="SMR_Lx2dWf6" text="Logging for debugging" />
 		<string id="SMR_Pz9kRc3" text="Logging for debugging (English only). [Default: disabled]" />
+		<string id="SMR_bv3zaGT" text="Attribute Bonuses" />
+		<string id="SMR_4LY8pjF" text="Enable Attribute Bonuses" />
+		<string id="SMR_NM3ahyQ" text="Every attribute point gives the bonuses listed under its attribute below. Combat and personal bonuses use the hero's own attribute, party bonuses the party leader's and clan bonuses the clan leader's. Only heroes have attributes, so troops get nothing. Works in the campaign only. Hover over an attribute in the character screen to see its bonuses. [Default: enabled]" />
+		<string id="SMR_6DENV2C" text="Overwrite Better Attributes Mod" />
+		<string id="SMR_q69Z4sb" text="If the Better Attributes mod is loaded too, switches it off so the bonuses of both mods do not add up. If disabled, both mods give their bonuses. Applies after a game restart. [Default: enabled]" />
+		<string id="SMR_EbEhjZv" text="Vigor" />
+		<string id="SMR_X37MKx6" text="Control" />
+		<string id="SMR_QTdKXEf" text="Endurance" />
+		<string id="SMR_2wVnQpM" text="Cunning" />
+		<string id="SMR_PZgu2Ei" text="Social" />
+		<string id="SMR_Kw37Gtg" text="Intelligence" />
+		<string id="SMR_KGbkBGH" text="Enabled" />
+		<string id="SMR_k5pfV5M" text="Turns every bonus of this attribute on or off. [Default: enabled]" />
+		<string id="SMR_MT4CKRh" text="Bonus per Attribute Point" />
+		<string id="SMR_cZrT3Ve" text="Social Points per Companion" />
+		<string id="SMR_wkMqm8p" text="Who Gets It" />
+		<string id="SMR_YTcoRdC" text="Player: only you. Player's Clan: you and the heroes of your clan. All Heroes: every hero, AI lords included. For party and clan bonuses this is checked on the party or clan leader. [Default: All Heroes]" />
+		<string id="SMR_5ZpeJE8" text="Player" />
+		<string id="SMR_L8C7L9G" text="Player's Clan" />
+		<string id="SMR_QSAHVDX" text="All Heroes" />
+		<string id="SMR_TLYJ7wW" text="Character Screen" />
+		<string id="SMR_92o3MNh" text="Show Only Bonuses in Attribute Tooltip" />
+		<string id="SMR_acNspfT" text="The attribute tooltip in the character screen lists that attribute's bonuses for the selected hero. If enabled, the list replaces the game's text about adding points, so long lists fit. If disabled, the game's text follows the list. [Default: enabled]" />
+		<string id="SMR_misH9Rh" text="{BONUS}: {VALUE}" />
+		<string id="SMR_bKP5HPk" text="{NUMBER}%" />
+		<string id="SMR_nzDLhjM" text="Melee Damage" />
+		<string id="SMR_g3fvJE6" text="The hero's melee weapon attacks deal more damage, counted before armor. Kicks, shield bashes and unarmed attacks are not affected. At the default 1.5% per point: +15% at Vigor 10. [Default: enabled]" />
+		<string id="SMR_Wx3PPXz" text="Melee damage per point of Vigor. [Default: 1.5%]" />
+		<string id="SMR_god8tzQ" text="Draw Speed" />
+		<string id="SMR_Pdczdep" text="The hero draws bows and readies thrusts and throws faster. At the default 1% per point: +10% at Vigor 10. [Default: enabled]" />
+		<string id="SMR_LZsrQDf" text="Draw speed per point of Vigor. [Default: 1.0%]" />
+		<string id="SMR_PVpExdF" text="Crush Through Power" />
+		<string id="SMR_HGe7Ekq" text="The hero's overhead swings count as stronger when the game decides if they crush through a block. As in the base game, only overhead swings can crush through. At the default 1% per point: +10% power at Vigor 10. Not compatible with Realistic Battle Mod, which has its own rules for this. [Default: disabled]" />
+		<string id="SMR_QZ9pdQ3" text="Crush through power per point of Vigor. [Default: 1.0%]" />
+		<string id="SMR_BEa7PP8" text="Slice Through Chance" />
+		<string id="SMR_mJRSFJ9" text="Chance that the hero's melee swing loses no power when it cuts through an enemy, so the next enemy it reaches is hit at full strength. At the default 1% per point: 10% at Vigor 10. Not compatible with Realistic Battle Mod, which has its own rules for this. [Default: disabled]" />
+		<string id="SMR_gfHP4ug" text="Slice through chance per point of Vigor. [Default: 1.0%]" />
+		<string id="SMR_qH7e86V" text="Ranged Damage" />
+		<string id="SMR_dzKLXtk" text="The hero's arrows, bolts and thrown weapons deal more damage, counted before armor. At the default 1.5% per point: +15% at Control 10. [Default: enabled]" />
+		<string id="SMR_PRpft3m" text="Ranged damage per point of Control. [Default: 1.5%]" />
+		<string id="SMR_LiPh5gf" text="Accuracy" />
+		<string id="SMR_VdNrbAQ" text="The hero's ranged attacks spread less. At the default 2% per point: +20% at Control 10, so the spread is divided by 1.2. [Default: enabled]" />
+		<string id="SMR_Cw4qyJF" text="Accuracy per point of Control. [Default: 2.0%]" />
+		<string id="SMR_4pKNqAu" text="Reload Speed" />
+		<string id="SMR_vEqefTk" text="The hero reloads faster. At the default 1.5% per point: +15% at Control 10. [Default: enabled]" />
+		<string id="SMR_NKCzcSR" text="Reload speed per point of Control. [Default: 1.5%]" />
+		<string id="SMR_XyyjKNT" text="Weapon Handling" />
+		<string id="SMR_RdfVnN4" text="The hero handles weapons more nimbly (the weapon handling stat). At the default 1% per point: +10% at Control 10. [Default: enabled]" />
+		<string id="SMR_PFv6xBP" text="Weapon handling per point of Control. [Default: 1.0%]" />
+		<string id="SMR_4DPBDPZ" text="Max Hit Points" />
+		<string id="SMR_rxLc57K" text="The hero has more hit points. At the default 2% per point: +20% at Endurance 10, which is +20 hit points on the base 100. [Default: enabled]" />
+		<string id="SMR_rt9UBs6" text="Hit points per point of Endurance. [Default: 2.0%]" />
+		<string id="SMR_Pf3vD4d" text="Stagger Resistance" />
+		<string id="SMR_MzWoUeV" text="The hero can take bigger hits without the attack in progress being interrupted. At the default 2% per point: +20% at Endurance 10. [Default: enabled]" />
+		<string id="SMR_hdkwK4n" text="Stagger resistance per point of Endurance. [Default: 2.0%]" />
+		<string id="SMR_MJxB6AG" text="Aim Stability" />
+		<string id="SMR_CzPDSJY" text="The hero can hold a drawn bow steady longer before the aim starts to shake. At the default 2% per point: +20% at Endurance 10. [Default: enabled]" />
+		<string id="SMR_Cf9NfvB" text="Aim stability per point of Endurance. [Default: 2.0%]" />
+		<string id="SMR_pysyoLA" text="Movement Speed" />
+		<string id="SMR_ezNAZWu" text="The hero moves faster on foot. At the default 0.5% per point: +5% at Endurance 10. [Default: enabled]" />
+		<string id="SMR_Dfo2Lya" text="Movement speed per point of Endurance. [Default: 0.5%]" />
+		<string id="SMR_jG5wrbR" text="Smithing Stamina" />
+		<string id="SMR_wEYKNqD" text="The hero has more maximum smithing stamina. At the default 5 per point: +50 at Endurance 10 (the base game gives 100 plus half the Smithing skill). [Default: enabled]" />
+		<string id="SMR_k4i6zEk" text="Smithing stamina per point of Endurance. [Default: 5]" />
+		<string id="SMR_NaPzAoo" text="Simulation Advantage" />
+		<string id="SMR_PbofDeR" text="In simulated battles (sending troops, and battles fought without you), every troop of the party deals more damage. Uses the party leader's Cunning. At the default 1% per point: +10% at Cunning 10. [Default: enabled]" />
+		<string id="SMR_c5D6rJE" text="Simulated damage per point of the party leader's Cunning. [Default: 1.0%]" />
+		<string id="SMR_iRsVFqk" text="Renown from Victories" />
+		<string id="SMR_eCYuPxn" text="Won battles give more renown. Uses the party leader's Cunning. At the default 2% per point: +20% at Cunning 10. [Default: enabled]" />
+		<string id="SMR_FrdzYDm" text="Renown per point of the party leader's Cunning. [Default: 2.0%]" />
+		<string id="SMR_YaQNmmN" text="Morale from Victories" />
+		<string id="SMR_MzqDeem" text="Won battles raise the party's morale more. Uses the party leader's Cunning. At the default 2% per point: +20% at Cunning 10. [Default: enabled]" />
+		<string id="SMR_zwrrfnV" text="Morale per point of the party leader's Cunning. [Default: 2.0%]" />
+		<string id="SMR_evcqcxE" text="Persuasion Chance" />
+		<string id="SMR_78Kejpq" text="Your persuasion attempts in conversations succeed more often and fail critically less often, the same way the game's own persuasion bonuses work. Player only. At the default 1.5% per point: +15% at Social 10. [Default: enabled]" />
+		<string id="SMR_nT4Z467" text="Persuasion chance per point of your Social. [Default: 1.5%]" />
+		<string id="SMR_G88n3v8" text="Party Morale" />
+		<string id="SMR_57MfXrW" text="The party's morale is higher. Uses the party leader's Social. At the default 1% per point: +10% at Social 10. [Default: enabled]" />
+		<string id="SMR_ibAkwbz" text="Party morale per point of the party leader's Social. [Default: 1.0%]" />
+		<string id="SMR_HScDmtg" text="Party Size" />
+		<string id="SMR_xzyoDh9" text="The party can hold more troops. Uses the party leader's Social. At the default 1% per point: +10% at Social 10. [Default: enabled]" />
+		<string id="SMR_kCSXU67" text="Party size per point of the party leader's Social. [Default: 1.0%]" />
+		<string id="SMR_Q9LQuqt" text="Party Wages" />
+		<string id="SMR_6XfjxgS" text="The party pays less in troop wages. Uses the party leader's Social. At the default 1% per point: -10% at Social 10. [Default: enabled]" />
+		<string id="SMR_XkzW5WU" text="Wage reduction per point of the party leader's Social. [Default: 1.0%]" />
+		<string id="SMR_FnReYdH" text="Companion Limit" />
+		<string id="SMR_fGgHmrR" text="The clan can have more companions. Uses the clan leader's Social. At the default of 4 points per companion: +2 companions at Social 10. [Default: enabled]" />
+		<string id="SMR_E2MtsxY" text="Points of the clan leader's Social needed for each extra companion. [Default: 4]" />
+		<string id="SMR_MLjyZSK" text="Clan Income" />
+		<string id="SMR_cMauXAj" text="The clan's daily income is higher. Uses the clan leader's Intelligence. At the default 1% per point: +10% at Intelligence 10. [Default: enabled]" />
+		<string id="SMR_jKfxNHw" text="Clan income per point of the clan leader's Intelligence. [Default: 1.0%]" />
+		<string id="SMR_TtHN5np" text="Influence from Victories" />
+		<string id="SMR_Emo2gzo" text="Won battles give more influence (only clans in a kingdom gain influence). Uses the party leader's Intelligence. At the default 2% per point: +20% at Intelligence 10. [Default: enabled]" />
+		<string id="SMR_pLoBBUp" text="Influence per point of the party leader's Intelligence. [Default: 2.0%]" />
+		<string id="SMR_rNja3Fx" text="Experience Gain" />
+		<string id="SMR_92pJ6nb" text="The hero gains more experience. At the default 1% per point: +10% at Intelligence 10. [Default: enabled]" />
+		<string id="SMR_3HBuqYy" text="Experience per point of Intelligence. [Default: 1.0%]" />
+		<string id="SMR_vzHQhka" text="Party Leader Experience from Roles" />
+		<string id="SMR_iE4UhFX" text="When the party's scout, engineer, surgeon or quartermaster gains experience in the skill of that role, the party leader gains a share of it too. Uses the party leader's Intelligence. At the default 2% per point: 20% of it at Intelligence 10. [Default: enabled]" />
+		<string id="SMR_HBc8hmL" text="Share of the role's experience per point of the party leader's Intelligence. [Default: 2.0%]" />
+		<string id="SMR_Uqhcsx6" text="Hero Healing Rate" />
+		<string id="SMR_xEEKafv" text="Heroes in the party heal faster. Uses the party leader's Intelligence. At the default 3% per point: +30% at Intelligence 10. [Default: disabled]" />
+		<string id="SMR_jW2dMKa" text="Hero healing rate per point of the party leader's Intelligence. [Default: 3.0%]" />
 	</strings>
 </base>

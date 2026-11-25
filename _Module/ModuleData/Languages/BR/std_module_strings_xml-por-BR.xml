@@ -45,5 +45,108 @@
 		<string id="SMR_q4Tn8Yb" text="Configurações técnicas" />
 		<string id="SMR_Lx2dWf6" text="Registro para depuração" />
 		<string id="SMR_Pz9kRc3" text="Registro para depuração (somente em inglês). [Padrão: desabilitado]" />
+		<string id="SMR_bv3zaGT" text="Bônus de atributos" />
+		<string id="SMR_4LY8pjF" text="Ativar bônus de atributos" />
+		<string id="SMR_NM3ahyQ" text="Cada ponto de atributo concede os bônus listados abaixo sob o seu atributo. Bônus de combate e pessoais usam o atributo do próprio herói, bônus de grupo o do líder do grupo e bônus de clã o do líder do clã. Só heróis têm atributos, então as tropas não recebem nada. Funciona apenas na campanha. Passe o cursor sobre um atributo na tela de personagem para ver os seus bônus. [Padrão: ativado]" />
+		<string id="SMR_6DENV2C" text="Substituir o mod Better Attributes" />
+		<string id="SMR_q69Z4sb" text="Se o mod Better Attributes também estiver carregado, desativa-o para que os bônus dos dois mods não se somem. Se desativado, os dois mods concedem os seus bônus. Aplica-se após reiniciar o jogo. [Padrão: ativado]" />
+		<string id="SMR_EbEhjZv" text="Vigor" />
+		<string id="SMR_X37MKx6" text="Controle" />
+		<string id="SMR_QTdKXEf" text="Resistência" />
+		<string id="SMR_2wVnQpM" text="Astúcia" />
+		<string id="SMR_PZgu2Ei" text="Social" />
+		<string id="SMR_Kw37Gtg" text="Inteligência" />
+		<string id="SMR_KGbkBGH" text="Ativado" />
+		<string id="SMR_k5pfV5M" text="Ativa ou desativa todos os bônus deste atributo. [Padrão: ativado]" />
+		<string id="SMR_MT4CKRh" text="Bônus por ponto de atributo" />
+		<string id="SMR_cZrT3Ve" text="Pontos de Social por companheiro" />
+		<string id="SMR_wkMqm8p" text="Quem recebe" />
+		<string id="SMR_YTcoRdC" text="Jogador: apenas você. Clã do jogador: você e os heróis do seu clã. Todos os heróis: todo herói, incluindo lordes IA. Para bônus de grupo e de clã, isso é verificado no líder do grupo ou do clã. [Padrão: Todos os heróis]" />
+		<string id="SMR_5ZpeJE8" text="Jogador" />
+		<string id="SMR_L8C7L9G" text="Clã do jogador" />
+		<string id="SMR_QSAHVDX" text="Todos os heróis" />
+		<string id="SMR_TLYJ7wW" text="Tela de personagem" />
+		<string id="SMR_92o3MNh" text="Mostrar apenas os bônus na dica do atributo" />
+		<string id="SMR_acNspfT" text="A dica do atributo na tela de personagem lista os bônus desse atributo para o herói selecionado. Se ativado, a lista substitui o texto do jogo sobre adicionar pontos, para que listas longas caibam. Se desativado, o texto do jogo aparece depois da lista. [Padrão: ativado]" />
+		<string id="SMR_misH9Rh" text="{BONUS}: {VALUE}" />
+		<string id="SMR_bKP5HPk" text="{NUMBER}%" />
+		<string id="SMR_nzDLhjM" text="Dano corpo a corpo" />
+		<string id="SMR_g3fvJE6" text="Os ataques com armas corpo a corpo do herói causam mais dano, calculado antes da armadura. Chutes, golpes de escudo e ataques desarmados não são afetados. Com o padrão de 1.5% por ponto: +15% com Vigor 10. [Padrão: ativado]" />
+		<string id="SMR_Wx3PPXz" text="Dano corpo a corpo por ponto de Vigor. [Padrão: 1.5%]" />
+		<string id="SMR_god8tzQ" text="Velocidade de preparo" />
+		<string id="SMR_Pdczdep" text="O herói puxa arcos e prepara estocadas e arremessos mais rápido. Com o padrão de 1% por ponto: +10% com Vigor 10. [Padrão: ativado]" />
+		<string id="SMR_LZsrQDf" text="Velocidade de preparo por ponto de Vigor. [Padrão: 1.0%]" />
+		<string id="SMR_PVpExdF" text="Força para romper bloqueio" />
+		<string id="SMR_HGe7Ekq" text="Os golpes por cima do herói contam como mais fortes quando o jogo decide se eles rompem um bloqueio. Como no jogo base, apenas golpes por cima podem romper bloqueios. Com o padrão de 1% por ponto: +10% de força com Vigor 10. Não é compatível com o Realistic Battle Mod, que tem as suas próprias regras para isso. [Padrão: desativado]" />
+		<string id="SMR_QZ9pdQ3" text="Força para romper bloqueio por ponto de Vigor. [Padrão: 1.0%]" />
+		<string id="SMR_BEa7PP8" text="Chance de atravessar" />
+		<string id="SMR_mJRSFJ9" text="Chance de o golpe corpo a corpo do herói não perder força ao atravessar um inimigo, de modo que o próximo inimigo que ele alcançar seja atingido com força total. Com o padrão de 1% por ponto: 10% com Vigor 10. Não é compatível com o Realistic Battle Mod, que tem as suas próprias regras para isso. [Padrão: desativado]" />
+		<string id="SMR_gfHP4ug" text="Chance de atravessar por ponto de Vigor. [Padrão: 1.0%]" />
+		<string id="SMR_qH7e86V" text="Dano à distância" />
+		<string id="SMR_dzKLXtk" text="As flechas, virotes e armas de arremesso do herói causam mais dano, calculado antes da armadura. Com o padrão de 1.5% por ponto: +15% com Controle 10. [Padrão: ativado]" />
+		<string id="SMR_PRpft3m" text="Dano à distância por ponto de Controle. [Padrão: 1.5%]" />
+		<string id="SMR_LiPh5gf" text="Precisão" />
+		<string id="SMR_VdNrbAQ" text="Os ataques à distância do herói se dispersam menos. Com o padrão de 2% por ponto: +20% com Controle 10, então a dispersão é dividida por 1.2. [Padrão: ativado]" />
+		<string id="SMR_Cw4qyJF" text="Precisão por ponto de Controle. [Padrão: 2.0%]" />
+		<string id="SMR_4pKNqAu" text="Velocidade de recarga" />
+		<string id="SMR_vEqefTk" text="O herói recarrega mais rápido. Com o padrão de 1.5% por ponto: +15% com Controle 10. [Padrão: ativado]" />
+		<string id="SMR_NKCzcSR" text="Velocidade de recarga por ponto de Controle. [Padrão: 1.5%]" />
+		<string id="SMR_XyyjKNT" text="Manuseio de armas" />
+		<string id="SMR_RdfVnN4" text="O herói maneja as armas com mais agilidade (o valor de manuseio da arma). Com o padrão de 1% por ponto: +10% com Controle 10. [Padrão: ativado]" />
+		<string id="SMR_PFv6xBP" text="Manuseio de armas por ponto de Controle. [Padrão: 1.0%]" />
+		<string id="SMR_4DPBDPZ" text="Pontos de vida máximos" />
+		<string id="SMR_rxLc57K" text="O herói tem mais pontos de vida. Com o padrão de 2% por ponto: +20% com Resistência 10, ou seja, +20 pontos de vida sobre a base de 100. [Padrão: ativado]" />
+		<string id="SMR_rt9UBs6" text="Pontos de vida por ponto de Resistência. [Padrão: 2.0%]" />
+		<string id="SMR_Pf3vD4d" text="Resistência a interrupções" />
+		<string id="SMR_MzWoUeV" text="O herói aguenta golpes mais fortes sem que o ataque em andamento seja interrompido. Com o padrão de 2% por ponto: +20% com Resistência 10. [Padrão: ativado]" />
+		<string id="SMR_hdkwK4n" text="Resistência a interrupções por ponto de Resistência. [Padrão: 2.0%]" />
+		<string id="SMR_MJxB6AG" text="Estabilidade da mira" />
+		<string id="SMR_CzPDSJY" text="O herói consegue manter um arco puxado firme por mais tempo antes de a mira começar a tremer. Com o padrão de 2% por ponto: +20% com Resistência 10. [Padrão: ativado]" />
+		<string id="SMR_Cf9NfvB" text="Estabilidade da mira por ponto de Resistência. [Padrão: 2.0%]" />
+		<string id="SMR_pysyoLA" text="Velocidade de movimento" />
+		<string id="SMR_ezNAZWu" text="O herói se move mais rápido a pé. Com o padrão de 0.5% por ponto: +5% com Resistência 10. [Padrão: ativado]" />
+		<string id="SMR_Dfo2Lya" text="Velocidade de movimento por ponto de Resistência. [Padrão: 0.5%]" />
+		<string id="SMR_jG5wrbR" text="Energia de forja" />
+		<string id="SMR_wEYKNqD" text="O herói tem mais energia de forja máxima. Com o padrão de 5 por ponto: +50 com Resistência 10 (o jogo base dá 100 mais metade da habilidade Forja). [Padrão: ativado]" />
+		<string id="SMR_k4i6zEk" text="Energia de forja por ponto de Resistência. [Padrão: 5]" />
+		<string id="SMR_NaPzAoo" text="Superioridade em simulação" />
+		<string id="SMR_PbofDeR" text="Em batalhas simuladas (ao enviar tropas e em batalhas travadas sem você), cada tropa do grupo causa mais dano. Usa a Astúcia do líder do grupo. Com o padrão de 1% por ponto: +10% com Astúcia 10. [Padrão: ativado]" />
+		<string id="SMR_c5D6rJE" text="Dano simulado por ponto de Astúcia do líder do grupo. [Padrão: 1.0%]" />
+		<string id="SMR_iRsVFqk" text="Renome por vitórias" />
+		<string id="SMR_eCYuPxn" text="Batalhas vencidas dão mais renome. Usa a Astúcia do líder do grupo. Com o padrão de 2% por ponto: +20% com Astúcia 10. [Padrão: ativado]" />
+		<string id="SMR_FrdzYDm" text="Renome por ponto de Astúcia do líder do grupo. [Padrão: 2.0%]" />
+		<string id="SMR_YaQNmmN" text="Moral por vitórias" />
+		<string id="SMR_MzqDeem" text="Batalhas vencidas aumentam mais a moral do grupo. Usa a Astúcia do líder do grupo. Com o padrão de 2% por ponto: +20% com Astúcia 10. [Padrão: ativado]" />
+		<string id="SMR_zwrrfnV" text="Moral por ponto de Astúcia do líder do grupo. [Padrão: 2.0%]" />
+		<string id="SMR_evcqcxE" text="Chance de persuasão" />
+		<string id="SMR_78Kejpq" text="Suas tentativas de persuasão nas conversas têm sucesso com mais frequência e falham criticamente com menos frequência, do mesmo modo que os próprios bônus de persuasão do jogo. Apenas o jogador. Com o padrão de 1.5% por ponto: +15% com Social 10. [Padrão: ativado]" />
+		<string id="SMR_nT4Z467" text="Chance de persuasão por ponto do seu Social. [Padrão: 1.5%]" />
+		<string id="SMR_G88n3v8" text="Moral do grupo" />
+		<string id="SMR_57MfXrW" text="A moral do grupo é maior. Usa o Social do líder do grupo. Com o padrão de 1% por ponto: +10% com Social 10. [Padrão: ativado]" />
+		<string id="SMR_ibAkwbz" text="Moral do grupo por ponto de Social do líder do grupo. [Padrão: 1.0%]" />
+		<string id="SMR_HScDmtg" text="Tamanho do grupo" />
+		<string id="SMR_xzyoDh9" text="O grupo pode ter mais tropas. Usa o Social do líder do grupo. Com o padrão de 1% por ponto: +10% com Social 10. [Padrão: ativado]" />
+		<string id="SMR_kCSXU67" text="Tamanho do grupo por ponto de Social do líder do grupo. [Padrão: 1.0%]" />
+		<string id="SMR_Q9LQuqt" text="Salários do grupo" />
+		<string id="SMR_6XfjxgS" text="O grupo paga menos em salários das tropas. Usa o Social do líder do grupo. Com o padrão de 1% por ponto: -10% com Social 10. [Padrão: ativado]" />
+		<string id="SMR_XkzW5WU" text="Redução de salários por ponto de Social do líder do grupo. [Padrão: 1.0%]" />
+		<string id="SMR_FnReYdH" text="Limite de companheiros" />
+		<string id="SMR_fGgHmrR" text="O clã pode ter mais companheiros. Usa o Social do líder do clã. Com o padrão de 4 pontos por companheiro: +2 companheiros com Social 10. [Padrão: ativado]" />
+		<string id="SMR_E2MtsxY" text="Pontos de Social do líder do clã necessários para cada companheiro extra. [Padrão: 4]" />
+		<string id="SMR_MLjyZSK" text="Renda do clã" />
+		<string id="SMR_cMauXAj" text="A renda diária do clã é maior. Usa a Inteligência do líder do clã. Com o padrão de 1% por ponto: +10% com Inteligência 10. [Padrão: ativado]" />
+		<string id="SMR_jKfxNHw" text="Renda do clã por ponto de Inteligência do líder do clã. [Padrão: 1.0%]" />
+		<string id="SMR_TtHN5np" text="Influência por vitórias" />
+		<string id="SMR_Emo2gzo" text="Batalhas vencidas dão mais influência (apenas clãs em um reino ganham influência). Usa a Inteligência do líder do grupo. Com o padrão de 2% por ponto: +20% com Inteligência 10. [Padrão: ativado]" />
+		<string id="SMR_pLoBBUp" text="Influência por ponto de Inteligência do líder do grupo. [Padrão: 2.0%]" />
+		<string id="SMR_rNja3Fx" text="Ganho de experiência" />
+		<string id="SMR_92pJ6nb" text="O herói ganha mais experiência. Com o padrão de 1% por ponto: +10% com Inteligência 10. [Padrão: ativado]" />
+		<string id="SMR_3HBuqYy" text="Experiência por ponto de Inteligência. [Padrão: 1.0%]" />
+		<string id="SMR_vzHQhka" text="Experiência do líder do grupo por funções" />
+		<string id="SMR_iE4UhFX" text="Quando o batedor, o engenheiro, o cirurgião ou o intendente do grupo ganha experiência na habilidade dessa função, o líder do grupo também recebe uma parte dela. Usa a Inteligência do líder do grupo. Com o padrão de 2% por ponto: 20% dela com Inteligência 10. [Padrão: ativado]" />
+		<string id="SMR_HBc8hmL" text="Parte da experiência da função por ponto de Inteligência do líder do grupo. [Padrão: 2.0%]" />
+		<string id="SMR_Uqhcsx6" text="Taxa de cura dos heróis" />
+		<string id="SMR_xEEKafv" text="Os heróis do grupo se curam mais rápido. Usa a Inteligência do líder do grupo. Com o padrão de 3% por ponto: +30% com Inteligência 10. [Padrão: desativado]" />
+		<string id="SMR_jW2dMKa" text="Taxa de cura dos heróis por ponto de Inteligência do líder do grupo. [Padrão: 3.0%]" />
 	</strings>
 </base>

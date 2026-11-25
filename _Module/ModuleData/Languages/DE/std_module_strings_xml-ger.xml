@@ -45,5 +45,108 @@
 		<string id="SMR_q4Tn8Yb" text="Technische Einstellungen" />
 		<string id="SMR_Lx2dWf6" text="Protokollierung für Debugging" />
 		<string id="SMR_Pz9kRc3" text="Protokollierung für Debugging (nur Englisch). [Standard: deaktiviert]" />
+		<string id="SMR_bv3zaGT" text="Attributboni" />
+		<string id="SMR_4LY8pjF" text="Attributboni aktivieren" />
+		<string id="SMR_NM3ahyQ" text="Jeder Attributpunkt gewährt die Boni, die unten unter seinem Attribut aufgeführt sind. Kampf- und persönliche Boni nutzen das eigene Attribut des Helden, Truppboni das des Truppführers und Clanboni das des Clanoberhaupts. Nur Helden haben Attribute, daher erhalten Truppen nichts. Wirkt nur in der Kampagne. Fahre im Charakterbildschirm mit der Maus über ein Attribut, um seine Boni zu sehen. [Standard: aktiviert]" />
+		<string id="SMR_6DENV2C" text="Mod Better Attributes überschreiben" />
+		<string id="SMR_q69Z4sb" text="Wenn die Mod Better Attributes ebenfalls geladen ist, wird sie abgeschaltet, damit sich die Boni beider Mods nicht addieren. Wenn deaktiviert, gewähren beide Mods ihre Boni. Wirkt nach einem Neustart des Spiels. [Standard: aktiviert]" />
+		<string id="SMR_EbEhjZv" text="Kraft" />
+		<string id="SMR_X37MKx6" text="Kontrolle" />
+		<string id="SMR_QTdKXEf" text="Ausdauer" />
+		<string id="SMR_2wVnQpM" text="Gerissenheit" />
+		<string id="SMR_PZgu2Ei" text="Sozial" />
+		<string id="SMR_Kw37Gtg" text="Intelligenz" />
+		<string id="SMR_KGbkBGH" text="Aktiviert" />
+		<string id="SMR_k5pfV5M" text="Schaltet alle Boni dieses Attributs ein oder aus. [Standard: aktiviert]" />
+		<string id="SMR_MT4CKRh" text="Bonus pro Attributpunkt" />
+		<string id="SMR_cZrT3Ve" text="Sozial-Punkte pro Gefährten" />
+		<string id="SMR_wkMqm8p" text="Wer erhält es" />
+		<string id="SMR_YTcoRdC" text="Spieler: nur du. Clan des Spielers: du und die Helden deines Clans. Alle Helden: jeder Held, KI-Lords eingeschlossen. Bei Trupp- und Clanboni wird dies beim Truppführer bzw. Clanoberhaupt geprüft. [Standard: Alle Helden]" />
+		<string id="SMR_5ZpeJE8" text="Spieler" />
+		<string id="SMR_L8C7L9G" text="Clan des Spielers" />
+		<string id="SMR_QSAHVDX" text="Alle Helden" />
+		<string id="SMR_TLYJ7wW" text="Charakterbildschirm" />
+		<string id="SMR_92o3MNh" text="Nur Boni im Attribut-Tooltip anzeigen" />
+		<string id="SMR_acNspfT" text="Der Attribut-Tooltip im Charakterbildschirm listet die Boni dieses Attributs für den gewählten Helden auf. Wenn aktiviert, ersetzt die Liste den Spieltext zum Vergeben von Punkten, damit auch lange Listen hineinpassen. Wenn deaktiviert, folgt der Spieltext auf die Liste. [Standard: aktiviert]" />
+		<string id="SMR_misH9Rh" text="{BONUS}: {VALUE}" />
+		<string id="SMR_bKP5HPk" text="{NUMBER}%" />
+		<string id="SMR_nzDLhjM" text="Nahkampfschaden" />
+		<string id="SMR_g3fvJE6" text="Die Angriffe des Helden mit Nahkampfwaffen verursachen mehr Schaden, berechnet vor Abzug der Rüstung. Tritte, Schildstöße und waffenlose Angriffe sind nicht betroffen. Beim Standardwert von 1.5% pro Punkt: +15% bei Kraft 10. [Standard: aktiviert]" />
+		<string id="SMR_Wx3PPXz" text="Nahkampfschaden pro Punkt Kraft. [Standard: 1.5%]" />
+		<string id="SMR_god8tzQ" text="Spanngeschwindigkeit" />
+		<string id="SMR_Pdczdep" text="Der Held spannt Bögen schneller und holt schneller zu Stößen und Würfen aus. Beim Standardwert von 1% pro Punkt: +10% bei Kraft 10. [Standard: aktiviert]" />
+		<string id="SMR_LZsrQDf" text="Spanngeschwindigkeit pro Punkt Kraft. [Standard: 1.0%]" />
+		<string id="SMR_PVpExdF" text="Durchbruchskraft" />
+		<string id="SMR_HGe7Ekq" text="Die Überkopfschläge des Helden zählen als stärker, wenn das Spiel entscheidet, ob sie einen Block durchbrechen. Wie im Grundspiel können nur Überkopfschläge einen Block durchbrechen. Beim Standardwert von 1% pro Punkt: +10% Durchbruchskraft bei Kraft 10. Nicht kompatibel mit Realistic Battle Mod, diese Mod hat dafür eigene Regeln. [Standard: deaktiviert]" />
+		<string id="SMR_QZ9pdQ3" text="Durchbruchskraft pro Punkt Kraft. [Standard: 1.0%]" />
+		<string id="SMR_BEa7PP8" text="Durchschneidechance" />
+		<string id="SMR_mJRSFJ9" text="Chance, dass ein Nahkampfschwung des Helden keine Wucht verliert, wenn er einen Gegner durchschneidet, sodass der nächste Gegner, den er erreicht, mit voller Wucht getroffen wird. Beim Standardwert von 1% pro Punkt: 10% bei Kraft 10. Nicht kompatibel mit Realistic Battle Mod, diese Mod hat dafür eigene Regeln. [Standard: deaktiviert]" />
+		<string id="SMR_gfHP4ug" text="Durchschneidechance pro Punkt Kraft. [Standard: 1.0%]" />
+		<string id="SMR_qH7e86V" text="Fernkampfschaden" />
+		<string id="SMR_dzKLXtk" text="Die Pfeile, Bolzen und Wurfwaffen des Helden verursachen mehr Schaden, berechnet vor Abzug der Rüstung. Beim Standardwert von 1.5% pro Punkt: +15% bei Kontrolle 10. [Standard: aktiviert]" />
+		<string id="SMR_PRpft3m" text="Fernkampfschaden pro Punkt Kontrolle. [Standard: 1.5%]" />
+		<string id="SMR_LiPh5gf" text="Genauigkeit" />
+		<string id="SMR_VdNrbAQ" text="Die Fernkampfangriffe des Helden streuen weniger. Beim Standardwert von 2% pro Punkt: +20% bei Kontrolle 10, die Streuung wird also durch 1.2 geteilt. [Standard: aktiviert]" />
+		<string id="SMR_Cw4qyJF" text="Genauigkeit pro Punkt Kontrolle. [Standard: 2.0%]" />
+		<string id="SMR_4pKNqAu" text="Nachladegeschwindigkeit" />
+		<string id="SMR_vEqefTk" text="Der Held lädt schneller nach. Beim Standardwert von 1.5% pro Punkt: +15% bei Kontrolle 10. [Standard: aktiviert]" />
+		<string id="SMR_NKCzcSR" text="Nachladegeschwindigkeit pro Punkt Kontrolle. [Standard: 1.5%]" />
+		<string id="SMR_XyyjKNT" text="Waffenhandhabung" />
+		<string id="SMR_RdfVnN4" text="Der Held führt Waffen wendiger (der Waffenwert Handhabung). Beim Standardwert von 1% pro Punkt: +10% bei Kontrolle 10. [Standard: aktiviert]" />
+		<string id="SMR_PFv6xBP" text="Waffenhandhabung pro Punkt Kontrolle. [Standard: 1.0%]" />
+		<string id="SMR_4DPBDPZ" text="Maximale Trefferpunkte" />
+		<string id="SMR_rxLc57K" text="Der Held hat mehr Trefferpunkte. Beim Standardwert von 2% pro Punkt: +20% bei Ausdauer 10, also +20 Trefferpunkte beim Grundwert von 100. [Standard: aktiviert]" />
+		<string id="SMR_rt9UBs6" text="Trefferpunkte pro Punkt Ausdauer. [Standard: 2.0%]" />
+		<string id="SMR_Pf3vD4d" text="Standfestigkeit" />
+		<string id="SMR_MzWoUeV" text="Der Held kann stärkere Treffer einstecken, ohne dass sein laufender Angriff unterbrochen wird. Beim Standardwert von 2% pro Punkt: +20% bei Ausdauer 10. [Standard: aktiviert]" />
+		<string id="SMR_hdkwK4n" text="Standfestigkeit pro Punkt Ausdauer. [Standard: 2.0%]" />
+		<string id="SMR_MJxB6AG" text="Zielstabilität" />
+		<string id="SMR_CzPDSJY" text="Der Held kann einen gespannten Bogen länger ruhig halten, bevor das Zielen zu zittern beginnt. Beim Standardwert von 2% pro Punkt: +20% bei Ausdauer 10. [Standard: aktiviert]" />
+		<string id="SMR_Cf9NfvB" text="Zielstabilität pro Punkt Ausdauer. [Standard: 2.0%]" />
+		<string id="SMR_pysyoLA" text="Bewegungsgeschwindigkeit" />
+		<string id="SMR_ezNAZWu" text="Der Held bewegt sich zu Fuß schneller. Beim Standardwert von 0.5% pro Punkt: +5% bei Ausdauer 10. [Standard: aktiviert]" />
+		<string id="SMR_Dfo2Lya" text="Bewegungsgeschwindigkeit pro Punkt Ausdauer. [Standard: 0.5%]" />
+		<string id="SMR_jG5wrbR" text="Schmiedeausdauer" />
+		<string id="SMR_wEYKNqD" text="Der Held hat mehr maximale Schmiedeausdauer. Beim Standardwert von 5 pro Punkt: +50 bei Ausdauer 10 (das Grundspiel gibt 100 plus die Hälfte der Fertigkeit Schmieden). [Standard: aktiviert]" />
+		<string id="SMR_k4i6zEk" text="Schmiedeausdauer pro Punkt Ausdauer. [Standard: 5]" />
+		<string id="SMR_NaPzAoo" text="Simulationsvorteil" />
+		<string id="SMR_PbofDeR" text="In simulierten Schlachten (Truppen schicken sowie Schlachten ohne dich) verursachen alle Truppen des Trupps mehr Schaden. Nutzt das Attribut Gerissenheit des Truppführers. Beim Standardwert von 1% pro Punkt: +10% bei Gerissenheit 10. [Standard: aktiviert]" />
+		<string id="SMR_c5D6rJE" text="Simulierter Schaden pro Punkt Gerissenheit des Truppführers. [Standard: 1.0%]" />
+		<string id="SMR_iRsVFqk" text="Ruhm aus Siegen" />
+		<string id="SMR_eCYuPxn" text="Gewonnene Schlachten bringen mehr Ruhm. Nutzt das Attribut Gerissenheit des Truppführers. Beim Standardwert von 2% pro Punkt: +20% bei Gerissenheit 10. [Standard: aktiviert]" />
+		<string id="SMR_FrdzYDm" text="Ruhm pro Punkt Gerissenheit des Truppführers. [Standard: 2.0%]" />
+		<string id="SMR_YaQNmmN" text="Moral aus Siegen" />
+		<string id="SMR_MzqDeem" text="Gewonnene Schlachten steigern die Moral des Trupps stärker. Nutzt das Attribut Gerissenheit des Truppführers. Beim Standardwert von 2% pro Punkt: +20% bei Gerissenheit 10. [Standard: aktiviert]" />
+		<string id="SMR_zwrrfnV" text="Moral pro Punkt Gerissenheit des Truppführers. [Standard: 2.0%]" />
+		<string id="SMR_evcqcxE" text="Überzeugungschance" />
+		<string id="SMR_78Kejpq" text="Deine Überzeugungsversuche in Gesprächen gelingen öfter und scheitern seltener kritisch, genau wie bei den eigenen Überzeugungsboni des Spiels. Nur für den Spieler. Beim Standardwert von 1.5% pro Punkt: +15% bei Sozial 10. [Standard: aktiviert]" />
+		<string id="SMR_nT4Z467" text="Überzeugungschance pro Punkt deines Attributs Sozial. [Standard: 1.5%]" />
+		<string id="SMR_G88n3v8" text="Truppmoral" />
+		<string id="SMR_57MfXrW" text="Die Truppmoral ist höher. Nutzt das Attribut Sozial des Truppführers. Beim Standardwert von 1% pro Punkt: +10% bei Sozial 10. [Standard: aktiviert]" />
+		<string id="SMR_ibAkwbz" text="Truppmoral pro Punkt Sozial des Truppführers. [Standard: 1.0%]" />
+		<string id="SMR_HScDmtg" text="Truppgröße" />
+		<string id="SMR_xzyoDh9" text="Der Trupp kann mehr Truppen aufnehmen. Nutzt das Attribut Sozial des Truppführers. Beim Standardwert von 1% pro Punkt: +10% bei Sozial 10. [Standard: aktiviert]" />
+		<string id="SMR_kCSXU67" text="Truppgröße pro Punkt Sozial des Truppführers. [Standard: 1.0%]" />
+		<string id="SMR_Q9LQuqt" text="Truppsold" />
+		<string id="SMR_6XfjxgS" text="Der Trupp zahlt weniger Sold für seine Truppen. Nutzt das Attribut Sozial des Truppführers. Beim Standardwert von 1% pro Punkt: -10% bei Sozial 10. [Standard: aktiviert]" />
+		<string id="SMR_XkzW5WU" text="Soldsenkung pro Punkt Sozial des Truppführers. [Standard: 1.0%]" />
+		<string id="SMR_FnReYdH" text="Gefährtenlimit" />
+		<string id="SMR_fGgHmrR" text="Der Clan kann mehr Gefährten haben. Nutzt das Attribut Sozial des Clanoberhaupts. Beim Standardwert von 4 Punkten pro Gefährten: +2 Gefährten bei Sozial 10. [Standard: aktiviert]" />
+		<string id="SMR_E2MtsxY" text="Sozial-Punkte des Clanoberhaupts, die für jeden zusätzlichen Gefährten nötig sind. [Standard: 4]" />
+		<string id="SMR_MLjyZSK" text="Claneinkommen" />
+		<string id="SMR_cMauXAj" text="Das tägliche Claneinkommen ist höher. Nutzt das Attribut Intelligenz des Clanoberhaupts. Beim Standardwert von 1% pro Punkt: +10% bei Intelligenz 10. [Standard: aktiviert]" />
+		<string id="SMR_jKfxNHw" text="Claneinkommen pro Punkt Intelligenz des Clanoberhaupts. [Standard: 1.0%]" />
+		<string id="SMR_TtHN5np" text="Einfluss aus Siegen" />
+		<string id="SMR_Emo2gzo" text="Gewonnene Schlachten bringen mehr Einfluss (nur Clans in einem Königreich erhalten Einfluss). Nutzt das Attribut Intelligenz des Truppführers. Beim Standardwert von 2% pro Punkt: +20% bei Intelligenz 10. [Standard: aktiviert]" />
+		<string id="SMR_pLoBBUp" text="Einfluss pro Punkt Intelligenz des Truppführers. [Standard: 2.0%]" />
+		<string id="SMR_rNja3Fx" text="Erfahrungsgewinn" />
+		<string id="SMR_92pJ6nb" text="Der Held erhält mehr Erfahrung. Beim Standardwert von 1% pro Punkt: +10% bei Intelligenz 10. [Standard: aktiviert]" />
+		<string id="SMR_3HBuqYy" text="Erfahrung pro Punkt Intelligenz. [Standard: 1.0%]" />
+		<string id="SMR_vzHQhka" text="Truppführer-Erfahrung aus Rollen" />
+		<string id="SMR_iE4UhFX" text="Wenn der Späher, Ingenieur, Chirurg oder Quartiermeister des Trupps Erfahrung in der Fertigkeit seiner Rolle erhält, erhält auch der Truppführer einen Anteil davon. Nutzt das Attribut Intelligenz des Truppführers. Beim Standardwert von 2% pro Punkt: 20% davon bei Intelligenz 10. [Standard: aktiviert]" />
+		<string id="SMR_HBc8hmL" text="Anteil an der Erfahrung der Rolle pro Punkt Intelligenz des Truppführers. [Standard: 2.0%]" />
+		<string id="SMR_Uqhcsx6" text="Heilrate der Helden" />
+		<string id="SMR_xEEKafv" text="Helden im Trupp heilen schneller. Nutzt das Attribut Intelligenz des Truppführers. Beim Standardwert von 3% pro Punkt: +30% bei Intelligenz 10. [Standard: deaktiviert]" />
+		<string id="SMR_jW2dMKa" text="Heilrate der Helden pro Punkt Intelligenz des Truppführers. [Standard: 3.0%]" />
 	</strings>
 </base>

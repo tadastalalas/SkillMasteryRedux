@@ -1,3 +1,50 @@
+## SMR v1.5.7.1
+
+- Attribute bonuses merged from Better Attributes (Shadow32055, decompiled 1.4.8 build) and reworked. Save compatibility: none (nothing saved; every bonus is calculated live).
+  - 26 bonuses, each locked to one attribute (`Core\AttributeBonus.cs`, character screen order): Vigor `MeleeDamage`, `DrawSpeed`, `CrushThrough`, `SliceThrough`; Control `RangedDamage`, `Accuracy`, `ReloadSpeed`, `WeaponHandling`; Endurance `MaxHitPoints`, `StaggerResistance`, `AimStability`, `MovementSpeed`, `SmithingStamina`; Cunning `SimulationAdvantage`, `VictoryRenown`, `VictoryMorale`; Social `PersuasionChance`, `PartyMorale`, `PartySize`, `PartyWages`, `CompanionLimit`; Intelligence `ClanIncome`, `VictoryInfluence`, `ExperienceGain`, `RoleExperience`, `HeroHealing`.
+  - Moved attribute vs Better Attributes: Reload Speed Vigor -> Control, Movement Speed Control -> Endurance, Persuasion Cunning -> Social, Healing Vigor -> Intelligence.
+  - Defaults per point (Better Attributes in brackets): Melee 1.5% (2%), Draw 1% (2%), Crush 1% (2%, off), Slice 1% (2%, off), Ranged 1.5% (2%), Accuracy 2%, Reload 1.5% (2%), Handling 1% (2%), HP 2%, Stagger 2%, Aim 2%, Movement 0.5% (2%), Smithing +5 (+10), Simulation 1% (2%), Renown 2%, Victory morale 2%, Persuasion 1.5% (2%), Party morale 1% (2%), Party size 1% (2%), Wages 1% (2%), Companions +1 per 4 Social (+1 per point), Income 1% (2%), Influence 2%, Experience 1% (2%), Role experience 2% (2.5%), Healing 3% (5%, off).
+  - "Player Only" replaced by "Who Gets It" (`Data\BonusRecipients.cs`: Player / PlayerClan / AllHeroes, default AllHeroes); Persuasion is player only and has none.
+  - Who counts: combat and personal bonuses the hero; party bonuses the party leader (`PartyBase`/`MobileParty.LeaderHero`); `CompanionLimit` and `ClanIncome` the clan leader. Heroes only (`AttributeBonusRules.HeroOf`, campaign only).
+  - Rules facade `Core\AttributeBonusRules.cs` (`Value`, `AddFactor`, `IsRecipient`, `AttributeOf`); vanilla cap in `Core\AttributeBonusBalance.cs` (blow magnitude 500).
+  - Factors added to `ExplainedNumber` are labelled with the attribute's own name (vanilla `CharacterAttribute.Name`), so breakdown tooltips are localized.
+- New patches (all Postfix unless noted; argument types pinned from dnSpy of 1.5.7, 1.4.8 and 1.4.7):
+  - `MissionCombatMechanicsHelper.ComputeBlowMagnitude` (private, string target): melee and ranged damage scale `baseMagnitude` and `specialMagnitude` like vanilla's weapon damage multiplier, re-clamped to 500. Skips falls, horse charges, kicks/bashes (`IsAlternativeAttack`) and unarmed hits. Fixes Better Attributes' melee bonus (int cast made it x1 until +100%) and its ranged bonus applying to melee.
+  - `MissionCombatMechanicsHelper.UpdateMomentumRemaining` (Prefix, skips vanilla): slice through chance keeps full momentum; melee weapons only, never on crush-throughs (`isCrushThrough`), so vanilla's crush-through momentum loss stays. Better Attributes' "Cut through!" message dropped.
+  - `SandboxAgentApplyDamageModel.CalculateStaggerThresholdDamage`; `SandboxAgentApplyDamageModel.DecideCrushedThrough` (Prefix, changes `totalAttackEnergy` only): vanilla's overhead-swing rule stays, no random crush.
+  - `SandboxAgentStatCalculateModel.UpdateAgentStats`: `ThrustOrRangedReadySpeedMultiplier`, `WeaponInaccuracy`, `ReloadSpeed`, `HandlingMultiplier`, `WeaponUnsteadyBeginTime`, `MaxSpeedMultiplier`.
+    - Aim Stability delays `WeaponUnsteadyBeginTime` and `WeaponUnsteadyEndTime` by the same time, so vanilla's ramp to full shake keeps its length (Better Attributes moved the begin only, which shortened or inverted the ramp).
+    - Vanilla does not rewrite every property on every call, so a property is scaled only when its value differs from what the patch wrote last time (`ConditionalWeakTable<AgentDrivenProperties, float[]>`); Better Attributes multiplied stale values again.
+  - `DefaultCharacterStatsModel.MaxHitpoints`, `CraftingCampaignBehavior.GetMaxHeroCraftingStamina` (any hero; Better Attributes added +1 and was player only).
+  - `DefaultCombatSimulationModel.SimulateHit` (troop overload): `#if LOWER_THAN_1_5` for the argument types, 1.5.7 adds `BattleEnvironment`. Now party wide from the striker party leader, `AddFactor(value)` (Better Attributes added 1 + value). Ship overload not patched: vanilla returns 0 in all three versions.
+  - `DefaultBattleRewardModel.CalculateRenownGain` / `CalculateMoraleGainVictory` / `CalculateInfluenceGain`.
+  - `DefaultPersuasionModel.GetBonusSuccessChance` (string target, signature from the `GetChances` call): `__result += value`. `GetChances` (dnSpy 1.5.7, 1.4.8) applies it as success x bonus and critical failure x (2 - bonus), clamped to 0..1, so the bonus raises success and lowers critical failure like vanilla's own bonuses. Better Attributes scaled `GetDefaultSuccessChance`, which also raised critical failure (more than success on Very Hard / Extremely Hard) and dropped the 100% cap.
+  - `DefaultPartyMoraleModel.GetEffectivePartyMorale`; `DefaultPartySizeLimitModel.GetPartyMemberSizeLimit` (`#if LOWER_THAN_1_5`: 1.5.7 adds `bool isCurrentlyAtSea`).
+  - `DefaultPartyWageModel.GetTotalWage`: postfix instead of Better Attributes' replaced `PartyWageModel`.
+  - `DefaultClanTierModel.GetCompanionLimit`: uses each clan's own leader (Better Attributes used the player for every clan).
+  - `DefaultClanFinanceModel.CalculateClanIncomeInternal` (private, string target): adds `ResultNumber * bonus` when the income so far is positive.
+  - `DefaultGenericXpModel.GetXpMultiplier`.
+  - `Hero.AddSkillXp`: role skills compared as `DefaultSkills` objects (Better Attributes compared translated names), leader credited through the public `Hero.AddSkillXp` (no `_heroDeveloper` reflection).
+  - `DefaultPartyHealingModel.GetDailyHealingHpForHeroes`: skips prisoners and starving parties; respects Who Gets It (Better Attributes ignored "Player Only").
+  - `CharacterAttributeItemVM` constructor (Better Attributes patched it too) and `RefreshWithCurrentValues`: `UI\AttributeBonusTooltip.cs` keeps vanilla's `IncreaseHelpText` per row in a `ConditionalWeakTable` and rebuilds from it, using `AttributeValue`; private field `_hero` injected as `____hero`.
+    - `RefreshValues` is patched once from the constructor postfix (`CharacterAttributeItemVMRefreshValuesPatch.TryApply`), not by `PatchAll`: it reads `CampaignUIHelper.SkillObjectComparerInstance`, and `CampaignUIHelper` is `beforefieldinit` (reference assemblies 1.4.7, 1.4.8, 1.5.7). Patching it at module load broke `CampaignUIHelper`'s static initializer for the session: crash on save load, `TypeInitializationException` in `CampaignUIHelper.GetDenarTooltip` (found in testing, never released).
+  - `SubModule.OnSubModuleLoad`: while `PatchAll` and UIExtender run, a `FirstChanceException` handler logs any exception thrown from a static initializer (`.cctor` in the stack) with the full stack.
+  - `UI\AttributeBonusTooltip.cs` keeps per row the vanilla hint and the text it wrote last (`HintState`); the current hint counts as vanilla's only when it differs from the last written text. Fixes the list showing twice with "Show Only Bonuses in Attribute Tooltip" off: the constructor postfix ran after the patched `RefreshValues` had already added the list and saved list + vanilla as vanilla (found in testing, never released).
+- Better Attributes compat `Compat\BetterAttributesCompat.cs`, called once from `SubModule.OnBeforeInitialModuleScreenSetAsRoot`; reloads settings there.
+  - Setting on: removes every patch whose patch method is in the Better Attributes assembly (`Harmony.GetAllPatchedMethods` / `GetPatchInfo` / `Unpatch(original, patch)`, never `UnpatchAll`), and prefixes `BetterAttributes.Custom.CustomDefaultPartyWageModel.GetTotalWage` to return `DefaultPartyWageModel.GetTotalWage` through a non-virtual `AccessTools.MethodDelegate`.
+  - Setting off: log warning only. Detection by type `BetterAttributes.BetterAttributes`.
+- Settings (MCM `Attribute Bonuses`, GroupOrder 5; "Technical settings" moved to GroupOrder 6; xml section `AttributeBonusSettings`):
+  - `EnableAttributeBonuses`, `OverwriteBetterAttributes` (RequireRestart), attribute toggles `VigorBonuses` … `IntelligenceBonuses` (xml `<Attribute>Bonuses/Enabled`), per bonus `<Bonus>` (IsToggle group), `<Bonus>PerPoint` (0–10% per point), `<Bonus>Recipients` (MCM `Dropdown<string>`, xml enum name); `SmithingStaminaPerPoint` 0–20, `CompanionLimitPointsPerCompanion` 1–10; `ShowOnlyBonusesInAttributeTooltip` (subgroup Character Screen).
+  - MCM gives a group its order only when one of its own settings creates it, so each group's settings are declared before its subgroups' (`MCM.Abstractions` `SettingsUtils.GetGroupFor`).
+  - `_Module\ModConfiguration.xml` checked against `XmlSerializer` output of the built DLL: identical.
+- Texts: 103 new ids `SMR_bv3zaGT` … `SMR_jW2dMKa` (`Core\Texts.cs` region "Attribute bonuses"), appended in the same order to English and all 12 language files and translated into all 12 languages.
+- Re-verify on game updates (not checked by the compiler): `ComputeBlowMagnitude`, `GetBonusSuccessChance`, `CalculateClanIncomeInternal`, `CharacterAttributeItemVM._hero`, Better Attributes type names.
+- Test on 1.5.7, 1.4.8 and 1.4.7, with and without MCM, with and without Better Attributes:
+  - MCM: group order Vigor … Intelligence, Character Screen; toggles hide their bonuses; Overwrite asks for a restart.
+  - Character screen: attribute tooltip lists bonuses; adding a point before confirming updates the numbers (only if the game calls `RefreshWithCurrentValues` then).
+  - Breakdown tooltips: hit points, party size, wages, morale, renown, healing show the attribute line. Combat: melee and ranged damage, crossbow reload, movement.
+  - Log: "Better Attributes detected and overwritten: N of its patches removed …".
+
 ## SMR v1.5.7.0
 
 - Migrated to the current standard. No gameplay change. Save compatibility: none (the mod saves nothing).
@@ -20,6 +67,7 @@
 - Patch targets re-verified against BannerlordSource1.5.7: all match, no `#if` needed.
   - `CharacterDeveloperVM.RefreshCharacterSelector`, `SelectorVM._onChange`, `DefaultCharacterDevelopmentModel.CalculateLearningRate` (param `skillValue`), `PerkSelectionBarWidget.OnLateUpdate` / `GetXPositionOfLevelOnBar(float)`, `PerkVM` ctor / `_currentState` / `_getIsPerkSelected`, `SkillVM.RefreshNumOfUnopenedPerks`, `BasicTooltipViewModel._tooltipProperties`, `GauntletCharacterDeveloperScreen._dataSource`.
 - `_Module\SMR_Changelog.txt` renamed to `_Module\Changelog.txt`. Added `.github\copilot-instructions.md`, this file; `FEATURES.md` and `NexusDescription.txt` updated.
+- `UI\HeroSelectorMarkerPrefab.cs`: 1.5.7 XPath `…/Children/*[last()]` (`ScrollingTextWidget` not found under `DropdownItemButton`); 1.4.x XPath unchanged.
 - Test on 1.5.7, 1.4.8 and 1.4.7, with and without MCM:
   - Prefab inserts (not checked by the compiler): skill limit marker on the skill bar, learning limit tooltip row, hero dropdown markers.
   - Mastery perks: click unlock, auto-assign, daily companion / AI lord grant, messages, perk tooltip "Mastery Skill Level".

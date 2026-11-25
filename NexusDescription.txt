@@ -1,0 +1,127 @@
+[center][size=4]No more only one perk. You can [color=#93c47d]learn all perks[/color] in an immersive way.[/size]
+[size=4]Keep working on the skill past the final perk, and [color=#93c47d]unlock the unchosen perks[/color] again.[/size]
+[size=4]And skills no longer grind to a halt at their [color=#93c47d]learning limit[/color] along the way.[/size]
+[size=4]Every [color=#93c47d]attribute point[/color] now counts too, with bonuses sorted like the character screen.[/size]
+[i][color=#93c47d]The ideas and original code are by [/color][color=#ffff00]DaveYognaut01[/color][color=#93c47d] ([/color][url=https://www.nexusmods.com/mountandblade2bannerlord/mods/8280]Skill Mastery[/url][color=#93c47d]), [/color][color=#ffff00]SkaLoLaz[/color][color=#93c47d] ([/color][url=https://www.nexusmods.com/mountandblade2bannerlord/mods/9209]Show Skill Limit[/url][color=#93c47d]), [/color][color=#ffff00]Zorkanne33[/color][color=#93c47d] ([/color][url=https://www.nexusmods.com/mountandblade2bannerlord/mods/10465]Minimum Learning Rate[/url][color=#93c47d]) and [/color][color=#ffff00]Shadow32055[/color][color=#93c47d] ([/color][url=https://www.nexusmods.com/mountandblade2bannerlord/mods/3434]Better Attributes[/url][color=#93c47d]) - I merged the four mods into one.[/color][/i]
+
+[color=#93c47d][size=3]Supported game versions: 1.5.7, 1.4.8, 1.4.7.[/size][/color]
+
+[img]https://i.ibb.co/gLJbn144/Perk-Gif.gif[/img]
+
+[img]https://i.ibb.co/kgL4q21y/Skills-Perk-Preview-Desc.jpg[/img]
+
+[img]https://i.ibb.co/27jYT92j/Attributes-Bonuses-Preview-Desc.jpg[/img][/center]
+
+[color=#ffff00][size=4]What's new in v1.5.7.1 (since v1.5.7.0)[/size][/color]
+[color=#ffd966]Attribute bonuses from Better Attributes, reworked: every attribute point gives bonuses, sorted under the attribute that fits them.[/color]
+[color=#93c47d]On by default for every hero, AI lords included, with lower values than Better Attributes.[/color]
+[color=#ffd966]The attribute tooltip in the character screen lists each attribute's bonuses.[/color]
+[color=#93c47d]Better Attributes is switched off automatically when both mods are loaded, so bonuses do not add up.[/color]
+[color=#93c47d]More fixes - see the Changelog tab.[/color]
+
+[color=#ffff00][size=4]Features[/size][/color]
+[color=#ffd966]Skipped perks can be learned after you have learned the last perk of a skill.[/color]
+[color=#93c47d]The higher you level the skill, the more skipped perks you can unlock, one tier at a time.[/color]
+[color=#ffd966]Your clan's heroes can learn them too and pick them up by themselves.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]AI lords master skills too.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Your own mastery perks can be picked up for you automatically.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]Every hero keeps learning a skill at a minimum learning rate, even past its learning limit.[/color]
+[color=#ffd966]The character screen skill bar shows the level from which a skill only learns at the minimum rate.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]The character screen hero list marks heroes with unspent attribute or focus points and perks to choose.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]On-screen messages when a mastery perk is unlocked and when a skill is fully mastered.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]Every attribute point gives bonuses: 26 bonuses under Vigor, Control, Endurance, Cunning, Social and Intelligence, in the character screen order.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Each bonus can be switched off, made stronger or weaker, and limited to you, your clan or all heroes.[/color]
+[color=#93c47d]The character screen attribute tooltip lists the attribute's bonuses for the selected hero.[/color]
+[color=#ffd966]Better Attributes is switched off automatically when both mods are loaded.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]Works with or without Mod Configuration Menu.[/color]
+[color=#ffd966]Translations for 12 languages.[/color]
+
+[center][color=#6fa8dc][size=4]Additional languages included (using copilot ai translation)[/size][/color]
+Português (BR), 简体中文, 繁體中文, Deutsch, Français, Italiano, 日本語, 한국어, Polski, Русский, Español (LA), Türkçe[/center]
+
+[color=#ffff00][size=4]Settings[/size][/color]
+[color=#6fa8dc]Global Settings[/color]
+[color=#ffd966]Show Mastery Messages[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Disable Perk Safeguards[/color] - default [color=#e06666]off[/color] (while off, every mastery perk is reachable at or below skill level 330)
+[color=#ffd966]Show Skill Limit on Skill Bar[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Show Unspent Points in Hero List[/color] - default [color=#6aa84f]on[/color]
+[color=#6fa8dc]Player Settings[/color]
+[color=#ffd966]Mastery Perk Cost Offset[/color] - 1 to 50, default [color=#93c47d]20[/color] (extra skill levels per perk tier)
+[color=#ffd966]Mastery Starting Level Offset[/color] - -100 to 0, default [color=#93c47d]0[/color]
+[color=#ffd966]Auto-assign Mastery Perks[/color] - default [color=#e06666]off[/color]
+[color=#6fa8dc]Companion Settings[/color]
+[color=#ffd966]Allow Companions to Master Skills[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Mastery Perk Cost Offset[/color] - 1 to 50, default [color=#93c47d]20[/color] (AI lords use it too)
+[color=#ffd966]Mastery Starting Level Offset[/color] - -100 to 0, default [color=#93c47d]0[/color] (AI lords use it too)
+[color=#ffd966]Auto-assign Mastery Perks[/color] - default [color=#6aa84f]on[/color]
+[color=#6fa8dc]AI Lord Settings[/color]
+[color=#ffd966]Allow AI Lords to Master Skills[/color] - default [color=#6aa84f]on[/color]
+[color=#6fa8dc]Learning Settings[/color]
+[color=#ffd966]Minimum Learning Rate[/color] - 0.05 to 3.00, default [color=#93c47d]0.30[/color]
+[color=#6fa8dc]Attribute Bonuses[/color]
+[color=#ffd966]Enable Attribute Bonuses[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Overwrite Better Attributes Mod[/color] - default [color=#6aa84f]on[/color] (applies after a game restart)
+[color=#ffd966]Enabled[/color] - per attribute and per bonus, default [color=#6aa84f]on[/color] (off: Crush Through Power, Slice Through Chance, Hero Healing Rate)
+[color=#ffd966]Bonus per Attribute Point[/color] - 0.0% to 10.0%, default per bonus below (Smithing Stamina 0 to 20)
+[color=#ffd966]Social Points per Companion[/color] - 1 to 10, default [color=#93c47d]4[/color] (Companion Limit)
+[color=#ffd966]Who Gets It[/color] - Player / Player's Clan / All Heroes, default [color=#93c47d]All Heroes[/color] (Persuasion Chance is always player only)
+[color=#6fa8dc]Vigor:[/color] Melee Damage [color=#93c47d]1.5%[/color], Draw Speed [color=#93c47d]1.0%[/color], Crush Through Power [color=#93c47d]1.0%[/color], Slice Through Chance [color=#93c47d]1.0%[/color]
+[color=#6fa8dc]Control:[/color] Ranged Damage [color=#93c47d]1.5%[/color], Accuracy [color=#93c47d]2.0%[/color], Reload Speed [color=#93c47d]1.5%[/color], Weapon Handling [color=#93c47d]1.0%[/color]
+[color=#6fa8dc]Endurance:[/color] Max Hit Points [color=#93c47d]2.0%[/color], Stagger Resistance [color=#93c47d]2.0%[/color], Aim Stability [color=#93c47d]2.0%[/color], Movement Speed [color=#93c47d]0.5%[/color], Smithing Stamina [color=#93c47d]5[/color]
+[color=#6fa8dc]Cunning:[/color] Simulation Advantage [color=#93c47d]1.0%[/color], Renown from Victories [color=#93c47d]2.0%[/color], Morale from Victories [color=#93c47d]2.0%[/color]
+[color=#6fa8dc]Social:[/color] Persuasion Chance [color=#93c47d]1.5%[/color], Party Morale [color=#93c47d]1.0%[/color], Party Size [color=#93c47d]1.0%[/color], Party Wages [color=#93c47d]1.0%[/color], Companion Limit [color=#93c47d]4[/color] points per companion
+[color=#6fa8dc]Intelligence:[/color] Clan Income [color=#93c47d]1.0%[/color], Influence from Victories [color=#93c47d]2.0%[/color], Experience Gain [color=#93c47d]1.0%[/color], Party Leader Experience from Roles [color=#93c47d]2.0%[/color], Hero Healing Rate [color=#93c47d]3.0%[/color]
+[color=#6fa8dc]Character Screen:[/color] [color=#ffd966]Show Only Bonuses in Attribute Tooltip[/color] - default [color=#6aa84f]on[/color]
+[color=#6fa8dc]Technical settings[/color]
+[color=#ffd966]Logging for debugging[/color] - default [color=#e06666]off[/color]
+
+[color=#6fa8dc]With Mod Configuration Menu:[/color] change them in game under [color=#ffd966]Options > Mod Options[/color]. Changes apply at once.
+[color=#6fa8dc]Without Mod Configuration Menu:[/color] open [color=#ffd966]Modules[/color]\[color=#f1c232]SkillMasteryRedux[/color]\[color=#ffd966]ModConfiguration.xml[/color] in any text editor. The file is read every time a campaign is started or loaded. If it is deleted or broken, the mod creates a new one with the default values.
+
+[color=#ffff00][size=4]Game versions[/size][/color]
+[color=#93c47d]1.5.7[/color], [color=#93c47d]1.4.8[/color], [color=#93c47d]1.4.7[/color] in the same download. The mod picks the right files for your game by itself.
+
+[color=#ffff00][size=4]Compatibility[/size][/color]
+Can be added/removed [color=#93c47d]anytime[/color]. Mastery perks a hero already earned stay with the hero.
+Does [color=#93c47d]not add data[/color] to save game files.
+Uses Harmony patches on the character screen and on the vanilla learning rate; the learning rate is only raised after vanilla calculated it, so other mods that change learning keep working.
+The attribute bonuses are added after the base game calculated each value (combat, hit points, party size, wages, morale, renown, income and more), so other mods that change these keep working.
+Vanilla perk choice is untouched - you still pick one perk per tier first.
+Attribute and focus points, the character level cap and the XP tables are vanilla.
+[color=#93c47d]Better Attributes:[/color] switched off automatically while [color=#ffd966]Overwrite Better Attributes Mod[/color] is on; with it off, the bonuses of both mods add up.
+[color=#93c47d]Realistic Battle Mod:[/color] keep [color=#ffd966]Crush Through Power[/color] and [color=#ffd966]Slice Through Chance[/color] off (the default); RBM has its own rules for both.
+[color=#e06666]Not compatible with:[/color] Skill Mastery, Skill Mastery Fix, Show Skill Limit, Minimum Learning Rate. This mod already includes them, so disable them.
+
+[color=#ffff00][size=4]Requirements[/size][/color]
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2006]Harmony[/url] - [color=#e06666]required[/color].
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2102]UIExtenderEx[/url] - [color=#e06666]required[/color].
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/612]Mod Configuration Menu[/url] - [color=#6aa84f]optional[/color], for changing the settings in game.
+
+[color=#ffff00][size=4]Installation[/size][/color]
+Updating? [color=#e06666]Delete the old mod folder first[/color], never overwrite it.
+Advisable to use [color=#ffd966]7zip[/color] to extract archive.
+Put it in [color=#ffd966]Mount & Blade II Bannerlord[/color]\[color=#f1c232]Modules[/color] folder.
+Enable the mod in the launcher. [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2006]Harmony[/url], [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2102]UIExtenderEx[/url] (and [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/612]Mod Configuration Menu[/url], if you use it) must be above it.
+
+[color=#ffff00][size=4]Found a problem?[/size][/color]
+Generate a crash report link using [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2018]ButterLib[/url] mod. How to do that the mini guide is here: [url=http://bannerlordmodding.lt/guides/how_to_report_a_crash/]How To Report A Crash[/url]
+Turn on [color=#ffd966]Logging for debugging[/color] in [color=#ffd966]MCM[/color] settings or [color=#ffd966]ModConfiguration.xml[/color] in mod folder, [color=#f6b26b]repeat the problem[/color], then attach the file from [color=#ffd966]Modules[/color]\[color=#f1c232]SkillMasteryRedux[/color]\[color=#ffd966]logs[/color] to your [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2018]ButterLib[/url] crash report.
+
+[color=#ffff00][size=4]For Coders[/size][/color]
+The minimum learning rate is a Harmony postfix on [color=#ffe599]DefaultCharacterDevelopmentModel[/color].[color=#b6d7a8]CalculateLearningRate[/color], not a replaced model.
+The attribute bonuses are postfixes on the default models too; the wage bonus patches [color=#ffe599]DefaultPartyWageModel[/color].[color=#b6d7a8]GetTotalWage[/color] instead of replacing the wage model like Better Attributes did.
+
+[color=#a4c2f4]General Credits:[/color]
+[url=https://www.nexusmods.com/mountandblade2bannerlord/users/34906295]DaveYognaut01[/url] for the original [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/8280]Skill Mastery[/url] mod.
+[url=https://www.nexusmods.com/mountandblade2bannerlord/users/30125455]SkaLoLaz[/url] for [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/9209]Show Skill Limit[/url] mod.
+[url=https://www.nexusmods.com/mountandblade2bannerlord/users/1995942]Zorkanne33[/url] for [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/10465]Minimum Learning Rate[/url] mod (that mod is just "[color=#6d9eeb]if (skillValue < 330 && result.ResultNumber < 0.3f) result.LimitMin(0.3f);[/color]" so there is nothing to copyright there).
+Shadow32055 for [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/3434]Better Attributes[/url] mod.
+[url=https://next.nexusmods.com/profile/LesserScholar]Lesser Scholar[/url] who made extensive [url=https://www.youtube.com/watch?v=tOziMRXJ7tM&list=PLzebdAxJeltRwfJ8jzsNolgHkRvLjoCRC]Artisan Workshop Mod Tutorial[/url].
+[url=https://next.nexusmods.com/profile/LitauenLitauen]LitauenLitauen[/url] for his priceless modding documentation at [url=http://bannerlordmodding.lt/]BannerlordModding.lt[/url].
+Mount & Blade Modding community [url=https://discord.gg/TGpNRpXGQq]Discord Channel[/url].
+
+[color=#a4c2f4]Source On GitHub:[/color] [url=https://github.com/tadastalalas/SkillMasteryRedux]https://github.com/tadastalalas/SkillMasteryRedux[/url]
+[color=#a4c2f4]Issues, Suggestions & Other Miscellaneous:[/color] [url=https://discord.gg/NwS7yQgxvu]https://discord.gg/NwS7yQgxvu[/url]
+[color=#a4c2f4]Comprehensive Bannerlord Modding Guide:[/color] [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/11354]Vanilla Plus Proper Modding Notes[/url]
+[color=#a4c2f4]Other Mods:[/color] [url=https://www.nexusmods.com/profile/TadasTheLithuanian/mods]TadasTheLithuanian Nexus Profile[/url]
+[color=#a4c2f4]Support Me On:[/color] [url=https://ko-fi.com/tadasthelithuanian]https://ko-fi.com/tadasthelithuanian[/url] [color=#a4c2f4]or[/color] [url=https://paypal.me/tadastalalas]https://paypal.me/tadastalalas[/url]

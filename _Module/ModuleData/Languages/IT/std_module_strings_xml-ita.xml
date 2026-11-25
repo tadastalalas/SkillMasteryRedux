@@ -45,5 +45,108 @@
 		<string id="SMR_q4Tn8Yb" text="Impostazioni tecniche" />
 		<string id="SMR_Lx2dWf6" text="Registrazione per il debug" />
 		<string id="SMR_Pz9kRc3" text="Registrazione per il debug (solo in inglese). [Predefinito: disabilitato]" />
+		<string id="SMR_bv3zaGT" text="Bonus degli attributi" />
+		<string id="SMR_4LY8pjF" text="Attiva i bonus degli attributi" />
+		<string id="SMR_NM3ahyQ" text="Ogni punto attributo conferisce i bonus elencati sotto il relativo attributo. I bonus di combattimento e personali usano l'attributo dell'eroe stesso, i bonus del gruppo quello del capo del gruppo e i bonus del clan quello del capo del clan. Solo gli eroi hanno attributi, quindi le truppe non ricevono nulla. Funziona solo nella campagna. Passa il cursore su un attributo nella schermata del personaggio per vederne i bonus. [Predefinito: attivato]" />
+		<string id="SMR_6DENV2C" text="Sovrascrivi la mod Better Attributes" />
+		<string id="SMR_q69Z4sb" text="Se è caricata anche la mod Better Attributes, la disattiva così che i bonus delle due mod non si sommino. Se disattivato, entrambe le mod danno i loro bonus. Si applica dopo il riavvio del gioco. [Predefinito: attivato]" />
+		<string id="SMR_EbEhjZv" text="Vigore" />
+		<string id="SMR_X37MKx6" text="Controllo" />
+		<string id="SMR_QTdKXEf" text="Resistenza" />
+		<string id="SMR_2wVnQpM" text="Astuzia" />
+		<string id="SMR_PZgu2Ei" text="Socialità" />
+		<string id="SMR_Kw37Gtg" text="Intelligenza" />
+		<string id="SMR_KGbkBGH" text="Attivato" />
+		<string id="SMR_k5pfV5M" text="Attiva o disattiva tutti i bonus di questo attributo. [Predefinito: attivato]" />
+		<string id="SMR_MT4CKRh" text="Bonus per punto attributo" />
+		<string id="SMR_cZrT3Ve" text="Punti di Socialità per compagno" />
+		<string id="SMR_wkMqm8p" text="Chi ne beneficia" />
+		<string id="SMR_YTcoRdC" text="Giocatore: solo tu. Clan del giocatore: tu e gli eroi del tuo clan. Tutti gli eroi: ogni eroe, signori IA inclusi. Per i bonus del gruppo e del clan questo viene verificato sul capo del gruppo o del clan. [Predefinito: Tutti gli eroi]" />
+		<string id="SMR_5ZpeJE8" text="Giocatore" />
+		<string id="SMR_L8C7L9G" text="Clan del giocatore" />
+		<string id="SMR_QSAHVDX" text="Tutti gli eroi" />
+		<string id="SMR_TLYJ7wW" text="Schermata del personaggio" />
+		<string id="SMR_92o3MNh" text="Mostra solo i bonus nel suggerimento dell'attributo" />
+		<string id="SMR_acNspfT" text="Il suggerimento dell'attributo nella schermata del personaggio elenca i bonus di quell'attributo per l'eroe selezionato. Se attivato, l'elenco sostituisce il testo del gioco sull'aggiunta dei punti, così anche gli elenchi lunghi ci stanno. Se disattivato, il testo del gioco segue l'elenco. [Predefinito: attivato]" />
+		<string id="SMR_misH9Rh" text="{BONUS}: {VALUE}" />
+		<string id="SMR_bKP5HPk" text="{NUMBER}%" />
+		<string id="SMR_nzDLhjM" text="Danno in mischia" />
+		<string id="SMR_g3fvJE6" text="Gli attacchi con armi da mischia dell'eroe infliggono più danni, calcolati prima dell'armatura. Calci, colpi di scudo e attacchi a mani nude non sono influenzati. Con il valore predefinito di 1.5% per punto: +15% con Vigore 10. [Predefinito: attivato]" />
+		<string id="SMR_Wx3PPXz" text="Danno in mischia per punto di Vigore. [Predefinito: 1.5%]" />
+		<string id="SMR_god8tzQ" text="Velocità di carica" />
+		<string id="SMR_Pdczdep" text="L'eroe tende gli archi e carica affondi e lanci più velocemente. Con il valore predefinito di 1% per punto: +10% con Vigore 10. [Predefinito: attivato]" />
+		<string id="SMR_LZsrQDf" text="Velocità di carica per punto di Vigore. [Predefinito: 1.0%]" />
+		<string id="SMR_PVpExdF" text="Potenza di sfondamento" />
+		<string id="SMR_HGe7Ekq" text="I colpi dall'alto dell'eroe contano come più forti quando il gioco decide se sfondano una parata. Come nel gioco base, solo i colpi dall'alto possono sfondare. Con il valore predefinito di 1% per punto: +10% di potenza con Vigore 10. Non compatibile con Realistic Battle Mod, che ha le sue regole per questo. [Predefinito: disattivato]" />
+		<string id="SMR_QZ9pdQ3" text="Potenza di sfondamento per punto di Vigore. [Predefinito: 1.0%]" />
+		<string id="SMR_BEa7PP8" text="Probabilità di taglio passante" />
+		<string id="SMR_mJRSFJ9" text="Probabilità che il colpo in mischia dell'eroe non perda potenza quando trapassa un nemico, così il nemico successivo che raggiunge viene colpito a piena forza. Con il valore predefinito di 1% per punto: 10% con Vigore 10. Non compatibile con Realistic Battle Mod, che ha le sue regole per questo. [Predefinito: disattivato]" />
+		<string id="SMR_gfHP4ug" text="Probabilità di taglio passante per punto di Vigore. [Predefinito: 1.0%]" />
+		<string id="SMR_qH7e86V" text="Danno a distanza" />
+		<string id="SMR_dzKLXtk" text="Le frecce, i dardi e le armi da lancio dell'eroe infliggono più danni, calcolati prima dell'armatura. Con il valore predefinito di 1.5% per punto: +15% con Controllo 10. [Predefinito: attivato]" />
+		<string id="SMR_PRpft3m" text="Danno a distanza per punto di Controllo. [Predefinito: 1.5%]" />
+		<string id="SMR_LiPh5gf" text="Precisione" />
+		<string id="SMR_VdNrbAQ" text="Gli attacchi a distanza dell'eroe sono meno dispersi. Con il valore predefinito di 2% per punto: +20% con Controllo 10, quindi la dispersione viene divisa per 1.2. [Predefinito: attivato]" />
+		<string id="SMR_Cw4qyJF" text="Precisione per punto di Controllo. [Predefinito: 2.0%]" />
+		<string id="SMR_4pKNqAu" text="Velocità di ricarica" />
+		<string id="SMR_vEqefTk" text="L'eroe ricarica più velocemente. Con il valore predefinito di 1.5% per punto: +15% con Controllo 10. [Predefinito: attivato]" />
+		<string id="SMR_NKCzcSR" text="Velocità di ricarica per punto di Controllo. [Predefinito: 1.5%]" />
+		<string id="SMR_XyyjKNT" text="Maneggevolezza delle armi" />
+		<string id="SMR_RdfVnN4" text="L'eroe maneggia le armi con più agilità (la statistica maneggevolezza dell'arma). Con il valore predefinito di 1% per punto: +10% con Controllo 10. [Predefinito: attivato]" />
+		<string id="SMR_PFv6xBP" text="Maneggevolezza delle armi per punto di Controllo. [Predefinito: 1.0%]" />
+		<string id="SMR_4DPBDPZ" text="Punti ferita massimi" />
+		<string id="SMR_rxLc57K" text="L'eroe ha più punti ferita. Con il valore predefinito di 2% per punto: +20% con Resistenza 10, cioè +20 punti ferita sulla base di 100. [Predefinito: attivato]" />
+		<string id="SMR_rt9UBs6" text="Punti ferita per punto di Resistenza. [Predefinito: 2.0%]" />
+		<string id="SMR_Pf3vD4d" text="Tenuta ai colpi" />
+		<string id="SMR_MzWoUeV" text="L'eroe può subire colpi più forti senza che l'attacco in corso venga interrotto. Con il valore predefinito di 2% per punto: +20% con Resistenza 10. [Predefinito: attivato]" />
+		<string id="SMR_hdkwK4n" text="Tenuta ai colpi per punto di Resistenza. [Predefinito: 2.0%]" />
+		<string id="SMR_MJxB6AG" text="Stabilità della mira" />
+		<string id="SMR_CzPDSJY" text="L'eroe può tenere fermo un arco teso più a lungo prima che la mira inizi a tremare. Con il valore predefinito di 2% per punto: +20% con Resistenza 10. [Predefinito: attivato]" />
+		<string id="SMR_Cf9NfvB" text="Stabilità della mira per punto di Resistenza. [Predefinito: 2.0%]" />
+		<string id="SMR_pysyoLA" text="Velocità di movimento" />
+		<string id="SMR_ezNAZWu" text="L'eroe si muove più velocemente a piedi. Con il valore predefinito di 0.5% per punto: +5% con Resistenza 10. [Predefinito: attivato]" />
+		<string id="SMR_Dfo2Lya" text="Velocità di movimento per punto di Resistenza. [Predefinito: 0.5%]" />
+		<string id="SMR_jG5wrbR" text="Energia di forgiatura" />
+		<string id="SMR_wEYKNqD" text="L'eroe ha più energia di forgiatura massima. Con il valore predefinito di 5 per punto: +50 con Resistenza 10 (il gioco base dà 100 più metà dell'abilità Forgiatura). [Predefinito: attivato]" />
+		<string id="SMR_k4i6zEk" text="Energia di forgiatura per punto di Resistenza. [Predefinito: 5]" />
+		<string id="SMR_NaPzAoo" text="Vantaggio in simulazione" />
+		<string id="SMR_PbofDeR" text="Nelle battaglie simulate (quando invii le truppe e nelle battaglie combattute senza di te), ogni truppa del gruppo infligge più danni. Usa l'Astuzia del capo del gruppo. Con il valore predefinito di 1% per punto: +10% con Astuzia 10. [Predefinito: attivato]" />
+		<string id="SMR_c5D6rJE" text="Danno simulato per punto di Astuzia del capo del gruppo. [Predefinito: 1.0%]" />
+		<string id="SMR_iRsVFqk" text="Fama dalle vittorie" />
+		<string id="SMR_eCYuPxn" text="Le battaglie vinte danno più fama. Usa l'Astuzia del capo del gruppo. Con il valore predefinito di 2% per punto: +20% con Astuzia 10. [Predefinito: attivato]" />
+		<string id="SMR_FrdzYDm" text="Fama per punto di Astuzia del capo del gruppo. [Predefinito: 2.0%]" />
+		<string id="SMR_YaQNmmN" text="Morale dalle vittorie" />
+		<string id="SMR_MzqDeem" text="Le battaglie vinte aumentano di più il morale del gruppo. Usa l'Astuzia del capo del gruppo. Con il valore predefinito di 2% per punto: +20% con Astuzia 10. [Predefinito: attivato]" />
+		<string id="SMR_zwrrfnV" text="Morale per punto di Astuzia del capo del gruppo. [Predefinito: 2.0%]" />
+		<string id="SMR_evcqcxE" text="Probabilità di persuasione" />
+		<string id="SMR_78Kejpq" text="I tuoi tentativi di persuasione nelle conversazioni riescono più spesso e falliscono in modo critico meno spesso, come i bonus di persuasione del gioco stesso. Solo per il giocatore. Con il valore predefinito di 1.5% per punto: +15% con Socialità 10. [Predefinito: attivato]" />
+		<string id="SMR_nT4Z467" text="Probabilità di persuasione per punto della tua Socialità. [Predefinito: 1.5%]" />
+		<string id="SMR_G88n3v8" text="Morale del gruppo" />
+		<string id="SMR_57MfXrW" text="Il morale del gruppo è più alto. Usa la Socialità del capo del gruppo. Con il valore predefinito di 1% per punto: +10% con Socialità 10. [Predefinito: attivato]" />
+		<string id="SMR_ibAkwbz" text="Morale del gruppo per punto di Socialità del capo del gruppo. [Predefinito: 1.0%]" />
+		<string id="SMR_HScDmtg" text="Dimensione del gruppo" />
+		<string id="SMR_xzyoDh9" text="Il gruppo può contenere più truppe. Usa la Socialità del capo del gruppo. Con il valore predefinito di 1% per punto: +10% con Socialità 10. [Predefinito: attivato]" />
+		<string id="SMR_kCSXU67" text="Dimensione del gruppo per punto di Socialità del capo del gruppo. [Predefinito: 1.0%]" />
+		<string id="SMR_Q9LQuqt" text="Paghe del gruppo" />
+		<string id="SMR_6XfjxgS" text="Il gruppo spende meno in paghe per le truppe. Usa la Socialità del capo del gruppo. Con il valore predefinito di 1% per punto: -10% con Socialità 10. [Predefinito: attivato]" />
+		<string id="SMR_XkzW5WU" text="Riduzione delle paghe per punto di Socialità del capo del gruppo. [Predefinito: 1.0%]" />
+		<string id="SMR_FnReYdH" text="Limite di compagni" />
+		<string id="SMR_fGgHmrR" text="Il clan può avere più compagni. Usa la Socialità del capo del clan. Con il valore predefinito di 4 punti per compagno: +2 compagni con Socialità 10. [Predefinito: attivato]" />
+		<string id="SMR_E2MtsxY" text="Punti di Socialità del capo del clan necessari per ogni compagno in più. [Predefinito: 4]" />
+		<string id="SMR_MLjyZSK" text="Entrate del clan" />
+		<string id="SMR_cMauXAj" text="Le entrate giornaliere del clan sono più alte. Usa l'Intelligenza del capo del clan. Con il valore predefinito di 1% per punto: +10% con Intelligenza 10. [Predefinito: attivato]" />
+		<string id="SMR_jKfxNHw" text="Entrate del clan per punto di Intelligenza del capo del clan. [Predefinito: 1.0%]" />
+		<string id="SMR_TtHN5np" text="Influenza dalle vittorie" />
+		<string id="SMR_Emo2gzo" text="Le battaglie vinte danno più influenza (solo i clan in un regno ottengono influenza). Usa l'Intelligenza del capo del gruppo. Con il valore predefinito di 2% per punto: +20% con Intelligenza 10. [Predefinito: attivato]" />
+		<string id="SMR_pLoBBUp" text="Influenza per punto di Intelligenza del capo del gruppo. [Predefinito: 2.0%]" />
+		<string id="SMR_rNja3Fx" text="Guadagno di esperienza" />
+		<string id="SMR_92pJ6nb" text="L'eroe ottiene più esperienza. Con il valore predefinito di 1% per punto: +10% con Intelligenza 10. [Predefinito: attivato]" />
+		<string id="SMR_3HBuqYy" text="Esperienza per punto di Intelligenza. [Predefinito: 1.0%]" />
+		<string id="SMR_vzHQhka" text="Esperienza del capo del gruppo dai ruoli" />
+		<string id="SMR_iE4UhFX" text="Quando l'esploratore, l'ingegnere, il chirurgo o il quartiermastro del gruppo ottiene esperienza nell'abilità del suo ruolo, anche il capo del gruppo ne riceve una parte. Usa l'Intelligenza del capo del gruppo. Con il valore predefinito di 2% per punto: il 20% di quell'esperienza con Intelligenza 10. [Predefinito: attivato]" />
+		<string id="SMR_HBc8hmL" text="Quota dell'esperienza del ruolo per punto di Intelligenza del capo del gruppo. [Predefinito: 2.0%]" />
+		<string id="SMR_Uqhcsx6" text="Velocità di guarigione degli eroi" />
+		<string id="SMR_xEEKafv" text="Gli eroi nel gruppo guariscono più velocemente. Usa l'Intelligenza del capo del gruppo. Con il valore predefinito di 3% per punto: +30% con Intelligenza 10. [Predefinito: disattivato]" />
+		<string id="SMR_jW2dMKa" text="Velocità di guarigione degli eroi per punto di Intelligenza del capo del gruppo. [Predefinito: 3.0%]" />
 	</strings>
 </base>

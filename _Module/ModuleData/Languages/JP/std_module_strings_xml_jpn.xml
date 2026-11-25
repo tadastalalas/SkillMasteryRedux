@@ -45,5 +45,108 @@
 		<string id="SMR_q4Tn8Yb" text="技術設定" />
 		<string id="SMR_Lx2dWf6" text="デバッグ用ログ" />
 		<string id="SMR_Pz9kRc3" text="デバッグ用ログ（英語のみ）。[デフォルト: 無効]" />
+		<string id="SMR_bv3zaGT" text="能力値ボーナス" />
+		<string id="SMR_4LY8pjF" text="能力値ボーナスを有効化" />
+		<string id="SMR_NM3ahyQ" text="能力値1ポイントごとに、下にあるその能力値の項目に並ぶボーナスが得られます。戦闘ボーナスと個人ボーナスは英雄自身の能力値、部隊ボーナスは部隊リーダーの能力値、氏族ボーナスは氏族リーダーの能力値を参照します。能力値を持つのは英雄だけなので、兵士には効果がありません。キャンペーンでのみ機能します。キャラクター画面で能力値にカーソルを合わせると、そのボーナスを確認できます。[デフォルト: 有効]" />
+		<string id="SMR_6DENV2C" text="Better Attributes MODを上書き" />
+		<string id="SMR_q69Z4sb" text="Better Attributes MODも読み込まれている場合、両方のMODのボーナスが重ならないようにそちらをオフにします。無効の場合は、両方のMODがそれぞれのボーナスを与えます。ゲームの再起動後に反映されます。[デフォルト: 有効]" />
+		<string id="SMR_EbEhjZv" text="活力" />
+		<string id="SMR_X37MKx6" text="制御力" />
+		<string id="SMR_QTdKXEf" text="持久力" />
+		<string id="SMR_2wVnQpM" text="狡猾" />
+		<string id="SMR_PZgu2Ei" text="社交性" />
+		<string id="SMR_Kw37Gtg" text="知性" />
+		<string id="SMR_KGbkBGH" text="有効" />
+		<string id="SMR_k5pfV5M" text="この能力値のすべてのボーナスをオン・オフします。[デフォルト: 有効]" />
+		<string id="SMR_MT4CKRh" text="能力値1ポイントあたりのボーナス" />
+		<string id="SMR_cZrT3Ve" text="仲間1人あたりの社交性ポイント" />
+		<string id="SMR_wkMqm8p" text="対象" />
+		<string id="SMR_YTcoRdC" text="プレイヤー: あなたのみ。プレイヤーの氏族: あなたと、あなたの氏族の英雄。すべての英雄: AI領主を含むすべての英雄。部隊ボーナスと氏族ボーナスでは、部隊リーダーまたは氏族リーダーがこの対象に含まれるかで判定します。[デフォルト: すべての英雄]" />
+		<string id="SMR_5ZpeJE8" text="プレイヤー" />
+		<string id="SMR_L8C7L9G" text="プレイヤーの氏族" />
+		<string id="SMR_QSAHVDX" text="すべての英雄" />
+		<string id="SMR_TLYJ7wW" text="キャラクター画面" />
+		<string id="SMR_92o3MNh" text="能力値のツールチップにボーナスのみ表示" />
+		<string id="SMR_acNspfT" text="キャラクター画面の能力値のツールチップには、選択中の英雄が持つその能力値のボーナスが一覧表示されます。有効の場合、ポイントの追加に関するゲームの説明文をこの一覧に置き換えるため、長い一覧も収まります。無効の場合、ゲームの説明文が一覧の後に続きます。[デフォルト: 有効]" />
+		<string id="SMR_misH9Rh" text="{BONUS}: {VALUE}" />
+		<string id="SMR_bKP5HPk" text="{NUMBER}%" />
+		<string id="SMR_nzDLhjM" text="近接ダメージ" />
+		<string id="SMR_g3fvJE6" text="英雄の近接武器による攻撃のダメージが増加します（防具による軽減の前に計算）。蹴り、盾での殴打、素手の攻撃には影響しません。デフォルトの1ポイントあたり1.5%では、活力10で+15%になります。[デフォルト: 有効]" />
+		<string id="SMR_Wx3PPXz" text="活力1ポイントあたりの近接ダメージ。[デフォルト: 1.5%]" />
+		<string id="SMR_god8tzQ" text="引き絞り速度" />
+		<string id="SMR_Pdczdep" text="英雄が弓を引き絞る速度と、突きや投擲を構える速度が上がります。デフォルトの1ポイントあたり1%では、活力10で+10%になります。[デフォルト: 有効]" />
+		<string id="SMR_LZsrQDf" text="活力1ポイントあたりの引き絞り速度。[デフォルト: 1.0%]" />
+		<string id="SMR_PVpExdF" text="ガード突破力" />
+		<string id="SMR_HGe7Ekq" text="ガードを突破するかどうかをゲームが判定する際、英雄の振り下ろし攻撃がより強いものとして扱われます。バニラと同様、ガードを突破できるのは振り下ろし攻撃のみです。デフォルトの1ポイントあたり1%では、活力10で威力+10%になります。Realistic Battle Modとは互換性がありません（このMODには独自のルールがあります）。[デフォルト: 無効]" />
+		<string id="SMR_QZ9pdQ3" text="活力1ポイントあたりのガード突破力。[デフォルト: 1.0%]" />
+		<string id="SMR_BEa7PP8" text="斬り抜け確率" />
+		<string id="SMR_mJRSFJ9" text="英雄の近接攻撃が敵を斬り抜けたときに威力を失わず、次に届いた敵にも全力で命中する確率です。デフォルトの1ポイントあたり1%では、活力10で10%になります。Realistic Battle Modとは互換性がありません（このMODには独自のルールがあります）。[デフォルト: 無効]" />
+		<string id="SMR_gfHP4ug" text="活力1ポイントあたりの斬り抜け確率。[デフォルト: 1.0%]" />
+		<string id="SMR_qH7e86V" text="遠距離ダメージ" />
+		<string id="SMR_dzKLXtk" text="英雄の矢、ボルト、投擲武器のダメージが増加します（防具による軽減の前に計算）。デフォルトの1ポイントあたり1.5%では、制御力10で+15%になります。[デフォルト: 有効]" />
+		<string id="SMR_PRpft3m" text="制御力1ポイントあたりの遠距離ダメージ。[デフォルト: 1.5%]" />
+		<string id="SMR_LiPh5gf" text="精度" />
+		<string id="SMR_VdNrbAQ" text="英雄の遠距離攻撃のばらつきが小さくなります。デフォルトの1ポイントあたり2%では、制御力10で+20%となり、ばらつきは1.2で割られます。[デフォルト: 有効]" />
+		<string id="SMR_Cw4qyJF" text="制御力1ポイントあたりの精度。[デフォルト: 2.0%]" />
+		<string id="SMR_4pKNqAu" text="装填速度" />
+		<string id="SMR_vEqefTk" text="英雄の装填が速くなります。デフォルトの1ポイントあたり1.5%では、制御力10で+15%になります。[デフォルト: 有効]" />
+		<string id="SMR_NKCzcSR" text="制御力1ポイントあたりの装填速度。[デフォルト: 1.5%]" />
+		<string id="SMR_XyyjKNT" text="武器の取り回し" />
+		<string id="SMR_RdfVnN4" text="英雄が武器をより機敏に扱えるようになります（武器の取り回しの値）。デフォルトの1ポイントあたり1%では、制御力10で+10%になります。[デフォルト: 有効]" />
+		<string id="SMR_PFv6xBP" text="制御力1ポイントあたりの武器の取り回し。[デフォルト: 1.0%]" />
+		<string id="SMR_4DPBDPZ" text="最大HP" />
+		<string id="SMR_rxLc57K" text="英雄のHPが増加します。デフォルトの1ポイントあたり2%では、持久力10で+20%となり、基本値100に対してHP+20です。[デフォルト: 有効]" />
+		<string id="SMR_rt9UBs6" text="持久力1ポイントあたりのHP。[デフォルト: 2.0%]" />
+		<string id="SMR_Pf3vD4d" text="怯み耐性" />
+		<string id="SMR_MzWoUeV" text="英雄は、進行中の攻撃を中断されずに、より大きな攻撃を受けても耐えられるようになります。デフォルトの1ポイントあたり2%では、持久力10で+20%になります。[デフォルト: 有効]" />
+		<string id="SMR_hdkwK4n" text="持久力1ポイントあたりの怯み耐性。[デフォルト: 2.0%]" />
+		<string id="SMR_MJxB6AG" text="照準の安定性" />
+		<string id="SMR_CzPDSJY" text="英雄は弓を引き絞ったまま、照準が揺れ始めるまでより長く安定して構えられます。デフォルトの1ポイントあたり2%では、持久力10で+20%になります。[デフォルト: 有効]" />
+		<string id="SMR_Cf9NfvB" text="持久力1ポイントあたりの照準の安定性。[デフォルト: 2.0%]" />
+		<string id="SMR_pysyoLA" text="移動速度" />
+		<string id="SMR_ezNAZWu" text="英雄の徒歩での移動が速くなります。デフォルトの1ポイントあたり0.5%では、持久力10で+5%になります。[デフォルト: 有効]" />
+		<string id="SMR_Dfo2Lya" text="持久力1ポイントあたりの移動速度。[デフォルト: 0.5%]" />
+		<string id="SMR_jG5wrbR" text="鍛冶スタミナ" />
+		<string id="SMR_wEYKNqD" text="英雄の鍛冶スタミナの最大値が増加します。デフォルトの1ポイントあたり5では、持久力10で+50になります（バニラでは100に鍛冶スキルの半分を加えた値）。[デフォルト: 有効]" />
+		<string id="SMR_k4i6zEk" text="持久力1ポイントあたりの鍛冶スタミナ。[デフォルト: 5]" />
+		<string id="SMR_NaPzAoo" text="シミュレーション優位" />
+		<string id="SMR_PbofDeR" text="シミュレーション戦闘（兵を送り出した場合や、あなた抜きで行われる戦闘）で、部隊のすべての兵士が与えるダメージが増加します。部隊リーダーの狡猾を参照します。デフォルトの1ポイントあたり1%では、狡猾10で+10%になります。[デフォルト: 有効]" />
+		<string id="SMR_c5D6rJE" text="部隊リーダーの狡猾1ポイントあたりのシミュレーション戦闘でのダメージ。[デフォルト: 1.0%]" />
+		<string id="SMR_iRsVFqk" text="勝利による名声" />
+		<string id="SMR_eCYuPxn" text="戦闘に勝利したときに得られる名声が増加します。部隊リーダーの狡猾を参照します。デフォルトの1ポイントあたり2%では、狡猾10で+20%になります。[デフォルト: 有効]" />
+		<string id="SMR_FrdzYDm" text="部隊リーダーの狡猾1ポイントあたりの名声。[デフォルト: 2.0%]" />
+		<string id="SMR_YaQNmmN" text="勝利による士気" />
+		<string id="SMR_MzqDeem" text="戦闘に勝利したときの部隊の士気の上昇量が増加します。部隊リーダーの狡猾を参照します。デフォルトの1ポイントあたり2%では、狡猾10で+20%になります。[デフォルト: 有効]" />
+		<string id="SMR_zwrrfnV" text="部隊リーダーの狡猾1ポイントあたりの士気。[デフォルト: 2.0%]" />
+		<string id="SMR_evcqcxE" text="説得成功率" />
+		<string id="SMR_78Kejpq" text="会話での説得がより成功しやすくなり、致命的な失敗が起きにくくなります。仕組みはゲーム本来の説得ボーナスと同じです。プレイヤーのみ。デフォルトの1ポイントあたり1.5%では、社交性10で+15%になります。[デフォルト: 有効]" />
+		<string id="SMR_nT4Z467" text="あなたの社交性1ポイントあたりの説得成功率。[デフォルト: 1.5%]" />
+		<string id="SMR_G88n3v8" text="部隊の士気" />
+		<string id="SMR_57MfXrW" text="部隊の士気が高くなります。部隊リーダーの社交性を参照します。デフォルトの1ポイントあたり1%では、社交性10で+10%になります。[デフォルト: 有効]" />
+		<string id="SMR_ibAkwbz" text="部隊リーダーの社交性1ポイントあたりの部隊の士気。[デフォルト: 1.0%]" />
+		<string id="SMR_HScDmtg" text="部隊規模" />
+		<string id="SMR_xzyoDh9" text="部隊がより多くの兵士を抱えられるようになります。部隊リーダーの社交性を参照します。デフォルトの1ポイントあたり1%では、社交性10で+10%になります。[デフォルト: 有効]" />
+		<string id="SMR_kCSXU67" text="部隊リーダーの社交性1ポイントあたりの部隊規模。[デフォルト: 1.0%]" />
+		<string id="SMR_Q9LQuqt" text="部隊の賃金" />
+		<string id="SMR_6XfjxgS" text="部隊が支払う兵士の賃金が減少します。部隊リーダーの社交性を参照します。デフォルトの1ポイントあたり1%では、社交性10で-10%になります。[デフォルト: 有効]" />
+		<string id="SMR_XkzW5WU" text="部隊リーダーの社交性1ポイントあたりの賃金の減少。[デフォルト: 1.0%]" />
+		<string id="SMR_FnReYdH" text="仲間の上限" />
+		<string id="SMR_fGgHmrR" text="氏族が抱えられる仲間の数が増えます。氏族リーダーの社交性を参照します。デフォルトの仲間1人あたり4ポイントでは、社交性10で仲間+2人になります。[デフォルト: 有効]" />
+		<string id="SMR_E2MtsxY" text="仲間を1人追加するごとに必要な、氏族リーダーの社交性のポイント数。[デフォルト: 4]" />
+		<string id="SMR_MLjyZSK" text="氏族の収入" />
+		<string id="SMR_cMauXAj" text="氏族の1日あたりの収入が増加します。氏族リーダーの知性を参照します。デフォルトの1ポイントあたり1%では、知性10で+10%になります。[デフォルト: 有効]" />
+		<string id="SMR_jKfxNHw" text="氏族リーダーの知性1ポイントあたりの氏族の収入。[デフォルト: 1.0%]" />
+		<string id="SMR_TtHN5np" text="勝利による影響力" />
+		<string id="SMR_Emo2gzo" text="戦闘に勝利したときに得られる影響力が増加します（影響力を得られるのは王国に属する氏族のみ）。部隊リーダーの知性を参照します。デフォルトの1ポイントあたり2%では、知性10で+20%になります。[デフォルト: 有効]" />
+		<string id="SMR_pLoBBUp" text="部隊リーダーの知性1ポイントあたりの影響力。[デフォルト: 2.0%]" />
+		<string id="SMR_rNja3Fx" text="経験値獲得" />
+		<string id="SMR_92pJ6nb" text="英雄が得る経験値が増加します。デフォルトの1ポイントあたり1%では、知性10で+10%になります。[デフォルト: 有効]" />
+		<string id="SMR_3HBuqYy" text="知性1ポイントあたりの経験値。[デフォルト: 1.0%]" />
+		<string id="SMR_vzHQhka" text="役職による部隊リーダーの経験値" />
+		<string id="SMR_iE4UhFX" text="部隊の斥候、技術者、軍医、補給官がその役職のスキルで経験値を得ると、部隊リーダーもその一部を得ます。部隊リーダーの知性を参照します。デフォルトの1ポイントあたり2%では、知性10でその20%を得ます。[デフォルト: 有効]" />
+		<string id="SMR_HBc8hmL" text="部隊リーダーの知性1ポイントあたりの、役職の経験値の取り分。[デフォルト: 2.0%]" />
+		<string id="SMR_Uqhcsx6" text="英雄の回復速度" />
+		<string id="SMR_xEEKafv" text="部隊内の英雄の回復が速くなります。部隊リーダーの知性を参照します。デフォルトの1ポイントあたり3%では、知性10で+30%になります。[デフォルト: 無効]" />
+		<string id="SMR_jW2dMKa" text="部隊リーダーの知性1ポイントあたりの英雄の回復速度。[デフォルト: 3.0%]" />
 	</strings>
 </base>

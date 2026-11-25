@@ -45,5 +45,108 @@
 		<string id="SMR_q4Tn8Yb" text="기술 설정" />
 		<string id="SMR_Lx2dWf6" text="디버깅을 위한 로깅" />
 		<string id="SMR_Pz9kRc3" text="디버깅을 위한 로깅(영어 전용). [기본값: 비활성화]" />
+		<string id="SMR_bv3zaGT" text="속성 보너스" />
+		<string id="SMR_4LY8pjF" text="속성 보너스 활성화" />
+		<string id="SMR_NM3ahyQ" text="모든 속성 포인트는 아래 해당 속성 항목에 나열된 보너스를 제공합니다. 전투 및 개인 보너스는 영웅 자신의 속성을, 부대 보너스는 부대장의 속성을, 클랜 보너스는 클랜 리더의 속성을 사용합니다. 속성은 영웅에게만 있으므로 병사는 아무것도 얻지 못합니다. 캠페인에서만 작동합니다. 캐릭터 화면에서 속성에 마우스를 올리면 해당 보너스를 볼 수 있습니다. [기본값: 활성화]" />
+		<string id="SMR_6DENV2C" text="Better Attributes 모드 덮어쓰기" />
+		<string id="SMR_q69Z4sb" text="Better Attributes 모드도 함께 로드되어 있으면 두 모드의 보너스가 중첩되지 않도록 그 모드를 끕니다. 비활성화하면 두 모드 모두 보너스를 제공합니다. 게임을 다시 시작한 후 적용됩니다. [기본값: 활성화]" />
+		<string id="SMR_EbEhjZv" text="활력" />
+		<string id="SMR_X37MKx6" text="통제력" />
+		<string id="SMR_QTdKXEf" text="지구력" />
+		<string id="SMR_2wVnQpM" text="교활함" />
+		<string id="SMR_PZgu2Ei" text="사교성" />
+		<string id="SMR_Kw37Gtg" text="지능" />
+		<string id="SMR_KGbkBGH" text="활성화" />
+		<string id="SMR_k5pfV5M" text="이 속성의 모든 보너스를 켜거나 끕니다. [기본값: 활성화]" />
+		<string id="SMR_MT4CKRh" text="속성 포인트당 보너스" />
+		<string id="SMR_cZrT3Ve" text="동료당 사교성 포인트" />
+		<string id="SMR_wkMqm8p" text="적용 대상" />
+		<string id="SMR_YTcoRdC" text="플레이어: 당신만. 플레이어 클랜: 당신과 내 클랜의 영웅들. 모든 영웅: AI 영주를 포함한 모든 영웅. 부대 및 클랜 보너스는 부대장 또는 클랜 리더를 기준으로 판정합니다. [기본값: 모든 영웅]" />
+		<string id="SMR_5ZpeJE8" text="플레이어" />
+		<string id="SMR_L8C7L9G" text="플레이어 클랜" />
+		<string id="SMR_QSAHVDX" text="모든 영웅" />
+		<string id="SMR_TLYJ7wW" text="캐릭터 화면" />
+		<string id="SMR_92o3MNh" text="속성 툴팁에 보너스만 표시" />
+		<string id="SMR_acNspfT" text="캐릭터 화면의 속성 툴팁에 선택한 영웅의 해당 속성 보너스가 나열됩니다. 활성화하면 이 목록이 포인트 추가에 관한 게임 설명을 대체하므로 긴 목록도 들어갑니다. 비활성화하면 게임 설명이 목록 뒤에 이어집니다. [기본값: 활성화]" />
+		<string id="SMR_misH9Rh" text="{BONUS}: {VALUE}" />
+		<string id="SMR_bKP5HPk" text="{NUMBER}%" />
+		<string id="SMR_nzDLhjM" text="근접 피해" />
+		<string id="SMR_g3fvJE6" text="영웅의 근접 무기 공격이 더 큰 피해를 줍니다(방어구 적용 전 기준). 발차기, 방패 밀치기, 맨손 공격에는 적용되지 않습니다. 기본값(포인트당 1.5%)일 때 활력 10에서 +15%입니다. [기본값: 활성화]" />
+		<string id="SMR_Wx3PPXz" text="활력 포인트당 근접 피해. [기본값: 1.5%]" />
+		<string id="SMR_god8tzQ" text="당기기 속도" />
+		<string id="SMR_Pdczdep" text="영웅이 활을 더 빠르게 당기고, 찌르기와 투척도 더 빠르게 준비합니다. 기본값(포인트당 1%)일 때 활력 10에서 +10%입니다. [기본값: 활성화]" />
+		<string id="SMR_LZsrQDf" text="활력 포인트당 당기기 속도. [기본값: 1.0%]" />
+		<string id="SMR_PVpExdF" text="막기 분쇄력" />
+		<string id="SMR_HGe7Ekq" text="게임이 막기를 분쇄했는지 판정할 때 영웅의 내려치기가 더 강하게 계산됩니다. 바닐라와 마찬가지로 내려치기만 막기를 분쇄할 수 있습니다. 기본값(포인트당 1%)일 때 활력 10에서 위력 +10%입니다. 이 부분에 자체 규칙이 있는 Realistic Battle Mod와는 호환되지 않습니다. [기본값: 비활성화]" />
+		<string id="SMR_QZ9pdQ3" text="활력 포인트당 막기 분쇄력. [기본값: 1.0%]" />
+		<string id="SMR_BEa7PP8" text="관통 베기 확률" />
+		<string id="SMR_mJRSFJ9" text="영웅의 근접 휘두르기가 적을 베고 지나갈 때 위력을 잃지 않아, 다음에 닿는 적에게 온전한 힘으로 적중할 확률입니다. 기본값(포인트당 1%)일 때 활력 10에서 10%입니다. 이 부분에 자체 규칙이 있는 Realistic Battle Mod와는 호환되지 않습니다. [기본값: 비활성화]" />
+		<string id="SMR_gfHP4ug" text="활력 포인트당 관통 베기 확률. [기본값: 1.0%]" />
+		<string id="SMR_qH7e86V" text="원거리 피해" />
+		<string id="SMR_dzKLXtk" text="영웅의 화살, 볼트, 투척 무기가 더 큰 피해를 줍니다(방어구 적용 전 기준). 기본값(포인트당 1.5%)일 때 통제력 10에서 +15%입니다. [기본값: 활성화]" />
+		<string id="SMR_PRpft3m" text="통제력 포인트당 원거리 피해. [기본값: 1.5%]" />
+		<string id="SMR_LiPh5gf" text="정확도" />
+		<string id="SMR_VdNrbAQ" text="영웅의 원거리 공격이 덜 퍼집니다. 기본값(포인트당 2%)일 때 통제력 10에서 +20%이며, 퍼짐이 1.2로 나누어집니다. [기본값: 활성화]" />
+		<string id="SMR_Cw4qyJF" text="통제력 포인트당 정확도. [기본값: 2.0%]" />
+		<string id="SMR_4pKNqAu" text="재장전 속도" />
+		<string id="SMR_vEqefTk" text="영웅이 더 빠르게 재장전합니다. 기본값(포인트당 1.5%)일 때 통제력 10에서 +15%입니다. [기본값: 활성화]" />
+		<string id="SMR_NKCzcSR" text="통제력 포인트당 재장전 속도. [기본값: 1.5%]" />
+		<string id="SMR_XyyjKNT" text="무기 조작성" />
+		<string id="SMR_RdfVnN4" text="영웅이 무기를 더 민첩하게 다룹니다(무기 조작성 수치). 기본값(포인트당 1%)일 때 통제력 10에서 +10%입니다. [기본값: 활성화]" />
+		<string id="SMR_PFv6xBP" text="통제력 포인트당 무기 조작성. [기본값: 1.0%]" />
+		<string id="SMR_4DPBDPZ" text="최대 체력" />
+		<string id="SMR_rxLc57K" text="영웅의 체력이 늘어납니다. 기본값(포인트당 2%)일 때 지구력 10에서 +20%이며, 이는 기본 체력 100에 대해 체력 +20입니다. [기본값: 활성화]" />
+		<string id="SMR_rt9UBs6" text="지구력 포인트당 체력. [기본값: 2.0%]" />
+		<string id="SMR_Pf3vD4d" text="경직 저항" />
+		<string id="SMR_MzWoUeV" text="영웅이 더 큰 타격을 받아도 진행 중인 공격이 끊기지 않습니다. 기본값(포인트당 2%)일 때 지구력 10에서 +20%입니다. [기본값: 활성화]" />
+		<string id="SMR_hdkwK4n" text="지구력 포인트당 경직 저항. [기본값: 2.0%]" />
+		<string id="SMR_MJxB6AG" text="조준 안정성" />
+		<string id="SMR_CzPDSJY" text="영웅이 활을 당긴 채 조준이 흔들리기 시작하기 전까지 더 오래 안정적으로 유지할 수 있습니다. 기본값(포인트당 2%)일 때 지구력 10에서 +20%입니다. [기본값: 활성화]" />
+		<string id="SMR_Cf9NfvB" text="지구력 포인트당 조준 안정성. [기본값: 2.0%]" />
+		<string id="SMR_pysyoLA" text="이동 속도" />
+		<string id="SMR_ezNAZWu" text="영웅이 도보로 더 빠르게 이동합니다. 기본값(포인트당 0.5%)일 때 지구력 10에서 +5%입니다. [기본값: 활성화]" />
+		<string id="SMR_Dfo2Lya" text="지구력 포인트당 이동 속도. [기본값: 0.5%]" />
+		<string id="SMR_jG5wrbR" text="대장기술 스태미나" />
+		<string id="SMR_wEYKNqD" text="영웅의 최대 대장기술 스태미나가 늘어납니다. 기본값(포인트당 5)일 때 지구력 10에서 +50입니다(바닐라는 100에 대장기술 스킬의 절반을 더한 값을 줍니다). [기본값: 활성화]" />
+		<string id="SMR_k4i6zEk" text="지구력 포인트당 대장기술 스태미나. [기본값: 5]" />
+		<string id="SMR_NaPzAoo" text="시뮬레이션 우위" />
+		<string id="SMR_PbofDeR" text="시뮬레이션 전투(병력 보내기, 그리고 당신 없이 치러지는 전투)에서 부대의 모든 병사가 더 큰 피해를 줍니다. 부대장의 교활함을 사용합니다. 기본값(포인트당 1%)일 때 교활함 10에서 +10%입니다. [기본값: 활성화]" />
+		<string id="SMR_c5D6rJE" text="부대장의 교활함 포인트당 시뮬레이션 피해. [기본값: 1.0%]" />
+		<string id="SMR_iRsVFqk" text="승리 시 명성" />
+		<string id="SMR_eCYuPxn" text="승리한 전투에서 더 많은 명성을 얻습니다. 부대장의 교활함을 사용합니다. 기본값(포인트당 2%)일 때 교활함 10에서 +20%입니다. [기본값: 활성화]" />
+		<string id="SMR_FrdzYDm" text="부대장의 교활함 포인트당 명성. [기본값: 2.0%]" />
+		<string id="SMR_YaQNmmN" text="승리 시 사기" />
+		<string id="SMR_MzqDeem" text="승리한 전투에서 부대의 사기가 더 많이 오릅니다. 부대장의 교활함을 사용합니다. 기본값(포인트당 2%)일 때 교활함 10에서 +20%입니다. [기본값: 활성화]" />
+		<string id="SMR_zwrrfnV" text="부대장의 교활함 포인트당 사기. [기본값: 2.0%]" />
+		<string id="SMR_evcqcxE" text="설득 확률" />
+		<string id="SMR_78Kejpq" text="대화에서 당신의 설득 시도가 더 자주 성공하고 치명적 실패는 더 적게 일어나며, 게임 자체의 설득 보너스와 같은 방식으로 작동합니다. 플레이어 전용입니다. 기본값(포인트당 1.5%)일 때 사교성 10에서 +15%입니다. [기본값: 활성화]" />
+		<string id="SMR_nT4Z467" text="당신의 사교성 포인트당 설득 확률. [기본값: 1.5%]" />
+		<string id="SMR_G88n3v8" text="부대 사기" />
+		<string id="SMR_57MfXrW" text="부대의 사기가 더 높아집니다. 부대장의 사교성을 사용합니다. 기본값(포인트당 1%)일 때 사교성 10에서 +10%입니다. [기본값: 활성화]" />
+		<string id="SMR_ibAkwbz" text="부대장의 사교성 포인트당 부대 사기. [기본값: 1.0%]" />
+		<string id="SMR_HScDmtg" text="부대 규모" />
+		<string id="SMR_xzyoDh9" text="부대가 더 많은 병사를 수용할 수 있습니다. 부대장의 사교성을 사용합니다. 기본값(포인트당 1%)일 때 사교성 10에서 +10%입니다. [기본값: 활성화]" />
+		<string id="SMR_kCSXU67" text="부대장의 사교성 포인트당 부대 규모. [기본값: 1.0%]" />
+		<string id="SMR_Q9LQuqt" text="부대 임금" />
+		<string id="SMR_6XfjxgS" text="부대가 지불하는 병사 임금이 줄어듭니다. 부대장의 사교성을 사용합니다. 기본값(포인트당 1%)일 때 사교성 10에서 -10%입니다. [기본값: 활성화]" />
+		<string id="SMR_XkzW5WU" text="부대장의 사교성 포인트당 임금 감소. [기본값: 1.0%]" />
+		<string id="SMR_FnReYdH" text="동료 한도" />
+		<string id="SMR_fGgHmrR" text="클랜이 더 많은 동료를 둘 수 있습니다. 클랜 리더의 사교성을 사용합니다. 기본값(동료당 4포인트)일 때 사교성 10에서 동료 +2명입니다. [기본값: 활성화]" />
+		<string id="SMR_E2MtsxY" text="추가 동료마다 필요한 클랜 리더의 사교성 포인트. [기본값: 4]" />
+		<string id="SMR_MLjyZSK" text="클랜 수입" />
+		<string id="SMR_cMauXAj" text="클랜의 일일 수입이 늘어납니다. 클랜 리더의 지능을 사용합니다. 기본값(포인트당 1%)일 때 지능 10에서 +10%입니다. [기본값: 활성화]" />
+		<string id="SMR_jKfxNHw" text="클랜 리더의 지능 포인트당 클랜 수입. [기본값: 1.0%]" />
+		<string id="SMR_TtHN5np" text="승리 시 영향력" />
+		<string id="SMR_Emo2gzo" text="승리한 전투에서 더 많은 영향력을 얻습니다(왕국에 속한 클랜만 영향력을 얻습니다). 부대장의 지능을 사용합니다. 기본값(포인트당 2%)일 때 지능 10에서 +20%입니다. [기본값: 활성화]" />
+		<string id="SMR_pLoBBUp" text="부대장의 지능 포인트당 영향력. [기본값: 2.0%]" />
+		<string id="SMR_rNja3Fx" text="경험치 획득" />
+		<string id="SMR_92pJ6nb" text="영웅이 더 많은 경험치를 얻습니다. 기본값(포인트당 1%)일 때 지능 10에서 +10%입니다. [기본값: 활성화]" />
+		<string id="SMR_3HBuqYy" text="지능 포인트당 경험치. [기본값: 1.0%]" />
+		<string id="SMR_vzHQhka" text="역할로 얻는 부대장 경험치" />
+		<string id="SMR_iE4UhFX" text="부대의 정찰병, 기술자, 의사 또는 병참장교가 해당 역할의 스킬 경험치를 얻으면 부대장도 그 일부를 얻습니다. 부대장의 지능을 사용합니다. 기본값(포인트당 2%)일 때 지능 10에서 그 경험치의 20%입니다. [기본값: 활성화]" />
+		<string id="SMR_HBc8hmL" text="부대장의 지능 포인트당 역할 경험치의 몫. [기본값: 2.0%]" />
+		<string id="SMR_Uqhcsx6" text="영웅 치유 속도" />
+		<string id="SMR_xEEKafv" text="부대 내 영웅들이 더 빠르게 치유됩니다. 부대장의 지능을 사용합니다. 기본값(포인트당 3%)일 때 지능 10에서 +30%입니다. [기본값: 비활성화]" />
+		<string id="SMR_jW2dMKa" text="부대장의 지능 포인트당 영웅 치유 속도. [기본값: 3.0%]" />
 	</strings>
 </base>

@@ -1,8 +1,19 @@
-﻿SMR v1.5.7.0 :
+﻿SMR v1.5.7.1 :
+
+- Added attribute bonuses, based on the Better Attributes mod by Shadow32055: every attribute point now gives bonuses, sorted by attribute in the same order as the character screen.
+	- Vigor: Melee Damage, Draw Speed, Crush Through Power, Slice Through Chance. Control: Ranged Damage, Accuracy, Reload Speed, Weapon Handling. Endurance: Max Hit Points, Stagger Resistance, Aim Stability, Movement Speed, Smithing Stamina. Cunning: Simulation Advantage, Renown from Victories, Morale from Victories. Social: Persuasion Chance, Party Morale, Party Size, Party Wages, Companion Limit. Intelligence: Clan Income, Influence from Victories, Experience Gain, Party Leader Experience from Roles, Hero Healing Rate.
+	- All are on by default for every hero, AI lords included, except Crush Through Power and Slice Through Chance (not compatible with Realistic Battle Mod) and Hero Healing Rate.
+	- Settings in the new group "Attribute Bonuses": "Enable Attribute Bonuses" (default on), an on/off per attribute and per bonus, "Bonus per Attribute Point" and "Who Gets It" (Player / Player's Clan / All Heroes, default All Heroes).
+	- Hover over an attribute in the character screen to see its bonuses for the selected hero. "Show Only Bonuses in Attribute Tooltip" (Attribute Bonuses > Character Screen, default on) shows the list instead of the game's text about adding points.
+- Added the setting "Overwrite Better Attributes Mod" (Attribute Bonuses, default on): if Better Attributes is loaded too, it is switched off so the bonuses of both mods do not add up. Applies after a game restart.
+- Compared to Better Attributes: the melee damage bonus now works, the ranged damage bonus no longer adds to melee hits, the simulation bonus is no longer about ten times too strong, AI clans no longer get your companion limit bonus, Hero Healing Rate respects "Who Gets It", Aim Stability no longer makes the aim start shaking at full strength, and Persuasion Chance no longer raises the chance of a critical failure.
+
+SMR v1.5.7.0 :
 
 - Supports game versions 1.5.7, 1.4.8 and 1.4.7 in the same download.
 - Mod Configuration Menu is now optional. Without it, change the settings in Modules\SkillMasteryRedux\ModConfiguration.xml (read when a campaign is started or loaded).
 - New setting "Logging for debugging" (Technical settings, default off). The log file is in Modules\SkillMasteryRedux\logs.
+- Fixed the UIExtenderEx error at game start on 1.5.7 (character screen hero dropdown markers).
 
 SMR v1.1.0 :
 

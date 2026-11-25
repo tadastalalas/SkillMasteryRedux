@@ -6,7 +6,11 @@ namespace SkillMasteryRedux.UI;
 
 // SMR-FEATURE: Hero dropdown marks unspent attribute/focus points and unopened perks | gate: setting:ShowHeroListMarkers
 // Appends an orange circle (left) and a perk-count shield (right) to each row of the character screen hero dropdown; bound to HeroSelectorItemVM.
+#if LOWER_THAN_1_5
 [PrefabExtension("CharacterDeveloper", "descendant::ButtonWidget[@Id='DropdownItemButton']/Children/ScrollingTextWidget")]
+#else
+[PrefabExtension("CharacterDeveloper", "descendant::ButtonWidget[@Id='DropdownItemButton']/Children/*[last()]")]
+#endif
 internal sealed class HeroSelectorMarkerPrefab : PrefabExtensionInsertPatch
 {
     private const string Xml = """

@@ -45,5 +45,108 @@
 		<string id="SMR_q4Tn8Yb" text="Ustawienia techniczne" />
 		<string id="SMR_Lx2dWf6" text="Rejestrowanie do debugowania" />
 		<string id="SMR_Pz9kRc3" text="Rejestrowanie do debugowania (tylko w języku angielskim). [Domyślnie: wyłączone]" />
+		<string id="SMR_bv3zaGT" text="Premie z atrybutów" />
+		<string id="SMR_4LY8pjF" text="Włącz premie z atrybutów" />
+		<string id="SMR_NM3ahyQ" text="Każdy punkt atrybutu daje premie wymienione poniżej przy danym atrybucie. Premie bojowe i osobiste korzystają z atrybutu samego bohatera, premie grupy z atrybutu przywódcy grupy, a premie klanu z atrybutu przywódcy klanu. Atrybuty mają tylko bohaterowie, więc żołnierze nic nie dostają. Działa tylko w kampanii. Najedź kursorem na atrybut na ekranie postaci, aby zobaczyć jego premie. [Domyślnie: włączone]" />
+		<string id="SMR_6DENV2C" text="Zastąp mod Better Attributes" />
+		<string id="SMR_q69Z4sb" text="Jeśli wczytany jest też mod Better Attributes, wyłącza go, aby premie obu modów się nie sumowały. Gdy wyłączone, oba mody dają swoje premie. Działa po ponownym uruchomieniu gry. [Domyślnie: włączone]" />
+		<string id="SMR_EbEhjZv" text="Wigor" />
+		<string id="SMR_X37MKx6" text="Kontrola" />
+		<string id="SMR_QTdKXEf" text="Odporność" />
+		<string id="SMR_2wVnQpM" text="Spryt" />
+		<string id="SMR_PZgu2Ei" text="Umiejętność społeczna" />
+		<string id="SMR_Kw37Gtg" text="Inteligencja" />
+		<string id="SMR_KGbkBGH" text="Włączone" />
+		<string id="SMR_k5pfV5M" text="Włącza lub wyłącza wszystkie premie tego atrybutu. [Domyślnie: włączone]" />
+		<string id="SMR_MT4CKRh" text="Premia za punkt atrybutu" />
+		<string id="SMR_cZrT3Ve" text="Punkty Umiejętności społecznej na towarzysza" />
+		<string id="SMR_wkMqm8p" text="Kto otrzymuje" />
+		<string id="SMR_YTcoRdC" text="Gracz: tylko ty. Klan gracza: ty i bohaterowie twojego klanu. Wszyscy bohaterowie: każdy bohater, w tym lordowie SI. Przy premiach grupy i klanu sprawdzany jest przywódca grupy lub klanu. [Domyślnie: Wszyscy bohaterowie]" />
+		<string id="SMR_5ZpeJE8" text="Gracz" />
+		<string id="SMR_L8C7L9G" text="Klan gracza" />
+		<string id="SMR_QSAHVDX" text="Wszyscy bohaterowie" />
+		<string id="SMR_TLYJ7wW" text="Ekran postaci" />
+		<string id="SMR_92o3MNh" text="Pokazuj tylko premie w podpowiedzi atrybutu" />
+		<string id="SMR_acNspfT" text="Podpowiedź atrybutu na ekranie postaci wymienia premie tego atrybutu dla wybranego bohatera. Gdy włączone, lista zastępuje tekst gry o dodawaniu punktów, dzięki czemu mieszczą się długie listy. Gdy wyłączone, tekst gry wyświetla się pod listą. [Domyślnie: włączone]" />
+		<string id="SMR_misH9Rh" text="{BONUS}: {VALUE}" />
+		<string id="SMR_bKP5HPk" text="{NUMBER}%" />
+		<string id="SMR_nzDLhjM" text="Obrażenia w walce wręcz" />
+		<string id="SMR_g3fvJE6" text="Ataki bohatera bronią do walki wręcz zadają więcej obrażeń, liczonych przed uwzględnieniem pancerza. Nie dotyczy kopnięć, uderzeń tarczą ani ataków bez broni. Przy wartości domyślnej 1.5% za punkt: Wigor 10 daje +15%. [Domyślnie: włączone]" />
+		<string id="SMR_Wx3PPXz" text="Obrażenia w walce wręcz za każdy punkt Wigoru. [Domyślnie: 1.5%]" />
+		<string id="SMR_god8tzQ" text="Szybkość naciągania" />
+		<string id="SMR_Pdczdep" text="Bohater szybciej naciąga łuk oraz przygotowuje pchnięcia i rzuty. Przy wartości domyślnej 1% za punkt: Wigor 10 daje +10%. [Domyślnie: włączone]" />
+		<string id="SMR_LZsrQDf" text="Szybkość naciągania za każdy punkt Wigoru. [Domyślnie: 1.0%]" />
+		<string id="SMR_PVpExdF" text="Siła przełamania" />
+		<string id="SMR_HGe7Ekq" text="Ciosy bohatera z góry liczą się jako silniejsze, gdy gra rozstrzyga, czy przełamią blok. Jak w podstawowej grze, blok mogą przełamać tylko ciosy z góry. Przy wartości domyślnej 1% za punkt: Wigor 10 daje +10% siły. Niezgodne z Realistic Battle Mod, który ma na to własne zasady. [Domyślnie: wyłączone]" />
+		<string id="SMR_QZ9pdQ3" text="Siła przełamania za każdy punkt Wigoru. [Domyślnie: 1.0%]" />
+		<string id="SMR_BEa7PP8" text="Szansa na przecięcie" />
+		<string id="SMR_mJRSFJ9" text="Szansa, że cios bohatera w walce wręcz nie straci siły, gdy przetnie przeciwnika, więc następny przeciwnik, do którego dotrze, zostanie trafiony z pełną siłą. Przy wartości domyślnej 1% za punkt: Wigor 10 daje 10%. Niezgodne z Realistic Battle Mod, który ma na to własne zasady. [Domyślnie: wyłączone]" />
+		<string id="SMR_gfHP4ug" text="Szansa na przecięcie za każdy punkt Wigoru. [Domyślnie: 1.0%]" />
+		<string id="SMR_qH7e86V" text="Obrażenia dystansowe" />
+		<string id="SMR_dzKLXtk" text="Strzały, bełty i broń miotana bohatera zadają więcej obrażeń, liczonych przed uwzględnieniem pancerza. Przy wartości domyślnej 1.5% za punkt: Kontrola 10 daje +15%. [Domyślnie: włączone]" />
+		<string id="SMR_PRpft3m" text="Obrażenia dystansowe za każdy punkt Kontroli. [Domyślnie: 1.5%]" />
+		<string id="SMR_LiPh5gf" text="Celność" />
+		<string id="SMR_VdNrbAQ" text="Ataki dystansowe bohatera mają mniejszy rozrzut. Przy wartości domyślnej 2% za punkt: Kontrola 10 daje +20%, więc rozrzut jest dzielony przez 1.2. [Domyślnie: włączone]" />
+		<string id="SMR_Cw4qyJF" text="Celność za każdy punkt Kontroli. [Domyślnie: 2.0%]" />
+		<string id="SMR_4pKNqAu" text="Szybkość przeładowania" />
+		<string id="SMR_vEqefTk" text="Bohater szybciej przeładowuje broń. Przy wartości domyślnej 1.5% za punkt: Kontrola 10 daje +15%. [Domyślnie: włączone]" />
+		<string id="SMR_NKCzcSR" text="Szybkość przeładowania za każdy punkt Kontroli. [Domyślnie: 1.5%]" />
+		<string id="SMR_XyyjKNT" text="Poręczność broni" />
+		<string id="SMR_RdfVnN4" text="Bohater zręczniej posługuje się bronią (statystyka poręczności broni). Przy wartości domyślnej 1% za punkt: Kontrola 10 daje +10%. [Domyślnie: włączone]" />
+		<string id="SMR_PFv6xBP" text="Poręczność broni za każdy punkt Kontroli. [Domyślnie: 1.0%]" />
+		<string id="SMR_4DPBDPZ" text="Maksymalne punkty życia" />
+		<string id="SMR_rxLc57K" text="Bohater ma więcej punktów życia. Przy wartości domyślnej 2% za punkt: Odporność 10 daje +20%, czyli +20 punktów życia przy bazowych 100. [Domyślnie: włączone]" />
+		<string id="SMR_rt9UBs6" text="Punkty życia za każdy punkt Odporności. [Domyślnie: 2.0%]" />
+		<string id="SMR_Pf3vD4d" text="Odporność na zachwianie" />
+		<string id="SMR_MzWoUeV" text="Bohater może przyjmować silniejsze trafienia bez przerwania trwającego ataku. Przy wartości domyślnej 2% za punkt: Odporność 10 daje +20%. [Domyślnie: włączone]" />
+		<string id="SMR_hdkwK4n" text="Odporność na zachwianie za każdy punkt Odporności. [Domyślnie: 2.0%]" />
+		<string id="SMR_MJxB6AG" text="Stabilność celowania" />
+		<string id="SMR_CzPDSJY" text="Bohater dłużej utrzymuje naciągnięty łuk nieruchomo, zanim celownik zacznie drżeć. Przy wartości domyślnej 2% za punkt: Odporność 10 daje +20%. [Domyślnie: włączone]" />
+		<string id="SMR_Cf9NfvB" text="Stabilność celowania za każdy punkt Odporności. [Domyślnie: 2.0%]" />
+		<string id="SMR_pysyoLA" text="Prędkość ruchu" />
+		<string id="SMR_ezNAZWu" text="Bohater porusza się szybciej pieszo. Przy wartości domyślnej 0.5% za punkt: Odporność 10 daje +5%. [Domyślnie: włączone]" />
+		<string id="SMR_Dfo2Lya" text="Prędkość ruchu za każdy punkt Odporności. [Domyślnie: 0.5%]" />
+		<string id="SMR_jG5wrbR" text="Wytrzymałość w kuźni" />
+		<string id="SMR_wEYKNqD" text="Bohater ma większą maksymalną wytrzymałość w kuźni. Przy wartości domyślnej 5 za punkt: Odporność 10 daje +50 (podstawowa gra daje 100 plus połowę poziomu Kowalstwa). [Domyślnie: włączone]" />
+		<string id="SMR_k4i6zEk" text="Wytrzymałość w kuźni za każdy punkt Odporności. [Domyślnie: 5]" />
+		<string id="SMR_NaPzAoo" text="Przewaga w symulacji" />
+		<string id="SMR_PbofDeR" text="W bitwach symulowanych (wysłanie żołnierzy oraz bitwy toczone bez ciebie) każdy żołnierz grupy zadaje więcej obrażeń. Liczy się Spryt przywódcy grupy. Przy wartości domyślnej 1% za punkt: Spryt 10 daje +10%. [Domyślnie: włączone]" />
+		<string id="SMR_c5D6rJE" text="Obrażenia w bitwach symulowanych za każdy punkt Sprytu przywódcy grupy. [Domyślnie: 1.0%]" />
+		<string id="SMR_iRsVFqk" text="Sława za zwycięstwa" />
+		<string id="SMR_eCYuPxn" text="Wygrane bitwy dają więcej sławy. Liczy się Spryt przywódcy grupy. Przy wartości domyślnej 2% za punkt: Spryt 10 daje +20%. [Domyślnie: włączone]" />
+		<string id="SMR_FrdzYDm" text="Sława za każdy punkt Sprytu przywódcy grupy. [Domyślnie: 2.0%]" />
+		<string id="SMR_YaQNmmN" text="Morale za zwycięstwa" />
+		<string id="SMR_MzqDeem" text="Wygrane bitwy bardziej podnoszą morale grupy. Liczy się Spryt przywódcy grupy. Przy wartości domyślnej 2% za punkt: Spryt 10 daje +20%. [Domyślnie: włączone]" />
+		<string id="SMR_zwrrfnV" text="Morale za każdy punkt Sprytu przywódcy grupy. [Domyślnie: 2.0%]" />
+		<string id="SMR_evcqcxE" text="Szansa na perswazję" />
+		<string id="SMR_78Kejpq" text="Twoje próby perswazji w rozmowach częściej kończą się sukcesem i rzadziej porażką krytyczną, tak samo jak działają premie do perswazji w grze. Tylko gracz. Przy wartości domyślnej 1.5% za punkt: Umiejętność społeczna 10 daje +15%. [Domyślnie: włączone]" />
+		<string id="SMR_nT4Z467" text="Szansa na perswazję za każdy punkt twojej Umiejętności społecznej. [Domyślnie: 1.5%]" />
+		<string id="SMR_G88n3v8" text="Morale grupy" />
+		<string id="SMR_57MfXrW" text="Grupa ma wyższe morale. Liczy się Umiejętność społeczna przywódcy grupy. Przy wartości domyślnej 1% za punkt: Umiejętność społeczna 10 daje +10%. [Domyślnie: włączone]" />
+		<string id="SMR_ibAkwbz" text="Morale grupy za każdy punkt Umiejętności społecznej przywódcy grupy. [Domyślnie: 1.0%]" />
+		<string id="SMR_HScDmtg" text="Wielkość grupy" />
+		<string id="SMR_xzyoDh9" text="Grupa może pomieścić więcej żołnierzy. Liczy się Umiejętność społeczna przywódcy grupy. Przy wartości domyślnej 1% za punkt: Umiejętność społeczna 10 daje +10%. [Domyślnie: włączone]" />
+		<string id="SMR_kCSXU67" text="Wielkość grupy za każdy punkt Umiejętności społecznej przywódcy grupy. [Domyślnie: 1.0%]" />
+		<string id="SMR_Q9LQuqt" text="Żołd grupy" />
+		<string id="SMR_6XfjxgS" text="Grupa płaci żołnierzom mniejszy żołd. Liczy się Umiejętność społeczna przywódcy grupy. Przy wartości domyślnej 1% za punkt: Umiejętność społeczna 10 daje -10%. [Domyślnie: włączone]" />
+		<string id="SMR_XkzW5WU" text="Obniżka żołdu za każdy punkt Umiejętności społecznej przywódcy grupy. [Domyślnie: 1.0%]" />
+		<string id="SMR_FnReYdH" text="Limit towarzyszy" />
+		<string id="SMR_fGgHmrR" text="Klan może mieć więcej towarzyszy. Liczy się Umiejętność społeczna przywódcy klanu. Przy wartości domyślnej 4 punkty na towarzysza: Umiejętność społeczna 10 daje +2 towarzyszy. [Domyślnie: włączone]" />
+		<string id="SMR_E2MtsxY" text="Punkty Umiejętności społecznej przywódcy klanu potrzebne na każdego dodatkowego towarzysza. [Domyślnie: 4]" />
+		<string id="SMR_MLjyZSK" text="Dochód klanu" />
+		<string id="SMR_cMauXAj" text="Klan ma wyższy dzienny dochód. Liczy się Inteligencja przywódcy klanu. Przy wartości domyślnej 1% za punkt: Inteligencja 10 daje +10%. [Domyślnie: włączone]" />
+		<string id="SMR_jKfxNHw" text="Dochód klanu za każdy punkt Inteligencji przywódcy klanu. [Domyślnie: 1.0%]" />
+		<string id="SMR_TtHN5np" text="Wpływy za zwycięstwa" />
+		<string id="SMR_Emo2gzo" text="Wygrane bitwy dają więcej wpływów (wpływy zdobywają tylko klany należące do królestwa). Liczy się Inteligencja przywódcy grupy. Przy wartości domyślnej 2% za punkt: Inteligencja 10 daje +20%. [Domyślnie: włączone]" />
+		<string id="SMR_pLoBBUp" text="Wpływy za każdy punkt Inteligencji przywódcy grupy. [Domyślnie: 2.0%]" />
+		<string id="SMR_rNja3Fx" text="Przyrost doświadczenia" />
+		<string id="SMR_92pJ6nb" text="Bohater zdobywa więcej doświadczenia. Przy wartości domyślnej 1% za punkt: Inteligencja 10 daje +10%. [Domyślnie: włączone]" />
+		<string id="SMR_3HBuqYy" text="Doświadczenie za każdy punkt Inteligencji. [Domyślnie: 1.0%]" />
+		<string id="SMR_vzHQhka" text="Doświadczenie przywódcy grupy z ról" />
+		<string id="SMR_iE4UhFX" text="Gdy zwiadowca, inżynier, chirurg lub kwatermistrz grupy zdobywa doświadczenie w umiejętności swojej roli, przywódca grupy również otrzymuje udział w tym doświadczeniu. Liczy się Inteligencja przywódcy grupy. Przy wartości domyślnej 2% za punkt: Inteligencja 10 daje 20% tego doświadczenia. [Domyślnie: włączone]" />
+		<string id="SMR_HBc8hmL" text="Udział w doświadczeniu roli za każdy punkt Inteligencji przywódcy grupy. [Domyślnie: 2.0%]" />
+		<string id="SMR_Uqhcsx6" text="Szybkość leczenia bohaterów" />
+		<string id="SMR_xEEKafv" text="Bohaterowie w grupie leczą się szybciej. Liczy się Inteligencja przywódcy grupy. Przy wartości domyślnej 3% za punkt: Inteligencja 10 daje +30%. [Domyślnie: wyłączone]" />
+		<string id="SMR_jW2dMKa" text="Szybkość leczenia bohaterów za każdy punkt Inteligencji przywódcy grupy. [Domyślnie: 3.0%]" />
 	</strings>
 </base>
